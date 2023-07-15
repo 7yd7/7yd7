@@ -2097,21 +2097,37 @@ Test5:AddToggle('WaterGM', {
    end    
 })
 
-Test5:AddToggle('WaterGM', {
+Test5:AddToggle('InsectGM', {
     Text = 'God Mode [Snow 30+]',
     Default = false, -- Default value (true / false)
     Callback = function(state)
-        while wait(0.5) do
-            local args = {
-                [1] = "skil_ting_asd",
-                [2] = game:GetService("Players").LocalPlayer,
-                [3] = "snow_breathing_illusory_Storm",
-                [4] = 1
-            }
-            
-            game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(unpack(args))
-            
-        end
+       if state then
+          _G.InsectGM = true
+          while _G.InsectGM do
+          local args = {
+            [1] = "skil_ting_asd",
+            [2] = game:GetService("Players").LocalPlayer,
+            [3] = "snow_breathing_illusory_Storm",
+            [4] = 1
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(unpack(args))
+       wait(0.5)
+          end
+       else
+          _G.InsectGM = false
+          while _G.InsectGM do
+          local args = {
+            [1] = "skil_ting_asd",
+            [2] = game:GetService("Players").LocalPlayer,
+            [3] = "snow_breathing_illusory_Storm",
+            [4] = 1
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(unpack(args))
+          wait(0.5)
+          end
+       end
     end    
  })
 
