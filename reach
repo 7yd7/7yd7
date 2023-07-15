@@ -1,0 +1,24 @@
+
+game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character 
+
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://413861777"
+	sound.Parent = game:GetService("SoundService")
+	sound:Play()
+
+
+	for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren()) do
+		if v:isA("Tool") then
+			local a = Instance.new("SelectionBox",v.Handle)
+			v.Handle.Massless = true
+			v.Handle.Transparency = "inf"
+			a.Adornee = v.Handle
+			v.Handle.Size = Vector3.new(111111111111111111111111111111111111111, 111111111111111111111111111111111111111 , 111111111111111111111111111111111111111)
+			local selectionBox = Instance.new("SelectionBox",v.Handle)
+			selectionBox.Adornee = v.Handle
+
+			end
+			end
+
+wait(1)
+game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer) 
