@@ -20,5 +20,5 @@ game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Pl
 			end
 			end
 
-wait(1)
+wait(1.5)
 game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer) 
