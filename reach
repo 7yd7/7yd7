@@ -1,24 +1,26 @@
 
 game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character 
 
-	local sound = Instance.new("Sound")
-	sound.SoundId = "rbxassetid://413861777"
-	sound.Parent = game:GetService("SoundService")
-	sound:Play()
+local range = 11111111111111111111111111111111111
 
-
-	for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren()) do
-		if v:isA("Tool") then
-			local a = Instance.new("SelectionBox",v.Handle)
-			v.Handle.Massless = true
-			v.Handle.Transparency = "inf"
-			a.Adornee = v.Handle
-			v.Handle.Size = Vector3.new(111111111111111111111111111111111111111, 111111111111111111111111111111111111111 , 111111111111111111111111111111111111111)
-			local selectionBox = Instance.new("SelectionBox",v.Handle)
-			selectionBox.Adornee = v.Handle
-
-			end
-			end
+local player = game:GetService("Players").LocalPlayer
+game:GetService("RunService").RenderStepped:Connect(function()
+    local p = game.Players:GetPlayers()
+    for i = 2, #p do local v = p[i].Character
+        if v and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 and v:FindFirstChild("HumanoidRootPart") and player:DistanceFromCharacter(v.HumanoidRootPart.Position) <= range then
+            local tool = player.Character and player.Character:FindFirstChildOfClass("Tool")
+            if tool and tool:FindFirstChild("Handle") then
+                tool:Activate()
+                for i,v in next, v:GetChildren() do
+                    if v:IsA("BasePart") then
+                        firetouchinterest(tool.Handle,v,0)
+                        firetouchinterest(tool.Handle,v,1)
+                    end
+                end
+            end
+        end
+    end
+end)
 
 wait(1.5)
 game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer) 
