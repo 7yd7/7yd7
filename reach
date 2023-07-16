@@ -1,7 +1,11 @@
 
-game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character 
 
-local range = 11111111111111111111111111111111111
+
+-- script
+if use then
+    game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
+end
+
 
 local player = game:GetService("Players").LocalPlayer
 game:GetService("RunService").RenderStepped:Connect(function()
@@ -22,5 +26,11 @@ game:GetService("RunService").RenderStepped:Connect(function()
     end
 end)
 
-wait(1.5)
-game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer) 
+
+if rejoin then
+
+wait(time)
+
+
+    game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
+end
