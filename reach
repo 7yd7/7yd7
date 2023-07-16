@@ -3,6 +3,7 @@
 local time = 1.5
 local rejoin = false
 local use = true
+local rangedisable = true
 local range = 10
 
 
@@ -38,6 +39,9 @@ if use then
 end
 
 
+
+
+if rangedisable then
 local player = game:GetService("Players").LocalPlayer
 game:GetService("RunService").RenderStepped:Connect(function()
     local p = game.Players:GetPlayers()
@@ -56,6 +60,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
         end
     end
 end)
+end
 
 
 if rejoin then
