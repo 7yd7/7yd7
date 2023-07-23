@@ -1,5 +1,3 @@
-_G.Auto = true;
-
 
 
 
@@ -62,24 +60,28 @@ end
 end
 
 if placeId == 13422729716 or placeId == 13601880014 then 
+
+while wait() do
+    if _G.Auto == true then
+
 wait(0.7)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"].Checkpoint.Area.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"].Platforms.Start.CFrame
             game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
                 :ChangeState("Jumping")
 wait(0.7)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"].Checkpoint.Area.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"].Platforms.Start.CFrame
             game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
                 :ChangeState("Jumping")
 wait(0.7)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"].Checkpoint.Area.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"].Platforms.Start.CFrame
             game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
                 :ChangeState("Jumping")
 wait(0.7)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"].Checkpoint.Area.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"].Platforms.Start.CFrame
             game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
                 :ChangeState("Jumping")
 wait(0.7)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"].Checkpoint.Area.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"].Platforms.Start.CFrame
             game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
                 :ChangeState("Jumping")
 wait(0.7)
@@ -96,8 +98,9 @@ local tp = {CFrame = New_CFrame}
 ts:Create(part, ti, tp):Play()
 wait(17)
     end
-    end
-    end
+end
+end
+
 
 
 if placeId == 13601873233 or placeId == 13601823869 or placeId == 13601872716 then
@@ -139,3 +142,6 @@ local ti = TweenInfo.new(0.5, Enum.EasingStyle.Linear)
 local tp = {CFrame = New_CFrame}
 ts:Create(part, ti, tp):Play()
 wait(17)
+    end
+end
+end
