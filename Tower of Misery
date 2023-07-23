@@ -63,6 +63,25 @@ end
 end
 end
 
+if placeId == 13422729716 then 
+
+    while wait() do
+        if _G.Auto == true then
+    
+    local New_CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame
+    
+    local ts = game:GetService('TweenService')
+    local char = game.Players.LocalPlayer.Character
+    
+    local part = char.HumanoidRootPart
+    local ti = TweenInfo.new(0.9, Enum.EasingStyle.Linear)
+    local tp = {CFrame = New_CFrame}
+    ts:Create(part, ti, tp):Play()
+    wait(20)
+    end
+    end
+    end
+
 
 if placeId == 13601873233 or placeId == 13601823869 or placeId == 13601872716 then
 
@@ -103,24 +122,3 @@ local ti = TweenInfo.new(0.5, Enum.EasingStyle.Linear)
 local tp = {CFrame = New_CFrame}
 ts:Create(part, ti, tp):Play()
 wait(17)
-
-
-if placeId == 13422729716 then 
-
-    while wait() do
-        if _G.Auto == true then
-    
-    local New_CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame
-    
-    local ts = game:GetService('TweenService')
-    local char = game.Players.LocalPlayer.Character
-    
-    local part = char.HumanoidRootPart
-    local ti = TweenInfo.new(0.9, Enum.EasingStyle.Linear)
-    local tp = {CFrame = New_CFrame}
-    ts:Create(part, ti, tp):Play()
-    wait(20)
-    end
-    end
-    end
-    
