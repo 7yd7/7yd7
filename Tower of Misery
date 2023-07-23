@@ -1,5 +1,3 @@
-_G.Auto = true;
-_G.AutoMode = true;
 
 
 
@@ -63,7 +61,7 @@ end
 end
 end
 
-if placeId == 13422729716 then 
+if placeId == 13422729716 or placeId == 13601880014 then 
 
     while wait() do
         if _G.Auto == true then
