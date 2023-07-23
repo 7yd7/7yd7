@@ -1,0 +1,172 @@
+
+
+
+
+workspace.FallenPartsDestroyHeight = -50000
+local placeId = game.PlaceId
+
+if placeId == 4954752502 then 
+
+while wait() do
+    if _G.Auto == true then
+
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #6"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #7"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #8"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Top_Section.Platform.Part.CFrame
+
+local New_CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame
+
+local ts = game:GetService('TweenService')
+local char = game.Players.LocalPlayer.Character
+
+local part = char.HumanoidRootPart
+local ti = TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+local tp = {CFrame = New_CFrame}
+ts:Create(part, ti, tp):Play()
+wait(20)
+end
+end
+
+
+
+elseif placeId == 13601873233 or placeId == 13601823869 or placeId == 13601872716 then
+
+
+while wait() do
+    if _G.Auto == true then
+
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"].Checkpoint.Area.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Top_Section.Platform.Part.CFrame
+
+local New_CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame
+
+local ts = game:GetService('TweenService')
+local char = game.Players.LocalPlayer.Character
+
+local part = char.HumanoidRootPart
+local ti = TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+local tp = {CFrame = New_CFrame}
+ts:Create(part, ti, tp):Play()
+wait(17)
+
+
+end
+end
+
+
+elseif placeId == 13422729716 then 
+
+while wait() do
+    if _G.Auto == true then
+
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"].Platforms.Start.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"].Platforms.Start.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"].Platforms.Start.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"].Platforms.Start.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"].Platforms.Start.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #6"].Platforms.Start.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #7"].Platforms.Start.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #8"].Platforms.Start.CFrame
+            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
+                :ChangeState("Jumping")
+wait(0.7)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Top_Section.Platform.Part.CFrame
+
+local New_CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame
+
+local ts = game:GetService('TweenService')
+local char = game.Players.LocalPlayer.Character
+
+local part = char.HumanoidRootPart
+local ti = TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+local tp = {CFrame = New_CFrame}
+ts:Create(part, ti, tp):Play()
+wait(20)
+end
+end
+else
+end
+
+while wait() do
+    if _G.AutoMode == true then
+                for i, v in pairs(workspace:GetDescendants()) do
+                if v.Name == "KillPart" then
+                    v.Name = "DisabledKillPart"
+                end
+            end
+end
+end
+
