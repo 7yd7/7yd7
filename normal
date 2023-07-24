@@ -55,36 +55,29 @@ if placeId == 13422729716 then
     
             wait(0.3)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"]["Pass Detector"].CFrame
-                        game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                            :ChangeState("Jumping")
+
             wait(0.3)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"]["Pass Detector"].CFrame
-                        game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                            :ChangeState("Jumping")
+
             wait(0.3)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"]["Pass Detector"].CFrame
-                        game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                            :ChangeState("Jumping")
+
             wait(0.3)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"]["Pass Detector"].CFrame
-                        game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                            :ChangeState("Jumping")
+
             wait(0.3)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"]["Pass Detector"].CFrame
-                        game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                            :ChangeState("Jumping")
+
                             wait(0.3)
                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #6"]["Pass Detector"].CFrame
-                                        game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                                            :ChangeState("Jumping")
+
                                             wait(0.3)
                                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #7"]["Pass Detector"].CFrame
-                                                        game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                                                            :ChangeState("Jumping")
+
                                                             wait(0.3)
                                                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #8"]["Pass Detector"].CFrame
-                                                                        game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                                                                            :ChangeState("Jumping")
+                                                                        
+
                                                                                                                            
     wait(0.3)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Top_Section.Platform.Part.CFrame
@@ -110,24 +103,19 @@ if placeId == 13422729716 then
         
                 wait(0.3)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"]["Pass Detector"].CFrame
-                            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                                :ChangeState("Jumping")
+
                 wait(0.3)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"]["Pass Detector"].CFrame
-                            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                                :ChangeState("Jumping")
+
                 wait(0.3)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"]["Pass Detector"].CFrame
-                            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                                :ChangeState("Jumping")
+
                 wait(0.3)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"]["Pass Detector"].CFrame
-                            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                                :ChangeState("Jumping")
+
                 wait(0.3)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"]["Pass Detector"].CFrame
-                            game:GetService "Players".LocalPlayer.Character:FindFirstChildOfClass 'Humanoid'
-                                :ChangeState("Jumping")
+
                                 wait(0.3)
                                                                                                                                
         wait(0.3)
