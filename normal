@@ -8,30 +8,30 @@ if placeId == 4954752502 then
 while wait() do
     if _G.Auto == true then
 
-        wait(0.3)
+        wait(Speed)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"].Checkpoint.Reach_Detector.CFrame
-        wait(0.3)
+        wait(Speed)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"].Checkpoint.Reach_Detector.CFrame
 
-        wait(0.3)
+        wait(Speed)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"].Checkpoint.Reach_Detector.CFrame
 
-        wait(0.3)
+        wait(Speed)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"].Checkpoint.Reach_Detector.CFrame
 
-        wait(0.3)
+        wait(Speed)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"].Checkpoint.Reach_Detector.CFrame
 
-                        wait(0.3)
+                        wait(Speed)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #6"].Checkpoint.Reach_Detector.CFrame
 
-                                        wait(0.3)
+                                        wait(Speed)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #7"].Checkpoint.Reach_Detector.CFrame
 
-        wait(0.3)
+        wait(Speed)
          game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #8"].Checkpoint.Reach_Detector.CFrame
                                                                                                                        
-wait(0.6)
+wait(Speed)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Top_Section.Platform.Part.CFrame
 
 local New_CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame
@@ -57,33 +57,33 @@ if placeId == 13422729716 then
     while wait() do
         if _G.Auto == true then
     
-            wait(0.3)
+            wait(Speed)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"]["Pass Detector"].CFrame
 
-            wait(0.3)
+            wait(Speed)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"]["Pass Detector"].CFrame
 
-            wait(0.3)
+            wait(Speed)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"]["Pass Detector"].CFrame
 
-            wait(0.3)
+            wait(Speed)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"]["Pass Detector"].CFrame
 
-            wait(0.3)
+            wait(Speed)
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"]["Pass Detector"].CFrame
 
-                            wait(0.3)
+                            wait(Speed)
                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #6"]["Pass Detector"].CFrame
 
-                                            wait(0.3)
+                                            wait(Speed)
                                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #7"]["Pass Detector"].CFrame
 
-                                                            wait(0.3)
+                                                            wait(Speed)
                                                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #8"]["Pass Detector"].CFrame
                                                                         
 
                                                                                                                            
-    wait(0.3)
+    wait(Speed)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Top_Section.Platform.Part.CFrame
     
     local New_CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame
@@ -108,24 +108,24 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19.8579
         while wait() do
             if _G.Auto == true then
         
-                wait(0.3)
+                wait(Speed)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"]["Pass Detector"].CFrame
 
-                wait(0.3)
+                wait(Speed)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"]["Pass Detector"].CFrame
 
-                wait(0.3)
+                wait(Speed)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"]["Pass Detector"].CFrame
 
-                wait(0.3)
+                wait(Speed)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"]["Pass Detector"].CFrame
 
-                wait(0.3)
+                wait(Speed)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"]["Pass Detector"].CFrame
 
-                                wait(0.3)
+                                wait(Speed)
                                                                                                                                
-        wait(0.3)
+        wait(Speed)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Top_Section.Platform.Part.CFrame
         
         local New_CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame
@@ -155,22 +155,22 @@ if placeId == 13601873233 or placeId == 13601823869 or placeId == 13601872716 or
 while wait() do
     if _G.Auto == true then
 
-wait(0.3)
+wait(Speed)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #1"].Checkpoint.Reach_Detector.CFrame
 
-wait(0.3)
+wait(Speed)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #2"].Checkpoint.Reach_Detector.CFrame
 
-wait(0.3)
+wait(Speed)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #3"].Checkpoint.Reach_Detector.CFrame
 
-wait(0.3)
+wait(Speed)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #4"].Checkpoint.Reach_Detector.CFrame
 
-wait(0.3)
+wait(Speed)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tower["Floor #5"].Checkpoint.Reach_Detector.CFrame
 
-wait(0.3)
+wait(Speed)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Top_Section.Platform.Part.CFrame
 
 local New_CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame
@@ -186,7 +186,7 @@ ts:Create(part, ti, tp):Play()
 wait(1.5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19.8579922, -10.9998655, 49.0710487, 0.00129685586, -1.0687764e-09, -0.999999166, 1.08730998e-08, 1, -1.05467646e-09, 0.999999166, -1.08717231e-08, 0.00129685586)
 
-wait(17.5)
+wait(repetition)
     end
 end
 end
