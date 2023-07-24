@@ -1,8 +1,4 @@
-if deleteAntiTeleport then
-workspace.Arcade_Zone.Parent = lol
-game:GetService("ReplicatedStorage").Remote_Events.Parent = lol
-game:GetService("ReplicatedStorage").Remote_Functions.Parent = lol
-end
+
 
 workspace.FallenPartsDestroyHeight = -50000
 local placeId = game.PlaceId
