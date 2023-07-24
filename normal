@@ -1,21 +1,3 @@
-if GodeMode then
-while wait() do
-                for i, v in pairs(workspace:GetDescendants()) do
-                if v.Name == "KillPart" then
-                    v.Name = "DisabledKillPart"
-                end
-            end
-            end
-            end
-
-
-if deleteAntiTeleport then
-workspace.Arcade_Zone.Parent = lol
-game:GetService("ReplicatedStorage").Remote_Events.Parent = lol
-game:GetService("ReplicatedStorage").Remote_Functions.Parent = lol
-end
-
-
 
 
 workspace.FallenPartsDestroyHeight = -50000
