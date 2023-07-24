@@ -1,0 +1,35 @@
+while wait() do
+    if _G.AutoEmote_Crate3 == true then
+
+local ohString1 = "Emote_Crate_3"
+
+game:GetService("ReplicatedStorage").Crate_System_V2.Remote_Events.Open_Crate:FireServer(ohString1)
+end
+end
+
+while wait() do
+    if _G.AutoEmote_Crate2 == true then
+
+local ohString1 = "Emote_Crate_2"
+
+game:GetService("ReplicatedStorage").Crate_System_V2.Remote_Events.Open_Crate:FireServer(ohString1)
+end
+end
+
+while wait() do
+    if _G.AutoEmote_Crate1 == true then
+
+local ohString1 = "Emote_Crate_1"
+
+game:GetService("ReplicatedStorage").Crate_System_V2.Remote_Events.Open_Crate:FireServer(ohString1)
+end
+end
+
+while wait() do
+    if _G.AutoEmote_Crate4 == true then
+
+local ohString1 = "Emote_Crate_4"
+
+game:GetService("ReplicatedStorage").Crate_System_V2.Remote_Events.Open_Crate:FireServer(ohString1)
+end
+end
