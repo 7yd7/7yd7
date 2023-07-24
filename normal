@@ -158,7 +158,7 @@ if placeId == 13422729716 then
     
 
 
-if placeId == 13601873233 or placeId == 13601823869 or placeId == 13601872716 or placeId == 13601880014 or placeId == 13601872804 or placeId == 13601872920 then
+if placeId == 13601873233 or placeId == 13601823869 or placeId == 13601872716 or placeId == 13601880014 or placeId == 13601872804 or placeId == 13601872920 or placeId == 13601873055 then
 
 
 while wait() do
