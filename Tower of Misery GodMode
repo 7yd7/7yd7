@@ -1,9 +1,0 @@
-while wait() do
-    if _G.AutoMode == true then
-                for i, v in pairs(workspace:GetDescendants()) do
-                if v.Name == "KillPart" then
-                    v.Name = "DisabledKillPart"
-                end
-            end
-end
-end
