@@ -47,7 +47,7 @@ ts:Create(part, ti, tp):Play()
 wait(1.5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19.8579922, -10.9998655, 49.0710487, 0.00129685586, -1.0687764e-09, -0.999999166, 1.08730998e-08, 1, -1.05467646e-09, 0.999999166, -1.08717231e-08, 0.00129685586)
 
-wait(17.5)
+wait(repetition)
 end
 end
 end
@@ -98,7 +98,7 @@ if placeId == 13422729716 then
 wait(1.5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19.8579922, -10.9998655, 49.0710487, 0.00129685586, -1.0687764e-09, -0.999999166, 1.08730998e-08, 1, -1.05467646e-09, 0.999999166, -1.08717231e-08, 0.00129685586)
 
-    wait(17.5)
+    wait(repetition)
     end
     end
     end
@@ -142,7 +142,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19.8579
 
 
 
-        wait(17.5)
+        wait(repetition)
         end
         end
         end
