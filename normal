@@ -50,5 +50,4 @@ local tp = {CFrame = New_CFrame}
 ts:Create(part, ti, tp):Play()
 wait(20)
 end
-end
-end
+
