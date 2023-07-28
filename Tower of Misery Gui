@@ -111,27 +111,37 @@ local ImageLabel_9 = Instance.new("ImageLabel")
 local script = Instance.new("TextButton")
 local UIPadding_18 = Instance.new("UIPadding")
 local ImageLabel_10 = Instance.new("ImageLabel")
-local existing = Instance.new("Frame")
+local settingsTab = Instance.new("ScrollingFrame")
+local killscript = Instance.new("Frame")
 local UICorner_23 = Instance.new("UICorner")
+local ImageLabel_11 = Instance.new("ImageLabel")
+local TextButton_12 = Instance.new("TextButton")
+local UIPadding_19 = Instance.new("UIPadding")
+local UIPadding_20 = Instance.new("UIPadding")
+local settings = Instance.new("TextButton")
+local UIPadding_21 = Instance.new("UIPadding")
+local ImageLabel_12 = Instance.new("ImageLabel")
+local existing = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
 local Frame_4 = Instance.new("Frame")
 local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 local choose = Instance.new("Frame")
 local script_2 = Instance.new("TextButton")
-local UIPadding_19 = Instance.new("UIPadding")
-local ImageLabel_11 = Instance.new("ImageLabel")
-local house_2 = Instance.new("TextButton")
-local UIPadding_20 = Instance.new("UIPadding")
-local ImageLabel_12 = Instance.new("ImageLabel")
-local TextButton_12 = Instance.new("TextButton")
+local UIPadding_22 = Instance.new("UIPadding")
 local ImageLabel_13 = Instance.new("ImageLabel")
+local house_2 = Instance.new("TextButton")
+local UIPadding_23 = Instance.new("UIPadding")
+local ImageLabel_14 = Instance.new("ImageLabel")
+local TextButton_13 = Instance.new("TextButton")
+local ImageLabel_15 = Instance.new("ImageLabel")
 local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 local open = Instance.new("TextButton")
-local ImageLabel_14 = Instance.new("ImageLabel")
+local ImageLabel_16 = Instance.new("ImageLabel")
 
 --Properties:
 
 yd7GuiTowerofMisery.Name = "yd7Gui Tower of Misery"
-yd7GuiTowerofMisery.Parent = game.CoreGui
+yd7GuiTowerofMisery.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 yd7GuiTowerofMisery.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 hack.Name = "hack"
@@ -912,7 +922,7 @@ script.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 script.BackgroundTransparency = 1.000
 script.BorderColor3 = Color3.fromRGB(0, 0, 0)
 script.BorderSizePixel = 0
-script.Position = UDim2.new(0.165873647, 0, -0.104000084, 0)
+script.Position = UDim2.new(0.156556875, 0, -0.104000084, 0)
 script.Size = UDim2.new(0, 91, 0, 35)
 script.Font = Enum.Font.Ubuntu
 script.LineHeight = 1.430
@@ -936,6 +946,89 @@ ImageLabel_10.Position = UDim2.new(-0.541940928, 0, 0.134942234, 0)
 ImageLabel_10.Size = UDim2.new(0, 28, 0, 26)
 ImageLabel_10.Image = "rbxassetid://14219326670"
 
+settingsTab.Name = "settingsTab"
+settingsTab.Parent = scripts
+settingsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+settingsTab.BackgroundTransparency = 1.000
+settingsTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+settingsTab.BorderSizePixel = 0
+settingsTab.Selectable = false
+settingsTab.Size = UDim2.new(0, 645, 0, 375)
+settingsTab.Visible = false
+settingsTab.ScrollBarThickness = 8
+
+killscript.Name = "kill script"
+killscript.Parent = settingsTab
+killscript.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+killscript.BackgroundTransparency = 0.150
+killscript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+killscript.BorderSizePixel = 0
+killscript.Position = UDim2.new(0.0109999999, 0, 0.0209999997, 0)
+killscript.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_23.CornerRadius = UDim.new(0, 9)
+UICorner_23.Parent = killscript
+
+ImageLabel_11.Parent = killscript
+ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_11.BackgroundTransparency = 1.000
+ImageLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_11.BorderSizePixel = 0
+ImageLabel_11.Position = UDim2.new(0.821989655, 0, 0.0882352963, 0)
+ImageLabel_11.Size = UDim2.new(0, 27, 0, 26)
+ImageLabel_11.Image = "rbxassetid://14216908564"
+
+TextButton_12.Parent = killscript
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.BackgroundTransparency = 1.000
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+TextButton_12.Size = UDim2.new(0, 178, 0, 19)
+TextButton_12.Font = Enum.Font.Ubuntu
+TextButton_12.Text = "kill script"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextSize = 18.000
+TextButton_12.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_19.Parent = TextButton_12
+UIPadding_19.PaddingLeft = UDim.new(0, 3)
+
+UIPadding_20.Parent = settingsTab
+UIPadding_20.PaddingBottom = UDim.new(0, 1)
+UIPadding_20.PaddingLeft = UDim.new(0, 1)
+UIPadding_20.PaddingRight = UDim.new(0, 1)
+UIPadding_20.PaddingTop = UDim.new(0, 1)
+
+settings.Name = "settings"
+settings.Parent = scripts
+settings.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+settings.BackgroundTransparency = 1.000
+settings.BorderColor3 = Color3.fromRGB(0, 0, 0)
+settings.BorderSizePixel = 0
+settings.Position = UDim2.new(0.308730781, 0, -0.104000084, 0)
+settings.Size = UDim2.new(0, 91, 0, 35)
+settings.Font = Enum.Font.Ubuntu
+settings.LineHeight = 1.430
+settings.Text = "settings"
+settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+settings.TextSize = 18.000
+settings.TextXAlignment = Enum.TextXAlignment.Left
+settings.TextYAlignment = Enum.TextYAlignment.Bottom
+
+UIPadding_21.Parent = settings
+UIPadding_21.PaddingLeft = UDim.new(0, 36)
+UIPadding_21.PaddingTop = UDim.new(0, 1)
+
+ImageLabel_12.Parent = settings
+ImageLabel_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_12.BackgroundTransparency = 1.000
+ImageLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_12.BorderSizePixel = 0
+ImageLabel_12.Position = UDim2.new(-0.541940928, 0, 0.134942234, 0)
+ImageLabel_12.Size = UDim2.new(0, 28, 0, 26)
+ImageLabel_12.Image = "rbxassetid://14225727326"
+
 existing.Name = "existing"
 existing.Parent = hack
 existing.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -945,8 +1038,8 @@ existing.BorderSizePixel = 0
 existing.Position = UDim2.new(-9.46281489e-08, 0, 0.0549199097, 0)
 existing.Size = UDim2.new(0, 645, 0, 38)
 
-UICorner_23.CornerRadius = UDim.new(0, 4)
-UICorner_23.Parent = existing
+UICorner_24.CornerRadius = UDim.new(0, 4)
+UICorner_24.Parent = existing
 
 Frame_4.Parent = existing
 Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -983,19 +1076,19 @@ script_2.TextSize = 18.000
 script_2.TextXAlignment = Enum.TextXAlignment.Right
 script_2.TextYAlignment = Enum.TextYAlignment.Bottom
 
-UIPadding_19.Parent = script_2
-UIPadding_19.PaddingBottom = UDim.new(0, 3)
-UIPadding_19.PaddingLeft = UDim.new(0, 36)
-UIPadding_19.PaddingRight = UDim.new(0, 3)
+UIPadding_22.Parent = script_2
+UIPadding_22.PaddingBottom = UDim.new(0, 3)
+UIPadding_22.PaddingLeft = UDim.new(0, 36)
+UIPadding_22.PaddingRight = UDim.new(0, 3)
 
-ImageLabel_11.Parent = script_2
-ImageLabel_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_11.BackgroundTransparency = 1.000
-ImageLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_11.BorderSizePixel = 0
-ImageLabel_11.Position = UDim2.new(-0.541940928, 0, 0.134942234, 0)
-ImageLabel_11.Size = UDim2.new(0, 28, 0, 26)
-ImageLabel_11.Image = "rbxassetid://14216635999"
+ImageLabel_13.Parent = script_2
+ImageLabel_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_13.BackgroundTransparency = 1.000
+ImageLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_13.BorderSizePixel = 0
+ImageLabel_13.Position = UDim2.new(-0.541940928, 0, 0.134942234, 0)
+ImageLabel_13.Size = UDim2.new(0, 28, 0, 26)
+ImageLabel_13.Image = "rbxassetid://14216635999"
 
 house_2.Name = "house"
 house_2.Parent = choose
@@ -1014,40 +1107,40 @@ house_2.TextSize = 18.000
 house_2.TextXAlignment = Enum.TextXAlignment.Right
 house_2.TextYAlignment = Enum.TextYAlignment.Bottom
 
-UIPadding_20.Parent = house_2
-UIPadding_20.PaddingBottom = UDim.new(0, 2)
-UIPadding_20.PaddingLeft = UDim.new(0, 36)
-UIPadding_20.PaddingRight = UDim.new(0, 3)
+UIPadding_23.Parent = house_2
+UIPadding_23.PaddingBottom = UDim.new(0, 2)
+UIPadding_23.PaddingLeft = UDim.new(0, 36)
+UIPadding_23.PaddingRight = UDim.new(0, 3)
 
-ImageLabel_12.Parent = house_2
-ImageLabel_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_12.BackgroundTransparency = 1.000
-ImageLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_12.BorderSizePixel = 0
-ImageLabel_12.Position = UDim2.new(-0.541940928, 0, 0.134942234, 0)
-ImageLabel_12.Size = UDim2.new(0, 28, 0, 26)
-ImageLabel_12.Image = "rbxassetid://14216635999"
+ImageLabel_14.Parent = house_2
+ImageLabel_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_14.BackgroundTransparency = 1.000
+ImageLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_14.BorderSizePixel = 0
+ImageLabel_14.Position = UDim2.new(-0.541940928, 0, 0.134942234, 0)
+ImageLabel_14.Size = UDim2.new(0, 28, 0, 26)
+ImageLabel_14.Image = "rbxassetid://14216635999"
 
-TextButton_12.Parent = hack
-TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_12.BackgroundTransparency = 1.000
-TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_12.BorderSizePixel = 0
-TextButton_12.Position = UDim2.new(0.477519274, 0, 0, 0)
-TextButton_12.Size = UDim2.new(0, 24, 0, 20)
-TextButton_12.Font = Enum.Font.SourceSans
-TextButton_12.Text = ""
-TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_12.TextSize = 14.000
+TextButton_13.Parent = hack
+TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.BackgroundTransparency = 1.000
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(0.477519274, 0, 0, 0)
+TextButton_13.Size = UDim2.new(0, 24, 0, 20)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = ""
+TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.TextSize = 14.000
 
-ImageLabel_13.Parent = TextButton_12
-ImageLabel_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_13.BackgroundTransparency = 1.000
-ImageLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_13.BorderSizePixel = 0
-ImageLabel_13.Position = UDim2.new(0.477999985, 0, 0, 0)
-ImageLabel_13.Size = UDim2.new(0, 24, 0, 20)
-ImageLabel_13.Image = "rbxassetid://14218986484"
+ImageLabel_15.Parent = TextButton_13
+ImageLabel_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_15.BackgroundTransparency = 1.000
+ImageLabel_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_15.BorderSizePixel = 0
+ImageLabel_15.Position = UDim2.new(0.477999985, 0, 0, 0)
+ImageLabel_15.Size = UDim2.new(0, 24, 0, 20)
+ImageLabel_15.Image = "rbxassetid://14218986484"
 
 UIAspectRatioConstraint_5.Parent = yd7GuiTowerofMisery
 UIAspectRatioConstraint_5.AspectRatio = 1.507
@@ -1066,18 +1159,18 @@ open.Text = ""
 open.TextColor3 = Color3.fromRGB(0, 0, 0)
 open.TextSize = 14.000
 
-ImageLabel_14.Parent = open
-ImageLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_14.BackgroundTransparency = 1.000
-ImageLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_14.BorderSizePixel = 0
-ImageLabel_14.Position = UDim2.new(-0.0010000089, 0, -0.0144287106, 0)
-ImageLabel_14.Size = UDim2.new(0, 41, 0, 35)
-ImageLabel_14.Image = "rbxassetid://14223000905"
+ImageLabel_16.Parent = open
+ImageLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_16.BackgroundTransparency = 1.000
+ImageLabel_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_16.BorderSizePixel = 0
+ImageLabel_16.Position = UDim2.new(-0.0010000089, 0, -0.0144287106, 0)
+ImageLabel_16.Size = UDim2.new(0, 41, 0, 35)
+ImageLabel_16.Image = "rbxassetid://14223000905"
 
 -- Scripts:
 
-local function BKQK_fake_script() -- TextButton.LocalScript 
+local function UTCRRG_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1163,8 +1256,8 @@ local function BKQK_fake_script() -- TextButton.LocalScript
 		Fly()
 	end)
 end
-coroutine.wrap(BKQK_fake_script)()
-local function AEGM_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(UTCRRG_fake_script)()
+local function LPHZ_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1188,8 +1281,8 @@ local function AEGM_fake_script() -- TextButton_2.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(AEGM_fake_script)()
-local function VWXTS_fake_script() -- noclip_2.LocalScript 
+coroutine.wrap(LPHZ_fake_script)()
+local function CADBCVF_fake_script() -- noclip_2.LocalScript 
 	local script = Instance.new('LocalScript', noclip_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1217,8 +1310,8 @@ local function VWXTS_fake_script() -- noclip_2.LocalScript
 	
 	end)
 end
-coroutine.wrap(VWXTS_fake_script)()
-local function DTPV_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(CADBCVF_fake_script)()
+local function RJOOX_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	local part = script.Parent
@@ -1233,8 +1326,8 @@ local function DTPV_fake_script() -- TextBox.LocalScript
 	end)
 	
 end
-coroutine.wrap(DTPV_fake_script)()
-local function RRPVCG_fake_script() -- TextBox_2.LocalScript 
+coroutine.wrap(RJOOX_fake_script)()
+local function LHRCN_fake_script() -- TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_2)
 
 	local part = script.Parent
@@ -1249,8 +1342,8 @@ local function RRPVCG_fake_script() -- TextBox_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(RRPVCG_fake_script)()
-local function JWULZE_fake_script() -- infiniteyield_2.LocalScript 
+coroutine.wrap(LHRCN_fake_script)()
+local function UEXKN_fake_script() -- infiniteyield_2.LocalScript 
 	local script = Instance.new('LocalScript', infiniteyield_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1258,8 +1351,8 @@ local function JWULZE_fake_script() -- infiniteyield_2.LocalScript
 	
 	end)
 end
-coroutine.wrap(JWULZE_fake_script)()
-local function TCXXVMQ_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(UEXKN_fake_script)()
+local function VMJR_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1274,16 +1367,16 @@ local function TCXXVMQ_fake_script() -- TextButton_5.LocalScript
 		webImport("ui/main")
 	end)
 end
-coroutine.wrap(TCXXVMQ_fake_script)()
-local function VSRMM_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(VMJR_fake_script)()
+local function BRMK_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/sDXcYFhR", true))()
 	end)
 end
-coroutine.wrap(VSRMM_fake_script)()
-local function SCCTI_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(BRMK_fake_script)()
+local function HOYKXLR_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	local off = false 
@@ -1303,8 +1396,8 @@ local function SCCTI_fake_script() -- TextButton_7.LocalScript
 	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/l11004/7yd7/main/normal", true))()
 end
-coroutine.wrap(SCCTI_fake_script)()
-local function XYUNRV_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(HOYKXLR_fake_script)()
+local function XGEO_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1314,8 +1407,8 @@ local function XYUNRV_fake_script() -- TextButton_8.LocalScript
 	
 	
 end
-coroutine.wrap(XYUNRV_fake_script)()
-local function JUOWY_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(XGEO_fake_script)()
+local function MHYHI_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	local off = false 
@@ -1345,8 +1438,8 @@ local function JUOWY_fake_script() -- TextButton_9.LocalScript
 	
 	
 end
-coroutine.wrap(JUOWY_fake_script)()
-local function XTGAKPC_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(MHYHI_fake_script)()
+local function QRRWO_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1359,8 +1452,8 @@ local function XTGAKPC_fake_script() -- TextButton_10.LocalScript
 	
 	
 end
-coroutine.wrap(XTGAKPC_fake_script)()
-local function YCHSY_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(QRRWO_fake_script)()
+local function DETONB_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	local off = false 
@@ -1391,8 +1484,8 @@ local function YCHSY_fake_script() -- TextButton_11.LocalScript
 	
 	
 end
-coroutine.wrap(YCHSY_fake_script)()
-local function VWLOT_fake_script() -- house.LocalScript 
+coroutine.wrap(DETONB_fake_script)()
+local function JBDPS_fake_script() -- house.LocalScript 
 	local script = Instance.new('LocalScript', house)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1403,10 +1496,12 @@ local function VWLOT_fake_script() -- house.LocalScript
 		script.Parent.Parent.houseTab.Visible = true
 	end)
 	
-	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.settingsTab.Visible = false
+	end)
 end
-coroutine.wrap(VWLOT_fake_script)()
-local function UDNPRO_fake_script() -- script.LocalScript 
+coroutine.wrap(JBDPS_fake_script)()
+local function IXQG_fake_script() -- script.LocalScript 
 	local script = Instance.new('LocalScript', script)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1417,19 +1512,45 @@ local function UDNPRO_fake_script() -- script.LocalScript
 		script.Parent.Parent.houseTab.Visible = false
 	end)
 	
-	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.settingsTab.Visible = false
+	end)
 end
-coroutine.wrap(UDNPRO_fake_script)()
-local function VUFEIQN_fake_script() -- TextButton_12.Script 
-	local script = Instance.new('Script', TextButton_12)
+coroutine.wrap(IXQG_fake_script)()
+local function PVRXWR_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("CoreGui")["yd7Gui Tower of Misery"].Parent = lol
+	end)
+end
+coroutine.wrap(PVRXWR_fake_script)()
+local function QYNFKT_fake_script() -- settings.LocalScript 
+	local script = Instance.new('LocalScript', settings)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.settingsTab.Visible = true
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.houseTab.Visible = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.scriptTab.Visible = false
+	end)
+end
+coroutine.wrap(QYNFKT_fake_script)()
+local function QCRBPP_fake_script() -- TextButton_13.Script 
+	local script = Instance.new('Script', TextButton_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 	
 end
-coroutine.wrap(VUFEIQN_fake_script)()
-local function IZLMUAU_fake_script() -- open.Script 
+coroutine.wrap(QCRBPP_fake_script)()
+local function YARPZJK_fake_script() -- open.Script 
 	local script = Instance.new('Script', open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1437,8 +1558,8 @@ local function IZLMUAU_fake_script() -- open.Script
 	end)
 	
 end
-coroutine.wrap(IZLMUAU_fake_script)()
-local function XXEQZHF_fake_script() -- open.LocalScript 
+coroutine.wrap(YARPZJK_fake_script)()
+local function PHKL_fake_script() -- open.LocalScript 
 	local script = Instance.new('LocalScript', open)
 
 	
@@ -1467,4 +1588,4 @@ local function XXEQZHF_fake_script() -- open.LocalScript
 	end)
 	
 end
-coroutine.wrap(XXEQZHF_fake_script)()
+coroutine.wrap(PHKL_fake_script)()
