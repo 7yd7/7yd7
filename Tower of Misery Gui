@@ -2434,7 +2434,7 @@ yd7GuiTowerofMisery.ImageLabel_17.Image = "rbxassetid://14223000905"
 
 -- Scripts:
 
-local function ZQKDH_fake_script() -- yd7GuiTowerofMisery.TextButton.LocalScript 
+local function PZFOKTG_fake_script() -- yd7GuiTowerofMisery.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2520,8 +2520,8 @@ local function ZQKDH_fake_script() -- yd7GuiTowerofMisery.TextButton.LocalScript
 		Fly()
 	end)
 end
-coroutine.wrap(ZQKDH_fake_script)()
-local function KBOYO_fake_script() -- yd7GuiTowerofMisery.TextButton_2.LocalScript 
+coroutine.wrap(PZFOKTG_fake_script)()
+local function HMMU_fake_script() -- yd7GuiTowerofMisery.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2545,8 +2545,8 @@ local function KBOYO_fake_script() -- yd7GuiTowerofMisery.TextButton_2.LocalScri
 		end)
 	end)
 end
-coroutine.wrap(KBOYO_fake_script)()
-local function ANMBZCF_fake_script() -- yd7GuiTowerofMisery.noclip_2.LocalScript 
+coroutine.wrap(HMMU_fake_script)()
+local function FJFNQ_fake_script() -- yd7GuiTowerofMisery.noclip_2.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.noclip_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2574,8 +2574,8 @@ local function ANMBZCF_fake_script() -- yd7GuiTowerofMisery.noclip_2.LocalScript
 	
 	end)
 end
-coroutine.wrap(ANMBZCF_fake_script)()
-local function MXCPLV_fake_script() -- yd7GuiTowerofMisery.TextBox.LocalScript 
+coroutine.wrap(FJFNQ_fake_script)()
+local function VLCMZKO_fake_script() -- yd7GuiTowerofMisery.TextBox.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextBox)
 
 	local part = script.Parent
@@ -2590,8 +2590,8 @@ local function MXCPLV_fake_script() -- yd7GuiTowerofMisery.TextBox.LocalScript
 	end)
 	
 end
-coroutine.wrap(MXCPLV_fake_script)()
-local function HFKLOCK_fake_script() -- yd7GuiTowerofMisery.TextBox_2.LocalScript 
+coroutine.wrap(VLCMZKO_fake_script)()
+local function UGVNK_fake_script() -- yd7GuiTowerofMisery.TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextBox_2)
 
 	local part = script.Parent
@@ -2606,8 +2606,8 @@ local function HFKLOCK_fake_script() -- yd7GuiTowerofMisery.TextBox_2.LocalScrip
 	end)
 	
 end
-coroutine.wrap(HFKLOCK_fake_script)()
-local function AOCUYH_fake_script() -- yd7GuiTowerofMisery.infiniteyield_2.LocalScript 
+coroutine.wrap(UGVNK_fake_script)()
+local function NNML_fake_script() -- yd7GuiTowerofMisery.infiniteyield_2.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.infiniteyield_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2615,8 +2615,8 @@ local function AOCUYH_fake_script() -- yd7GuiTowerofMisery.infiniteyield_2.Local
 	
 	end)
 end
-coroutine.wrap(AOCUYH_fake_script)()
-local function XPUWUFV_fake_script() -- yd7GuiTowerofMisery.TextButton_5.LocalScript 
+coroutine.wrap(NNML_fake_script)()
+local function VDOMOJD_fake_script() -- yd7GuiTowerofMisery.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2631,16 +2631,16 @@ local function XPUWUFV_fake_script() -- yd7GuiTowerofMisery.TextButton_5.LocalSc
 		webImport("ui/main")
 	end)
 end
-coroutine.wrap(XPUWUFV_fake_script)()
-local function EKRYTCZ_fake_script() -- yd7GuiTowerofMisery.TextButton_6.LocalScript 
+coroutine.wrap(VDOMOJD_fake_script)()
+local function VICOLTD_fake_script() -- yd7GuiTowerofMisery.TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/sDXcYFhR", true))()
 	end)
 end
-coroutine.wrap(EKRYTCZ_fake_script)()
-local function RSAASQ_fake_script() -- yd7GuiTowerofMisery.TextButton_7.LocalScript 
+coroutine.wrap(VICOLTD_fake_script)()
+local function MXLF_fake_script() -- yd7GuiTowerofMisery.TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_7)
 
 	local off = false 
@@ -2660,8 +2660,8 @@ local function RSAASQ_fake_script() -- yd7GuiTowerofMisery.TextButton_7.LocalScr
 	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/l11004/7yd7/main/normal", true))()
 end
-coroutine.wrap(RSAASQ_fake_script)()
-local function KCJVN_fake_script() -- yd7GuiTowerofMisery.TextButton_8.LocalScript 
+coroutine.wrap(MXLF_fake_script)()
+local function PEVG_fake_script() -- yd7GuiTowerofMisery.TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2671,8 +2671,8 @@ local function KCJVN_fake_script() -- yd7GuiTowerofMisery.TextButton_8.LocalScri
 	
 	
 end
-coroutine.wrap(KCJVN_fake_script)()
-local function WRMHMBU_fake_script() -- yd7GuiTowerofMisery.TextButton_9.LocalScript 
+coroutine.wrap(PEVG_fake_script)()
+local function MWKEWWY_fake_script() -- yd7GuiTowerofMisery.TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_9)
 
 	local off = false 
@@ -2702,8 +2702,8 @@ local function WRMHMBU_fake_script() -- yd7GuiTowerofMisery.TextButton_9.LocalSc
 	
 	
 end
-coroutine.wrap(WRMHMBU_fake_script)()
-local function UKVZN_fake_script() -- yd7GuiTowerofMisery.TextButton_10.LocalScript 
+coroutine.wrap(MWKEWWY_fake_script)()
+local function ZBSBXA_fake_script() -- yd7GuiTowerofMisery.TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2716,8 +2716,8 @@ local function UKVZN_fake_script() -- yd7GuiTowerofMisery.TextButton_10.LocalScr
 	
 	
 end
-coroutine.wrap(UKVZN_fake_script)()
-local function HGGZH_fake_script() -- yd7GuiTowerofMisery.TextButton_11.LocalScript 
+coroutine.wrap(ZBSBXA_fake_script)()
+local function TLLQFIO_fake_script() -- yd7GuiTowerofMisery.TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_11)
 
 	local off = false 
@@ -2748,8 +2748,8 @@ local function HGGZH_fake_script() -- yd7GuiTowerofMisery.TextButton_11.LocalScr
 	
 	
 end
-coroutine.wrap(HGGZH_fake_script)()
-local function JDEY_fake_script() -- yd7GuiTowerofMisery.TextButton_12.LocalScript 
+coroutine.wrap(TLLQFIO_fake_script)()
+local function FGANA_fake_script() -- yd7GuiTowerofMisery.TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_12)
 
 	local off = false 
@@ -2781,8 +2781,8 @@ local function JDEY_fake_script() -- yd7GuiTowerofMisery.TextButton_12.LocalScri
 	
 	
 end
-coroutine.wrap(JDEY_fake_script)()
-local function WWPYF_fake_script() -- yd7GuiTowerofMisery.TextButton_13.LocalScript 
+coroutine.wrap(FGANA_fake_script)()
+local function ENGTLE_fake_script() -- yd7GuiTowerofMisery.TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_13)
 
 	local off = false 
@@ -2791,14 +2791,14 @@ local function WWPYF_fake_script() -- yd7GuiTowerofMisery.TextButton_13.LocalScr
 		if off == false then 
 			off = true
 			script.Parent.Parent.TextLabel.Text = "on" 
-			_G.GemeBrickDropper = true;
+			_G.GodeModeTrack = true;
 		else
 			off = false
 			script.Parent.Parent.TextLabel.Text = "off" 
-			_G.GemeBrickDropper = false;
+			_G.GodeModeTrack = false;
 			for i, v in pairs(workspace:GetDescendants()) do
 				if v.Name == "Lolez" then
-					v.Name = "Lolez"
+					v.Name = "Laser"
 				end
 			end
 		end
@@ -2818,8 +2818,8 @@ local function WWPYF_fake_script() -- yd7GuiTowerofMisery.TextButton_13.LocalScr
 	
 	
 end
-coroutine.wrap(WWPYF_fake_script)()
-local function PWQM_fake_script() -- yd7GuiTowerofMisery.house.LocalScript 
+coroutine.wrap(ENGTLE_fake_script)()
+local function SJIA_fake_script() -- yd7GuiTowerofMisery.house.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.house)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2838,8 +2838,8 @@ local function PWQM_fake_script() -- yd7GuiTowerofMisery.house.LocalScript
 		script.Parent.Parent.CratesTab.Visible = false
 	end)
 end
-coroutine.wrap(PWQM_fake_script)()
-local function SGFUMUA_fake_script() -- yd7GuiTowerofMisery.script.LocalScript 
+coroutine.wrap(SJIA_fake_script)()
+local function GNKEYFO_fake_script() -- yd7GuiTowerofMisery.script.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.script)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2857,16 +2857,16 @@ local function SGFUMUA_fake_script() -- yd7GuiTowerofMisery.script.LocalScript
 		script.Parent.Parent.CratesTab.Visible = false
 	end)
 end
-coroutine.wrap(SGFUMUA_fake_script)()
-local function TOVCW_fake_script() -- yd7GuiTowerofMisery.TextButton_14.LocalScript 
+coroutine.wrap(GNKEYFO_fake_script)()
+local function BNIXLBY_fake_script() -- yd7GuiTowerofMisery.TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game:GetService("CoreGui")["yd7Gui Tower of Misery"].Parent = lol
 	end)
 end
-coroutine.wrap(TOVCW_fake_script)()
-local function TZIBLF_fake_script() -- yd7GuiTowerofMisery.Crates.LocalScript 
+coroutine.wrap(BNIXLBY_fake_script)()
+local function MCNHYM_fake_script() -- yd7GuiTowerofMisery.Crates.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.Crates)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2884,8 +2884,8 @@ local function TZIBLF_fake_script() -- yd7GuiTowerofMisery.Crates.LocalScript
 		script.Parent.Parent.settingsTab.Visible = false
 	end)
 end
-coroutine.wrap(TZIBLF_fake_script)()
-local function ZFDYG_fake_script() -- yd7GuiTowerofMisery.settings.LocalScript 
+coroutine.wrap(MCNHYM_fake_script)()
+local function QMTRWKO_fake_script() -- yd7GuiTowerofMisery.settings.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.settings)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2903,8 +2903,8 @@ local function ZFDYG_fake_script() -- yd7GuiTowerofMisery.settings.LocalScript
 		script.Parent.Parent.CratesTab.Visible = false
 	end)
 end
-coroutine.wrap(ZFDYG_fake_script)()
-local function UMOVU_fake_script() -- yd7GuiTowerofMisery.TextButton_15.LocalScript 
+coroutine.wrap(QMTRWKO_fake_script)()
+local function HRJKMR_fake_script() -- yd7GuiTowerofMisery.TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_15)
 
 	local off = false 
@@ -2932,8 +2932,8 @@ local function UMOVU_fake_script() -- yd7GuiTowerofMisery.TextButton_15.LocalScr
 			end
 		end
 end
-coroutine.wrap(UMOVU_fake_script)()
-local function ETRSTCT_fake_script() -- yd7GuiTowerofMisery.TextButton_16.LocalScript 
+coroutine.wrap(HRJKMR_fake_script)()
+local function TCYW_fake_script() -- yd7GuiTowerofMisery.TextButton_16.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_16)
 
 	local off = false 
@@ -2961,8 +2961,8 @@ local function ETRSTCT_fake_script() -- yd7GuiTowerofMisery.TextButton_16.LocalS
 			end
 		end
 end
-coroutine.wrap(ETRSTCT_fake_script)()
-local function BBBV_fake_script() -- yd7GuiTowerofMisery.TextButton_17.LocalScript 
+coroutine.wrap(TCYW_fake_script)()
+local function USZHS_fake_script() -- yd7GuiTowerofMisery.TextButton_17.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_17)
 
 	local off = false 
@@ -2990,8 +2990,8 @@ local function BBBV_fake_script() -- yd7GuiTowerofMisery.TextButton_17.LocalScri
 			end
 		end
 end
-coroutine.wrap(BBBV_fake_script)()
-local function MELVET_fake_script() -- yd7GuiTowerofMisery.TextButton_18.LocalScript 
+coroutine.wrap(USZHS_fake_script)()
+local function GWCP_fake_script() -- yd7GuiTowerofMisery.TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_18)
 
 	local off = false 
@@ -3019,8 +3019,8 @@ local function MELVET_fake_script() -- yd7GuiTowerofMisery.TextButton_18.LocalSc
 			end
 		end
 end
-coroutine.wrap(MELVET_fake_script)()
-local function RZRNBL_fake_script() -- yd7GuiTowerofMisery.TextButton_19.LocalScript 
+coroutine.wrap(GWCP_fake_script)()
+local function ISWWKAL_fake_script() -- yd7GuiTowerofMisery.TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_19)
 
 	local off = false 
@@ -3048,8 +3048,8 @@ local function RZRNBL_fake_script() -- yd7GuiTowerofMisery.TextButton_19.LocalSc
 			end
 		end
 end
-coroutine.wrap(RZRNBL_fake_script)()
-local function HZRD_fake_script() -- yd7GuiTowerofMisery.TextButton_20.LocalScript 
+coroutine.wrap(ISWWKAL_fake_script)()
+local function WLDIGL_fake_script() -- yd7GuiTowerofMisery.TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_20)
 
 	local off = false 
@@ -3077,8 +3077,8 @@ local function HZRD_fake_script() -- yd7GuiTowerofMisery.TextButton_20.LocalScri
 			end
 		end
 end
-coroutine.wrap(HZRD_fake_script)()
-local function UOPJXT_fake_script() -- yd7GuiTowerofMisery.TextButton_21.LocalScript 
+coroutine.wrap(WLDIGL_fake_script)()
+local function XKVOO_fake_script() -- yd7GuiTowerofMisery.TextButton_21.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_21)
 
 	local off = false 
@@ -3108,8 +3108,8 @@ local function UOPJXT_fake_script() -- yd7GuiTowerofMisery.TextButton_21.LocalSc
 			end
 		end
 end
-coroutine.wrap(UOPJXT_fake_script)()
-local function STSOCT_fake_script() -- yd7GuiTowerofMisery.TextButton_22.LocalScript 
+coroutine.wrap(XKVOO_fake_script)()
+local function LUPVM_fake_script() -- yd7GuiTowerofMisery.TextButton_22.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_22)
 
 	local off = false 
@@ -3137,8 +3137,8 @@ local function STSOCT_fake_script() -- yd7GuiTowerofMisery.TextButton_22.LocalSc
 			end
 		end
 end
-coroutine.wrap(STSOCT_fake_script)()
-local function EPXGKQB_fake_script() -- yd7GuiTowerofMisery.TextButton_23.LocalScript 
+coroutine.wrap(LUPVM_fake_script)()
+local function ZSSIA_fake_script() -- yd7GuiTowerofMisery.TextButton_23.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_23)
 
 	local off = false 
@@ -3166,8 +3166,8 @@ local function EPXGKQB_fake_script() -- yd7GuiTowerofMisery.TextButton_23.LocalS
 			end
 		end
 end
-coroutine.wrap(EPXGKQB_fake_script)()
-local function AFBZNTS_fake_script() -- yd7GuiTowerofMisery.TextButton_24.LocalScript 
+coroutine.wrap(ZSSIA_fake_script)()
+local function LTGB_fake_script() -- yd7GuiTowerofMisery.TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_24)
 
 	local off = false 
@@ -3195,8 +3195,8 @@ local function AFBZNTS_fake_script() -- yd7GuiTowerofMisery.TextButton_24.LocalS
 			end
 		end
 end
-coroutine.wrap(AFBZNTS_fake_script)()
-local function VWPY_fake_script() -- yd7GuiTowerofMisery.TextButton_25.LocalScript 
+coroutine.wrap(LTGB_fake_script)()
+local function DOGUHW_fake_script() -- yd7GuiTowerofMisery.TextButton_25.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_25)
 
 	local off = false 
@@ -3226,8 +3226,8 @@ local function VWPY_fake_script() -- yd7GuiTowerofMisery.TextButton_25.LocalScri
 			end
 		end
 end
-coroutine.wrap(VWPY_fake_script)()
-local function MFEU_fake_script() -- yd7GuiTowerofMisery.TextButton_26.LocalScript 
+coroutine.wrap(DOGUHW_fake_script)()
+local function WZVZLW_fake_script() -- yd7GuiTowerofMisery.TextButton_26.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_26)
 
 	local off = false 
@@ -3255,8 +3255,8 @@ local function MFEU_fake_script() -- yd7GuiTowerofMisery.TextButton_26.LocalScri
 			end
 		end
 end
-coroutine.wrap(MFEU_fake_script)()
-local function QESWSTF_fake_script() -- yd7GuiTowerofMisery.TextButton_27.Script 
+coroutine.wrap(WZVZLW_fake_script)()
+local function WGTXEL_fake_script() -- yd7GuiTowerofMisery.TextButton_27.Script 
 	local script = Instance.new('Script', yd7GuiTowerofMisery.TextButton_27)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3264,8 +3264,8 @@ local function QESWSTF_fake_script() -- yd7GuiTowerofMisery.TextButton_27.Script
 	end)
 	
 end
-coroutine.wrap(QESWSTF_fake_script)()
-local function GQVVB_fake_script() -- yd7GuiTowerofMisery.open.Script 
+coroutine.wrap(WGTXEL_fake_script)()
+local function CJBH_fake_script() -- yd7GuiTowerofMisery.open.Script 
 	local script = Instance.new('Script', yd7GuiTowerofMisery.open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3273,8 +3273,8 @@ local function GQVVB_fake_script() -- yd7GuiTowerofMisery.open.Script
 	end)
 	
 end
-coroutine.wrap(GQVVB_fake_script)()
-local function CJUWKS_fake_script() -- yd7GuiTowerofMisery.open.LocalScript 
+coroutine.wrap(CJBH_fake_script)()
+local function BEZPOOQ_fake_script() -- yd7GuiTowerofMisery.open.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.open)
 
 	
@@ -3303,4 +3303,4 @@ local function CJUWKS_fake_script() -- yd7GuiTowerofMisery.open.LocalScript
 	end)
 	
 end
-coroutine.wrap(CJUWKS_fake_script)()
+coroutine.wrap(BEZPOOQ_fake_script)()
