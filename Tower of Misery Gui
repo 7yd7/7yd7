@@ -1,0 +1,1470 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local yd7GuiTowerofMisery = Instance.new("ScreenGui")
+local hack = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local DropShadowHolder = Instance.new("Frame")
+local DropShadow = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local name = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UIPageLayout = Instance.new("UIPageLayout")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIPageLayout_2 = Instance.new("UIPageLayout")
+local Frame_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local scripts = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local houseTab = Instance.new("ScrollingFrame")
+local fly = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local UIPadding = Instance.new("UIPadding")
+local UIPadding_2 = Instance.new("UIPadding")
+local infjump = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextButton_2 = Instance.new("TextButton")
+local UIPadding_3 = Instance.new("UIPadding")
+local noclip = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local noclip_2 = Instance.new("TextButton")
+local UIPadding_4 = Instance.new("UIPadding")
+local Speed = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextLabel")
+local Jump = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextLabel")
+local infiniteyield = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local infiniteyield_2 = Instance.new("TextButton")
+local UIPadding_5 = Instance.new("UIPadding")
+local SimpleSpy = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local TextButton_5 = Instance.new("TextButton")
+local UIPadding_6 = Instance.new("UIPadding")
+local AFK = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local TextButton_6 = Instance.new("TextButton")
+local UIPadding_7 = Instance.new("UIPadding")
+local Frame_3 = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local scriptTab = Instance.new("ScrollingFrame")
+local UIPadding_8 = Instance.new("UIPadding")
+local Autofarm = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local Auto = Instance.new("TextLabel")
+local UIPadding_9 = Instance.new("UIPadding")
+local Autofarm_2 = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UIPadding_10 = Instance.new("UIPadding")
+local TextLabel_3 = Instance.new("TextLabel")
+local DeleteAnti = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local TextButton_8 = Instance.new("TextButton")
+local UIPadding_11 = Instance.new("UIPadding")
+local GodeMode = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local Auto_2 = Instance.new("TextLabel")
+local UIPadding_12 = Instance.new("UIPadding")
+local Autofarm_3 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UIPadding_13 = Instance.new("UIPadding")
+local TextLabel_4 = Instance.new("TextLabel")
+local win = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local TextButton_10 = Instance.new("TextButton")
+local UIPadding_14 = Instance.new("UIPadding")
+local Autowin = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local AutoTeleportwin = Instance.new("TextLabel")
+local UIPadding_15 = Instance.new("UIPadding")
+local Auto_3 = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local TextButton_11 = Instance.new("TextButton")
+local UIPadding_16 = Instance.new("UIPadding")
+local TextLabel_5 = Instance.new("TextLabel")
+local house = Instance.new("TextButton")
+local UIPadding_17 = Instance.new("UIPadding")
+local ImageLabel_9 = Instance.new("ImageLabel")
+local script = Instance.new("TextButton")
+local UIPadding_18 = Instance.new("UIPadding")
+local ImageLabel_10 = Instance.new("ImageLabel")
+local existing = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local choose = Instance.new("Frame")
+local script_2 = Instance.new("TextButton")
+local UIPadding_19 = Instance.new("UIPadding")
+local ImageLabel_11 = Instance.new("ImageLabel")
+local house_2 = Instance.new("TextButton")
+local UIPadding_20 = Instance.new("UIPadding")
+local ImageLabel_12 = Instance.new("ImageLabel")
+local TextButton_12 = Instance.new("TextButton")
+local ImageLabel_13 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local open = Instance.new("TextButton")
+local ImageLabel_14 = Instance.new("ImageLabel")
+
+--Properties:
+
+yd7GuiTowerofMisery.Name = "yd7Gui Tower of Misery"
+yd7GuiTowerofMisery.Parent = game.CoreGui
+yd7GuiTowerofMisery.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+hack.Name = "hack"
+hack.Parent = yd7GuiTowerofMisery
+hack.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hack.BackgroundTransparency = 0.150
+hack.BorderColor3 = Color3.fromRGB(116, 163, 73)
+hack.BorderSizePixel = 0
+hack.Position = UDim2.new(0.331425458, 0, 0.261728406, 0)
+hack.Size = UDim2.new(0, 645, 0, 437)
+
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = hack
+
+DropShadowHolder.Name = "DropShadowHolder"
+DropShadowHolder.Parent = hack
+DropShadowHolder.BackgroundTransparency = 1.000
+DropShadowHolder.BorderSizePixel = 0
+DropShadowHolder.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder.ZIndex = 0
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = DropShadowHolder
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow.Size = UDim2.new(1, 47, 1, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6015897843"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+UIAspectRatioConstraint.Parent = DropShadow
+UIAspectRatioConstraint.AspectRatio = 1.430
+
+UIAspectRatioConstraint_2.Parent = DropShadowHolder
+UIAspectRatioConstraint_2.AspectRatio = 1.476
+
+name.Name = "name"
+name.Parent = hack
+name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+name.BackgroundTransparency = 1.000
+name.BorderColor3 = Color3.fromRGB(116, 163, 73)
+name.BorderSizePixel = 0
+name.Position = UDim2.new(0, 0, 0.054245282, 0)
+name.Size = UDim2.new(0, 645, 0, -23)
+
+UICorner_2.CornerRadius = UDim.new(0, 9)
+UICorner_2.Parent = name
+
+Frame.Parent = name
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, -0.0434775986, 0)
+Frame.Size = UDim2.new(0, 645, 0, 22)
+
+UICorner_3.CornerRadius = UDim.new(0, 9)
+UICorner_3.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0899224803, 0, 0.0133999912, 0)
+TextLabel.Size = UDim2.new(0, 144, 0, 22)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.LineHeight = 1.260
+TextLabel.Text = "7yd7 / Tower of Misery"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 19.000
+
+UIPageLayout.Parent = TextLabel
+UIPageLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.942635655, 0, 0.0133999912, 0)
+TextLabel_2.Size = UDim2.new(0, 58, 0, 22)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.LineHeight = 1.260
+TextLabel_2.Text = "1.0.0"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 19.000
+
+UIPageLayout_2.Parent = TextLabel_2
+UIPageLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+
+Frame_2.Parent = name
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 0.150
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.998917282, 0, 0.943703711, 0)
+Frame_2.Size = UDim2.new(0, 644, 0, -2)
+
+UIAspectRatioConstraint_3.Parent = name
+
+scripts.Name = "scripts"
+scripts.Parent = hack
+scripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+scripts.BackgroundTransparency = 1.000
+scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scripts.BorderSizePixel = 0
+scripts.Position = UDim2.new(-9.46281489e-08, 0, 0.140527233, 0)
+scripts.Size = UDim2.new(0, 644, 0, 375)
+
+UICorner_4.CornerRadius = UDim.new(0, 9)
+UICorner_4.Parent = scripts
+
+houseTab.Name = "houseTab"
+houseTab.Parent = scripts
+houseTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+houseTab.BackgroundTransparency = 1.000
+houseTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+houseTab.BorderSizePixel = 0
+houseTab.Selectable = false
+houseTab.Size = UDim2.new(0, 645, 0, 375)
+houseTab.ScrollBarThickness = 8
+
+fly.Name = "fly"
+fly.Parent = houseTab
+fly.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+fly.BackgroundTransparency = 0.150
+fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fly.BorderSizePixel = 0
+fly.Position = UDim2.new(0.0109999999, 0, 0.0209999997, 0)
+fly.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_5.CornerRadius = UDim.new(0, 9)
+UICorner_5.Parent = fly
+
+ImageLabel.Parent = fly
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.821989655, 0, 0.0882352963, 0)
+ImageLabel.Size = UDim2.new(0, 27, 0, 26)
+ImageLabel.Image = "rbxassetid://14216908564"
+
+TextButton.Parent = fly
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+TextButton.Size = UDim2.new(0, 178, 0, 19)
+TextButton.Font = Enum.Font.Ubuntu
+TextButton.Text = "fly ( E )"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 18.000
+TextButton.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding.Parent = TextButton
+UIPadding.PaddingLeft = UDim.new(0, 3)
+
+UIPadding_2.Parent = houseTab
+UIPadding_2.PaddingBottom = UDim.new(0, 1)
+UIPadding_2.PaddingLeft = UDim.new(0, 1)
+UIPadding_2.PaddingRight = UDim.new(0, 1)
+UIPadding_2.PaddingTop = UDim.new(0, 1)
+
+infjump.Name = "inf jump"
+infjump.Parent = houseTab
+infjump.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+infjump.BackgroundTransparency = 0.150
+infjump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infjump.BorderSizePixel = 0
+infjump.Position = UDim2.new(0.337000012, 0, 0.0209999997, 0)
+infjump.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_6.CornerRadius = UDim.new(0, 9)
+UICorner_6.Parent = infjump
+
+ImageLabel_2.Parent = infjump
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.821989655, 0, 0.0882352963, 0)
+ImageLabel_2.Size = UDim2.new(0, 27, 0, 26)
+ImageLabel_2.Image = "rbxassetid://14216908564"
+
+TextButton_2.Parent = infjump
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+TextButton_2.Size = UDim2.new(0, 178, 0, 19)
+TextButton_2.Font = Enum.Font.Ubuntu
+TextButton_2.Text = "inf jump"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 18.000
+TextButton_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_3.Parent = TextButton_2
+UIPadding_3.PaddingLeft = UDim.new(0, 3)
+
+noclip.Name = "noclip"
+noclip.Parent = houseTab
+noclip.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+noclip.BackgroundTransparency = 0.150
+noclip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+noclip.BorderSizePixel = 0
+noclip.Position = UDim2.new(0.666000009, 0, 0.0199999996, 0)
+noclip.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_7.CornerRadius = UDim.new(0, 9)
+UICorner_7.Parent = noclip
+
+ImageLabel_3.Parent = noclip
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.821989655, 0, 0.0882352963, 0)
+ImageLabel_3.Size = UDim2.new(0, 27, 0, 26)
+ImageLabel_3.Image = "rbxassetid://14216908564"
+
+noclip_2.Name = "noclip"
+noclip_2.Parent = noclip
+noclip_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+noclip_2.BackgroundTransparency = 1.000
+noclip_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+noclip_2.BorderSizePixel = 0
+noclip_2.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+noclip_2.Size = UDim2.new(0, 178, 0, 19)
+noclip_2.Font = Enum.Font.Ubuntu
+noclip_2.Text = "noclip"
+noclip_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+noclip_2.TextSize = 18.000
+noclip_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_4.Parent = noclip_2
+UIPadding_4.PaddingLeft = UDim.new(0, 3)
+
+Speed.Name = "Speed"
+Speed.Parent = houseTab
+Speed.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Speed.BackgroundTransparency = 0.150
+Speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Speed.BorderSizePixel = 0
+Speed.Position = UDim2.new(0.0108478358, 0, 0.0829097182, 0)
+Speed.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_8.CornerRadius = UDim.new(0, 9)
+UICorner_8.Parent = Speed
+
+TextBox.Parent = Speed
+TextBox.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.558463991, 0, 0.205999941, 0)
+TextBox.Size = UDim2.new(0, 77, 0, 19)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+
+UICorner_9.Parent = TextBox
+
+TextButton_3.Name = "TextButton"
+TextButton_3.Parent = Speed
+TextButton_3.Active = true
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+TextButton_3.Selectable = true
+TextButton_3.Size = UDim2.new(0, 178, 0, 19)
+TextButton_3.Font = Enum.Font.Ubuntu
+TextButton_3.Text = "Speed"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 18.000
+TextButton_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Jump.Name = "Jump"
+Jump.Parent = houseTab
+Jump.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Jump.BackgroundTransparency = 0.150
+Jump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Jump.BorderSizePixel = 0
+Jump.Position = UDim2.new(0.337000012, 0, 0.0829999968, 0)
+Jump.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_10.CornerRadius = UDim.new(0, 9)
+UICorner_10.Parent = Jump
+
+TextBox_2.Parent = Jump
+TextBox_2.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(0.558463991, 0, 0.205999941, 0)
+TextBox_2.Size = UDim2.new(0, 77, 0, 19)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.TextSize = 14.000
+
+UICorner_11.Parent = TextBox_2
+
+TextButton_4.Name = "TextButton"
+TextButton_4.Parent = Jump
+TextButton_4.Active = true
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+TextButton_4.Selectable = true
+TextButton_4.Size = UDim2.new(0, 178, 0, 19)
+TextButton_4.Font = Enum.Font.Ubuntu
+TextButton_4.Text = "Jump"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 18.000
+TextButton_4.TextXAlignment = Enum.TextXAlignment.Left
+
+infiniteyield.Name = "infiniteyield"
+infiniteyield.Parent = houseTab
+infiniteyield.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+infiniteyield.BackgroundTransparency = 0.150
+infiniteyield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.BorderSizePixel = 0
+infiniteyield.Position = UDim2.new(0.666000009, 0, 0.0829999968, 0)
+infiniteyield.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_12.CornerRadius = UDim.new(0, 9)
+UICorner_12.Parent = infiniteyield
+
+ImageLabel_4.Parent = infiniteyield
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.821989655, 0, 0.0882352963, 0)
+ImageLabel_4.Size = UDim2.new(0, 27, 0, 26)
+ImageLabel_4.Image = "rbxassetid://14216908564"
+
+infiniteyield_2.Name = "infiniteyield"
+infiniteyield_2.Parent = infiniteyield
+infiniteyield_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield_2.BackgroundTransparency = 1.000
+infiniteyield_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield_2.BorderSizePixel = 0
+infiniteyield_2.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+infiniteyield_2.Size = UDim2.new(0, 178, 0, 19)
+infiniteyield_2.Font = Enum.Font.Ubuntu
+infiniteyield_2.Text = "infiniteyield"
+infiniteyield_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield_2.TextSize = 18.000
+infiniteyield_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_5.Parent = infiniteyield_2
+UIPadding_5.PaddingLeft = UDim.new(0, 3)
+
+SimpleSpy.Name = "SimpleSpy"
+SimpleSpy.Parent = houseTab
+SimpleSpy.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+SimpleSpy.BackgroundTransparency = 0.150
+SimpleSpy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SimpleSpy.BorderSizePixel = 0
+SimpleSpy.Position = UDim2.new(0.00788957719, 0, 0.143989295, 0)
+SimpleSpy.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_13.CornerRadius = UDim.new(0, 9)
+UICorner_13.Parent = SimpleSpy
+
+ImageLabel_5.Parent = SimpleSpy
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.821989655, 0, 0.0882352963, 0)
+ImageLabel_5.Size = UDim2.new(0, 27, 0, 26)
+ImageLabel_5.Image = "rbxassetid://14216908564"
+
+TextButton_5.Parent = SimpleSpy
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+TextButton_5.Size = UDim2.new(0, 178, 0, 19)
+TextButton_5.Font = Enum.Font.Ubuntu
+TextButton_5.Text = "SimpleSpy"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 18.000
+TextButton_5.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_6.Parent = TextButton_5
+UIPadding_6.PaddingLeft = UDim.new(0, 3)
+
+AFK.Name = "AFK"
+AFK.Parent = houseTab
+AFK.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+AFK.BackgroundTransparency = 0.150
+AFK.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AFK.BorderSizePixel = 0
+AFK.Position = UDim2.new(0.337000012, 0, 0.143999994, 0)
+AFK.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_14.CornerRadius = UDim.new(0, 9)
+UICorner_14.Parent = AFK
+
+ImageLabel_6.Parent = AFK
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(0.821989655, 0, 0.0882352963, 0)
+ImageLabel_6.Size = UDim2.new(0, 27, 0, 26)
+ImageLabel_6.Image = "rbxassetid://14216908564"
+
+TextButton_6.Parent = AFK
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+TextButton_6.Size = UDim2.new(0, 178, 0, 19)
+TextButton_6.Font = Enum.Font.Ubuntu
+TextButton_6.Text = "AFK"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 18.000
+TextButton_6.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_7.Parent = TextButton_6
+UIPadding_7.PaddingLeft = UDim.new(0, 3)
+
+Frame_3.Parent = scripts
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Size = UDim2.new(0, 645, 0, 16)
+Frame_3.ZIndex = 10
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(27, 27, 27)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(98, 56, 60)), ColorSequenceKeypoint.new(0.77, Color3.fromRGB(85, 50, 53)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(27, 27, 27))}
+UIGradient.Rotation = 90
+UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(1.00, 1.00)}
+UIGradient.Parent = Frame_3
+
+scriptTab.Name = "scriptTab"
+scriptTab.Parent = scripts
+scriptTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptTab.BackgroundTransparency = 1.000
+scriptTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scriptTab.BorderSizePixel = 0
+scriptTab.Selectable = false
+scriptTab.Size = UDim2.new(0, 645, 0, 375)
+scriptTab.Visible = false
+scriptTab.ScrollBarThickness = 8
+
+UIPadding_8.Parent = scriptTab
+UIPadding_8.PaddingBottom = UDim.new(0, 1)
+UIPadding_8.PaddingLeft = UDim.new(0, 1)
+UIPadding_8.PaddingRight = UDim.new(0, 1)
+UIPadding_8.PaddingTop = UDim.new(0, 1)
+
+Autofarm.Name = "Auto farm"
+Autofarm.Parent = scriptTab
+Autofarm.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Autofarm.BackgroundTransparency = 0.150
+Autofarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Autofarm.BorderSizePixel = 0
+Autofarm.Position = UDim2.new(0.00929272082, 0, 0.0212475155, 0)
+Autofarm.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_15.CornerRadius = UDim.new(0, 9)
+UICorner_15.Parent = Autofarm
+
+Auto.Name = "Auto"
+Auto.Parent = Autofarm
+Auto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Auto.BackgroundTransparency = 1.000
+Auto.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Auto.BorderSizePixel = 0
+Auto.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+Auto.Size = UDim2.new(0, 178, 0, 19)
+Auto.Font = Enum.Font.Ubuntu
+Auto.Text = "Auto farm"
+Auto.TextColor3 = Color3.fromRGB(255, 255, 255)
+Auto.TextSize = 18.000
+Auto.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_9.Parent = Auto
+UIPadding_9.PaddingLeft = UDim.new(0, 3)
+
+Autofarm_2.Name = "Auto farm"
+Autofarm_2.Parent = Autofarm
+Autofarm_2.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+Autofarm_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Autofarm_2.BorderSizePixel = 0
+Autofarm_2.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+Autofarm_2.Size = UDim2.new(0, 47, 0, 19)
+
+UICorner_16.CornerRadius = UDim.new(0, 5)
+UICorner_16.Parent = Autofarm_2
+
+TextButton_7.Parent = Autofarm_2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(-0.0156327914, 0, -0.00452623889, 0)
+TextButton_7.Size = UDim2.new(0, 47, 0, 19)
+TextButton_7.ZIndex = 100
+TextButton_7.Font = Enum.Font.Ubuntu
+TextButton_7.Text = ""
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+
+UIPadding_10.Parent = TextButton_7
+
+TextLabel_3.Parent = Autofarm_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(-0.0160041973, 0, -0.00500006415, 0)
+TextLabel_3.Size = UDim2.new(0, 47, 0, 19)
+TextLabel_3.Font = Enum.Font.Ubuntu
+TextLabel_3.Text = "off"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+DeleteAnti.Name = "Delete Anti"
+DeleteAnti.Parent = scriptTab
+DeleteAnti.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+DeleteAnti.BackgroundTransparency = 0.150
+DeleteAnti.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DeleteAnti.BorderSizePixel = 0
+DeleteAnti.Position = UDim2.new(0.666000009, 0, 0.0209999997, 0)
+DeleteAnti.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_17.CornerRadius = UDim.new(0, 9)
+UICorner_17.Parent = DeleteAnti
+
+ImageLabel_7.Parent = DeleteAnti
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BackgroundTransparency = 1.000
+ImageLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_7.BorderSizePixel = 0
+ImageLabel_7.Position = UDim2.new(0.821989655, 0, 0.0882352963, 0)
+ImageLabel_7.Size = UDim2.new(0, 27, 0, 26)
+ImageLabel_7.Image = "rbxassetid://14216908564"
+
+TextButton_8.Parent = DeleteAnti
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundTransparency = 1.000
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+TextButton_8.Size = UDim2.new(0, 178, 0, 19)
+TextButton_8.Font = Enum.Font.Ubuntu
+TextButton_8.Text = "Delete Anti"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 18.000
+TextButton_8.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_11.Parent = TextButton_8
+UIPadding_11.PaddingLeft = UDim.new(0, 3)
+
+GodeMode.Name = "Gode Mode"
+GodeMode.Parent = scriptTab
+GodeMode.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+GodeMode.BackgroundTransparency = 0.150
+GodeMode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GodeMode.BorderSizePixel = 0
+GodeMode.Position = UDim2.new(0.337000012, 0, 0.0209999997, 0)
+GodeMode.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_18.CornerRadius = UDim.new(0, 9)
+UICorner_18.Parent = GodeMode
+
+Auto_2.Name = "Auto"
+Auto_2.Parent = GodeMode
+Auto_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Auto_2.BackgroundTransparency = 1.000
+Auto_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Auto_2.BorderSizePixel = 0
+Auto_2.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+Auto_2.Size = UDim2.new(0, 178, 0, 19)
+Auto_2.Font = Enum.Font.Ubuntu
+Auto_2.Text = "Gode Mode"
+Auto_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Auto_2.TextSize = 18.000
+Auto_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_12.Parent = Auto_2
+UIPadding_12.PaddingLeft = UDim.new(0, 3)
+
+Autofarm_3.Name = "Auto farm"
+Autofarm_3.Parent = GodeMode
+Autofarm_3.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+Autofarm_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Autofarm_3.BorderSizePixel = 0
+Autofarm_3.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+Autofarm_3.Size = UDim2.new(0, 47, 0, 19)
+
+UICorner_19.CornerRadius = UDim.new(0, 5)
+UICorner_19.Parent = Autofarm_3
+
+TextButton_9.Parent = Autofarm_3
+TextButton_9.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextButton_9.BackgroundTransparency = 1.000
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(-0.0156327914, 0, -0.00452623889, 0)
+TextButton_9.Size = UDim2.new(0, 47, 0, 19)
+TextButton_9.ZIndex = 100
+TextButton_9.Font = Enum.Font.Ubuntu
+TextButton_9.Text = ""
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 14.000
+
+UIPadding_13.Parent = TextButton_9
+
+TextLabel_4.Parent = Autofarm_3
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(-0.0160041973, 0, -0.00500006415, 0)
+TextLabel_4.Size = UDim2.new(0, 47, 0, 19)
+TextLabel_4.Font = Enum.Font.Ubuntu
+TextLabel_4.Text = "off"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+win.Name = "win"
+win.Parent = scriptTab
+win.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+win.BackgroundTransparency = 0.150
+win.BorderColor3 = Color3.fromRGB(0, 0, 0)
+win.BorderSizePixel = 0
+win.Position = UDim2.new(0.00899999961, 0, 0.0829999968, 0)
+win.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_20.CornerRadius = UDim.new(0, 9)
+UICorner_20.Parent = win
+
+ImageLabel_8.Parent = win
+ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_8.BackgroundTransparency = 1.000
+ImageLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_8.BorderSizePixel = 0
+ImageLabel_8.Position = UDim2.new(0.821989655, 0, 0.0882352963, 0)
+ImageLabel_8.Size = UDim2.new(0, 27, 0, 26)
+ImageLabel_8.Image = "rbxassetid://14216908564"
+
+TextButton_10.Parent = win
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.BackgroundTransparency = 1.000
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+TextButton_10.Size = UDim2.new(0, 178, 0, 19)
+TextButton_10.Font = Enum.Font.Ubuntu
+TextButton_10.Text = "Teleport win"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 18.000
+TextButton_10.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_14.Parent = TextButton_10
+UIPadding_14.PaddingLeft = UDim.new(0, 3)
+
+Autowin.Name = "Auto win"
+Autowin.Parent = scriptTab
+Autowin.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Autowin.BackgroundTransparency = 0.150
+Autowin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Autowin.BorderSizePixel = 0
+Autowin.Position = UDim2.new(0.337000012, 0, 0.0829999968, 0)
+Autowin.Size = UDim2.new(0, 191, 0, 34)
+
+UICorner_21.CornerRadius = UDim.new(0, 9)
+UICorner_21.Parent = Autowin
+
+AutoTeleportwin.Name = "Auto Teleport win"
+AutoTeleportwin.Parent = Autowin
+AutoTeleportwin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AutoTeleportwin.BackgroundTransparency = 1.000
+AutoTeleportwin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoTeleportwin.BorderSizePixel = 0
+AutoTeleportwin.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+AutoTeleportwin.Size = UDim2.new(0, 178, 0, 19)
+AutoTeleportwin.Font = Enum.Font.Ubuntu
+AutoTeleportwin.Text = "Auto win"
+AutoTeleportwin.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoTeleportwin.TextSize = 18.000
+AutoTeleportwin.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_15.Parent = AutoTeleportwin
+UIPadding_15.PaddingLeft = UDim.new(0, 3)
+
+Auto_3.Name = "Auto"
+Auto_3.Parent = Autowin
+Auto_3.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+Auto_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Auto_3.BorderSizePixel = 0
+Auto_3.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+Auto_3.Size = UDim2.new(0, 47, 0, 19)
+
+UICorner_22.CornerRadius = UDim.new(0, 5)
+UICorner_22.Parent = Auto_3
+
+TextButton_11.Parent = Auto_3
+TextButton_11.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextButton_11.BackgroundTransparency = 1.000
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(-0.0156327914, 0, -0.00452623889, 0)
+TextButton_11.Size = UDim2.new(0, 47, 0, 19)
+TextButton_11.ZIndex = 100
+TextButton_11.Font = Enum.Font.Ubuntu
+TextButton_11.Text = ""
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextSize = 14.000
+
+UIPadding_16.Parent = TextButton_11
+
+TextLabel_5.Parent = Auto_3
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(-0.0160041973, 0, -0.00500006415, 0)
+TextLabel_5.Size = UDim2.new(0, 47, 0, 19)
+TextLabel_5.Font = Enum.Font.Ubuntu
+TextLabel_5.Text = "off"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+house.Name = "house"
+house.Parent = scripts
+house.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+house.BackgroundTransparency = 1.000
+house.BorderColor3 = Color3.fromRGB(0, 0, 0)
+house.BorderSizePixel = 0
+house.Position = UDim2.new(-3.84786872e-05, 0, -0.104000084, 0)
+house.Size = UDim2.new(0, 91, 0, 35)
+house.Font = Enum.Font.Ubuntu
+house.LineHeight = 1.430
+house.Text = "house"
+house.TextColor3 = Color3.fromRGB(255, 255, 255)
+house.TextSize = 18.000
+house.TextXAlignment = Enum.TextXAlignment.Right
+house.TextYAlignment = Enum.TextYAlignment.Bottom
+
+UIPadding_17.Parent = house
+UIPadding_17.PaddingBottom = UDim.new(0, 1)
+UIPadding_17.PaddingLeft = UDim.new(0, 36)
+UIPadding_17.PaddingRight = UDim.new(0, 3)
+
+ImageLabel_9.Parent = house
+ImageLabel_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_9.BackgroundTransparency = 1.000
+ImageLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_9.BorderSizePixel = 0
+ImageLabel_9.Position = UDim2.new(-0.541940928, 0, 0.134942234, 0)
+ImageLabel_9.Size = UDim2.new(0, 28, 0, 26)
+ImageLabel_9.Image = "rbxassetid://14216635999"
+
+script.Name = "script"
+script.Parent = scripts
+script.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+script.BackgroundTransparency = 1.000
+script.BorderColor3 = Color3.fromRGB(0, 0, 0)
+script.BorderSizePixel = 0
+script.Position = UDim2.new(0.165873647, 0, -0.104000084, 0)
+script.Size = UDim2.new(0, 91, 0, 35)
+script.Font = Enum.Font.Ubuntu
+script.LineHeight = 1.430
+script.Text = "script"
+script.TextColor3 = Color3.fromRGB(255, 255, 255)
+script.TextSize = 18.000
+script.TextXAlignment = Enum.TextXAlignment.Right
+script.TextYAlignment = Enum.TextYAlignment.Bottom
+
+UIPadding_18.Parent = script
+UIPadding_18.PaddingBottom = UDim.new(0, 1)
+UIPadding_18.PaddingLeft = UDim.new(0, 36)
+UIPadding_18.PaddingRight = UDim.new(0, 3)
+
+ImageLabel_10.Parent = script
+ImageLabel_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_10.BackgroundTransparency = 1.000
+ImageLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_10.BorderSizePixel = 0
+ImageLabel_10.Position = UDim2.new(-0.541940928, 0, 0.134942234, 0)
+ImageLabel_10.Size = UDim2.new(0, 28, 0, 26)
+ImageLabel_10.Image = "rbxassetid://14219326670"
+
+existing.Name = "existing"
+existing.Parent = hack
+existing.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+existing.BackgroundTransparency = 1.000
+existing.BorderColor3 = Color3.fromRGB(0, 0, 0)
+existing.BorderSizePixel = 0
+existing.Position = UDim2.new(-9.46281489e-08, 0, 0.0549199097, 0)
+existing.Size = UDim2.new(0, 645, 0, 38)
+
+UICorner_23.CornerRadius = UDim.new(0, 4)
+UICorner_23.Parent = existing
+
+Frame_4.Parent = existing
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 0.984484196, 0)
+Frame_4.Size = UDim2.new(0, 645, 0, 1)
+
+UIAspectRatioConstraint_4.Parent = existing
+UIAspectRatioConstraint_4.AspectRatio = 16.974
+
+choose.Name = "choose"
+choose.Parent = existing
+choose.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+choose.BackgroundTransparency = 1.000
+choose.BorderColor3 = Color3.fromRGB(0, 0, 0)
+choose.BorderSizePixel = 0
+choose.Size = UDim2.new(0, 645, 0, 38)
+
+script_2.Name = "script"
+script_2.Parent = choose
+script_2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+script_2.BackgroundTransparency = 1.000
+script_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+script_2.BorderSizePixel = 0
+script_2.Position = UDim2.new(0.165873677, 0, 0, 0)
+script_2.Size = UDim2.new(0, 91, 0, 37)
+script_2.Visible = false
+script_2.Font = Enum.Font.Ubuntu
+script_2.LineHeight = 1.430
+script_2.Text = "script"
+script_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+script_2.TextSize = 18.000
+script_2.TextXAlignment = Enum.TextXAlignment.Right
+script_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+UIPadding_19.Parent = script_2
+UIPadding_19.PaddingBottom = UDim.new(0, 3)
+UIPadding_19.PaddingLeft = UDim.new(0, 36)
+UIPadding_19.PaddingRight = UDim.new(0, 3)
+
+ImageLabel_11.Parent = script_2
+ImageLabel_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_11.BackgroundTransparency = 1.000
+ImageLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_11.BorderSizePixel = 0
+ImageLabel_11.Position = UDim2.new(-0.541940928, 0, 0.134942234, 0)
+ImageLabel_11.Size = UDim2.new(0, 28, 0, 26)
+ImageLabel_11.Image = "rbxassetid://14216635999"
+
+house_2.Name = "house"
+house_2.Parent = choose
+house_2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+house_2.BackgroundTransparency = 1.000
+house_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+house_2.BorderSizePixel = 0
+house_2.Position = UDim2.new(-3.85136555e-05, 0, 0, 0)
+house_2.Size = UDim2.new(0, 91, 0, 36)
+house_2.Visible = false
+house_2.Font = Enum.Font.Ubuntu
+house_2.LineHeight = 1.430
+house_2.Text = "house"
+house_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+house_2.TextSize = 18.000
+house_2.TextXAlignment = Enum.TextXAlignment.Right
+house_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+UIPadding_20.Parent = house_2
+UIPadding_20.PaddingBottom = UDim.new(0, 2)
+UIPadding_20.PaddingLeft = UDim.new(0, 36)
+UIPadding_20.PaddingRight = UDim.new(0, 3)
+
+ImageLabel_12.Parent = house_2
+ImageLabel_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_12.BackgroundTransparency = 1.000
+ImageLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_12.BorderSizePixel = 0
+ImageLabel_12.Position = UDim2.new(-0.541940928, 0, 0.134942234, 0)
+ImageLabel_12.Size = UDim2.new(0, 28, 0, 26)
+ImageLabel_12.Image = "rbxassetid://14216635999"
+
+TextButton_12.Parent = hack
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.BackgroundTransparency = 1.000
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0.477519274, 0, 0, 0)
+TextButton_12.Size = UDim2.new(0, 24, 0, 20)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = ""
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextSize = 14.000
+
+ImageLabel_13.Parent = TextButton_12
+ImageLabel_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_13.BackgroundTransparency = 1.000
+ImageLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_13.BorderSizePixel = 0
+ImageLabel_13.Position = UDim2.new(0.477999985, 0, 0, 0)
+ImageLabel_13.Size = UDim2.new(0, 24, 0, 20)
+ImageLabel_13.Image = "rbxassetid://14218986484"
+
+UIAspectRatioConstraint_5.Parent = yd7GuiTowerofMisery
+UIAspectRatioConstraint_5.AspectRatio = 1.507
+
+open.Name = "open"
+open.Parent = yd7GuiTowerofMisery
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.BackgroundTransparency = 1.000
+open.BorderColor3 = Color3.fromRGB(0, 0, 0)
+open.BorderSizePixel = 0
+open.Position = UDim2.new(-0.000712168461, 0, 0.956790149, 0)
+open.Size = UDim2.new(0, 41, 0, 35)
+open.ZIndex = 10
+open.Font = Enum.Font.SourceSans
+open.Text = ""
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextSize = 14.000
+
+ImageLabel_14.Parent = open
+ImageLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_14.BackgroundTransparency = 1.000
+ImageLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_14.BorderSizePixel = 0
+ImageLabel_14.Position = UDim2.new(-0.0010000089, 0, -0.0144287106, 0)
+ImageLabel_14.Size = UDim2.new(0, 41, 0, 35)
+ImageLabel_14.Image = "rbxassetid://14223000905"
+
+-- Scripts:
+
+local function BKQK_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		repeat wait()
+		until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		repeat wait() until mouse
+		local plr = game.Players.LocalPlayer
+		local torso = plr.Character.Torso
+		local flying = true
+		local deb = true
+		local ctrl = {f = 0, b = 0, l = 0, r = 0}
+		local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+		local maxspeed = 50
+		local speed = 0
+	
+		function Fly()
+			local bg = Instance.new("BodyGyro", torso)
+			bg.P = 9e4
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+			bg.cframe = torso.CFrame
+			local bv = Instance.new("BodyVelocity", torso)
+			bv.velocity = Vector3.new(0,0.1,0)
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+			repeat wait()
+				plr.Character.Humanoid.PlatformStand = true
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+					speed = speed+.5+(speed/maxspeed)
+					if speed > maxspeed then
+						speed = maxspeed
+					end
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+					speed = speed-1
+					if speed < 0 then
+						speed = 0
+					end
+				end
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+				else
+					bv.velocity = Vector3.new(0,0.1,0)
+				end
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+			until not flying
+			ctrl = {f = 0, b = 0, l = 0, r = 0}
+			lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			speed = 0
+			bg:Destroy()
+			bv:Destroy()
+			plr.Character.Humanoid.PlatformStand = false
+		end
+		mouse.KeyDown:connect(function(key)
+			if key:lower() == "e" then
+				if flying then flying = false
+				else
+					flying = true
+					Fly()
+				end
+			elseif key:lower() == "w" then
+				ctrl.f = 1
+			elseif key:lower() == "s" then
+				ctrl.b = -1
+			elseif key:lower() == "a" then
+				ctrl.l = -1
+			elseif key:lower() == "d" then
+				ctrl.r = 1
+			end
+		end)
+		mouse.KeyUp:connect(function(key)
+			if key:lower() == "w" then
+				ctrl.f = 0
+			elseif key:lower() == "s" then
+				ctrl.b = 0
+			elseif key:lower() == "a" then
+				ctrl.l = 0
+			elseif key:lower() == "d" then
+				ctrl.r = 0
+			end
+		end)
+		Fly()
+	end)
+end
+coroutine.wrap(BKQK_fake_script)()
+local function AEGM_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Player = game:GetService'Players'.LocalPlayer;
+		local UIS = game:GetService'UserInputService';
+	
+		_G.JumpHeight = 50;
+	
+		function Action(Object, Function) if Object ~= nil then Function(Object); end end
+	
+		UIS.InputBegan:connect(function(UserInput)
+			if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+				Action(Player.Character.Humanoid, function(self)
+					if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+						Action(self.Parent.HumanoidRootPart, function(self)
+							self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+						end)
+					end
+				end)
+			end
+		end)
+	end)
+end
+coroutine.wrap(AEGM_fake_script)()
+local function VWXTS_fake_script() -- noclip_2.LocalScript 
+	local script = Instance.new('LocalScript', noclip_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Noclip = nil
+	
+		function noclip()
+			local function Nocl()
+				if game.Players.LocalPlayer.Character ~= nil then
+					for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+						if v:IsA('BasePart') and v.CanCollide then
+							v.CanCollide = false
+						end
+					end
+				end
+				wait(0.21) -- basic optimization
+			end
+			Noclip = game:GetService('RunService').Stepped:Connect(Nocl)
+		end
+	
+		function clip()
+			if Noclip then Noclip:Disconnect() end
+		end
+	
+		noclip() -- to toggle noclip() and clip()
+	
+	end)
+end
+coroutine.wrap(VWXTS_fake_script)()
+local function DTPV_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	local part = script.Parent
+	
+	part.FocusLost:Connect(function(enterpressed)
+		 if enterpressed then
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (part.Text)
+			
+	  else
+			
+		end
+	end)
+	
+end
+coroutine.wrap(DTPV_fake_script)()
+local function RRPVCG_fake_script() -- TextBox_2.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_2)
+
+	local part = script.Parent
+	
+	part.FocusLost:Connect(function(enterpressed)
+		 if enterpressed then
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = (part.Text)
+			
+	  else
+			
+		end
+	end)
+	
+end
+coroutine.wrap(RRPVCG_fake_script)()
+local function JWULZE_fake_script() -- infiniteyield_2.LocalScript 
+	local script = Instance.new('LocalScript', infiniteyield_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	
+	end)
+end
+coroutine.wrap(JWULZE_fake_script)()
+local function TCXXVMQ_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local owner = "Upbolt"
+		local branch = "revision"
+	
+		local function webImport(file)
+			return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
+		end
+	
+		webImport("init")
+		webImport("ui/main")
+	end)
+end
+coroutine.wrap(TCXXVMQ_fake_script)()
+local function VSRMM_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/sDXcYFhR", true))()
+	end)
+end
+coroutine.wrap(VSRMM_fake_script)()
+local function SCCTI_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local off = false 
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if off == false then 
+			off = true
+			script.Parent.Parent.TextLabel.Text = "on" 
+			_G.Auto = true;
+		else
+			off = false
+			script.Parent.Parent.TextLabel.Text = "off" 
+			_G.Auto = false;
+		end
+	end)
+	
+	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/l11004/7yd7/main/normal", true))()
+end
+coroutine.wrap(SCCTI_fake_script)()
+local function XYUNRV_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").Remote_Events.Parent = lol
+		game:GetService("ReplicatedStorage").Remote_Functions.Parent = lol
+	end)
+	
+	
+end
+coroutine.wrap(XYUNRV_fake_script)()
+local function JUOWY_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local off = false 
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if off == false then 
+			off = true
+			script.Parent.Parent.TextLabel.Text = "on" 
+			_G.GodeMode = true;
+		else
+			off = false
+			script.Parent.Parent.TextLabel.Text = "off" 
+			_G.GodeMode = false;
+		end
+	end)
+	
+	
+	while wait() do
+		if _G.GodeMode == true then
+	for i, v in pairs(workspace:GetDescendants()) do
+		if v.Name == "KillPart" then
+			v.Name = "DisabledKillPart"
+		end
+	end
+		end
+	end
+	
+	
+end
+coroutine.wrap(JUOWY_fake_script)()
+local function XTGAKPC_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame * CFrame.new(-20, 0, 0)
+		firetouchinterest(game.Players.LocalPlayer.Character.PrimaryPart, workspace.Top_Section.Hallway.RewardDoor, 0, 100)
+		wait()
+		firetouchinterest(game.Players.LocalPlayer.Character.PrimaryPart, workspace.Top_Section.Hallway.RewardDoor, 1, 100)
+	
+	end)
+	
+	
+end
+coroutine.wrap(XTGAKPC_fake_script)()
+local function YCHSY_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	local off = false 
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if off == false then 
+			off = true
+			script.Parent.Parent.TextLabel.Text = "on" 
+			_G.Autowin = true;
+	
+		else
+			off = false
+			script.Parent.Parent.TextLabel.Text = "off" 
+			_G.Autowin = false;
+		end
+	end)
+	
+	
+	while wait() do
+		if _G.Autowin == true then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Top_Section.Hallway.RewardDoor.CFrame * CFrame.new(-20, 0, 0)
+			firetouchinterest(game.Players.LocalPlayer.Character.PrimaryPart, workspace.Top_Section.Hallway.RewardDoor, 0, 100)
+			wait()
+			firetouchinterest(game.Players.LocalPlayer.Character.PrimaryPart, workspace.Top_Section.Hallway.RewardDoor, 1, 100)
+				end
+			end
+		
+	
+	
+end
+coroutine.wrap(YCHSY_fake_script)()
+local function VWLOT_fake_script() -- house.LocalScript 
+	local script = Instance.new('LocalScript', house)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.scriptTab.Visible = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.houseTab.Visible = true
+	end)
+	
+	
+end
+coroutine.wrap(VWLOT_fake_script)()
+local function UDNPRO_fake_script() -- script.LocalScript 
+	local script = Instance.new('LocalScript', script)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.scriptTab.Visible = true
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.houseTab.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(UDNPRO_fake_script)()
+local function VUFEIQN_fake_script() -- TextButton_12.Script 
+	local script = Instance.new('Script', TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(VUFEIQN_fake_script)()
+local function IZLMUAU_fake_script() -- open.Script 
+	local script = Instance.new('Script', open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.hack.Visible = true
+	end)
+	
+end
+coroutine.wrap(IZLMUAU_fake_script)()
+local function XXEQZHF_fake_script() -- open.LocalScript 
+	local script = Instance.new('LocalScript', open)
+
+	
+	local Main = script.Parent.Parent.hack
+	local hotkey = Enum.KeyCode.G
+	local hotkey2 = Enum.KeyCode.ButtonX
+	
+	local UIS = game:GetService("UserInputService")
+	local open = false
+	
+	UIS.InputBegan:Connect(function(key, gp)
+		if key.KeyCode == hotkey or key.KeyCode == hotkey2 then
+			if UIS:GetFocusedTextBox() == nil then
+				if open == false then
+					open = true
+					Main.Visible = open
+				elseif open == true then
+					open = false
+					Main.Visible = open
+	
+				end
+	
+	
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(XXEQZHF_fake_script)()
