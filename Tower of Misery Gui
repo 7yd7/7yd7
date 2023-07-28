@@ -106,162 +106,185 @@ local yd7GuiTowerofMisery = {
 	TextButton_11 = Instance.new("TextButton"),
 	UIPadding_16 = Instance.new("UIPadding"),
 	TextLabel_5 = Instance.new("TextLabel"),
-	house = Instance.new("TextButton"),
+	game = Instance.new("Folder"),
+	gametext = Instance.new("Frame"),
+	UICorner_23 = Instance.new("UICorner"),
+	Auto_4 = Instance.new("TextLabel"),
 	UIPadding_17 = Instance.new("UIPadding"),
+	Brick_Dropper = Instance.new("Frame"),
+	UICorner_24 = Instance.new("UICorner"),
+	Auto_5 = Instance.new("TextLabel"),
+	UIPadding_18 = Instance.new("UIPadding"),
+	Brick_Dropper_2 = Instance.new("Frame"),
+	UICorner_25 = Instance.new("UICorner"),
+	TextButton_12 = Instance.new("TextButton"),
+	UIPadding_19 = Instance.new("UIPadding"),
+	TextLabel_6 = Instance.new("TextLabel"),
+	GodeModeTrack = Instance.new("Frame"),
+	UICorner_26 = Instance.new("UICorner"),
+	Auto_6 = Instance.new("TextLabel"),
+	UIPadding_20 = Instance.new("UIPadding"),
+	GodeModeTrack_2 = Instance.new("Frame"),
+	UICorner_27 = Instance.new("UICorner"),
+	TextButton_13 = Instance.new("TextButton"),
+	UIPadding_21 = Instance.new("UIPadding"),
+	TextLabel_7 = Instance.new("TextLabel"),
+	house = Instance.new("TextButton"),
+	UIPadding_22 = Instance.new("UIPadding"),
 	ImageLabel_9 = Instance.new("ImageLabel"),
 	script = Instance.new("TextButton"),
-	UIPadding_18 = Instance.new("UIPadding"),
+	UIPadding_23 = Instance.new("UIPadding"),
 	ImageLabel_10 = Instance.new("ImageLabel"),
 	settingsTab = Instance.new("ScrollingFrame"),
 	killscript = Instance.new("Frame"),
-	UICorner_23 = Instance.new("UICorner"),
+	UICorner_28 = Instance.new("UICorner"),
 	ImageLabel_11 = Instance.new("ImageLabel"),
-	TextButton_12 = Instance.new("TextButton"),
-	UIPadding_19 = Instance.new("UIPadding"),
-	UIPadding_20 = Instance.new("UIPadding"),
+	TextButton_14 = Instance.new("TextButton"),
+	UIPadding_24 = Instance.new("UIPadding"),
+	UIPadding_25 = Instance.new("UIPadding"),
 	Crates = Instance.new("TextButton"),
-	UIPadding_21 = Instance.new("UIPadding"),
+	UIPadding_26 = Instance.new("UIPadding"),
 	ImageLabel_12 = Instance.new("ImageLabel"),
 	settings = Instance.new("TextButton"),
-	UIPadding_22 = Instance.new("UIPadding"),
+	UIPadding_27 = Instance.new("UIPadding"),
 	ImageLabel_13 = Instance.new("ImageLabel"),
 	CratesTab = Instance.new("ScrollingFrame"),
-	UIPadding_23 = Instance.new("UIPadding"),
+	UIPadding_28 = Instance.new("UIPadding"),
 	TrailCrates = Instance.new("Folder"),
 	GreenCrate = Instance.new("Frame"),
-	UICorner_24 = Instance.new("UICorner"),
-	Auto_4 = Instance.new("TextLabel"),
-	UIPadding_24 = Instance.new("UIPadding"),
-	Auto_5 = Instance.new("Frame"),
-	UICorner_25 = Instance.new("UICorner"),
-	TextButton_13 = Instance.new("TextButton"),
-	UIPadding_25 = Instance.new("UIPadding"),
-	TextLabel_6 = Instance.new("TextLabel"),
-	PurpleCrate = Instance.new("Frame"),
-	UICorner_26 = Instance.new("UICorner"),
-	Auto_6 = Instance.new("TextLabel"),
-	UIPadding_26 = Instance.new("UIPadding"),
-	Auto_7 = Instance.new("Frame"),
-	UICorner_27 = Instance.new("UICorner"),
-	TextButton_14 = Instance.new("TextButton"),
-	UIPadding_27 = Instance.new("UIPadding"),
-	TextLabel_7 = Instance.new("TextLabel"),
-	RedCrate = Instance.new("Frame"),
-	UICorner_28 = Instance.new("UICorner"),
-	Auto_8 = Instance.new("TextLabel"),
-	UIPadding_28 = Instance.new("UIPadding"),
-	Auto_9 = Instance.new("Frame"),
 	UICorner_29 = Instance.new("UICorner"),
-	TextButton_15 = Instance.new("TextButton"),
+	Auto_7 = Instance.new("TextLabel"),
 	UIPadding_29 = Instance.new("UIPadding"),
-	TextLabel_8 = Instance.new("TextLabel"),
-	TrailCrates_2 = Instance.new("Frame"),
+	Auto_8 = Instance.new("Frame"),
 	UICorner_30 = Instance.new("UICorner"),
-	Auto_10 = Instance.new("TextLabel"),
+	TextButton_15 = Instance.new("TextButton"),
 	UIPadding_30 = Instance.new("UIPadding"),
-	YellowCrate = Instance.new("Frame"),
+	TextLabel_8 = Instance.new("TextLabel"),
+	PurpleCrate = Instance.new("Frame"),
 	UICorner_31 = Instance.new("UICorner"),
-	Auto_11 = Instance.new("TextLabel"),
+	Auto_9 = Instance.new("TextLabel"),
 	UIPadding_31 = Instance.new("UIPadding"),
-	Auto_12 = Instance.new("Frame"),
+	Auto_10 = Instance.new("Frame"),
 	UICorner_32 = Instance.new("UICorner"),
 	TextButton_16 = Instance.new("TextButton"),
 	UIPadding_32 = Instance.new("UIPadding"),
 	TextLabel_9 = Instance.new("TextLabel"),
-	EffectCrates = Instance.new("Folder"),
-	GreenCrate_2 = Instance.new("Frame"),
+	RedCrate = Instance.new("Frame"),
 	UICorner_33 = Instance.new("UICorner"),
-	Auto_13 = Instance.new("TextLabel"),
+	Auto_11 = Instance.new("TextLabel"),
 	UIPadding_33 = Instance.new("UIPadding"),
-	Auto_14 = Instance.new("Frame"),
+	Auto_12 = Instance.new("Frame"),
 	UICorner_34 = Instance.new("UICorner"),
 	TextButton_17 = Instance.new("TextButton"),
 	UIPadding_34 = Instance.new("UIPadding"),
 	TextLabel_10 = Instance.new("TextLabel"),
-	PurpleCrate_2 = Instance.new("Frame"),
+	TrailCrates_2 = Instance.new("Frame"),
 	UICorner_35 = Instance.new("UICorner"),
-	Auto_15 = Instance.new("TextLabel"),
+	Auto_13 = Instance.new("TextLabel"),
 	UIPadding_35 = Instance.new("UIPadding"),
-	Auto_16 = Instance.new("Frame"),
+	YellowCrate = Instance.new("Frame"),
 	UICorner_36 = Instance.new("UICorner"),
-	TextButton_18 = Instance.new("TextButton"),
+	Auto_14 = Instance.new("TextLabel"),
 	UIPadding_36 = Instance.new("UIPadding"),
-	TextLabel_11 = Instance.new("TextLabel"),
-	RedCrate_2 = Instance.new("Frame"),
+	Auto_15 = Instance.new("Frame"),
 	UICorner_37 = Instance.new("UICorner"),
-	Auto_17 = Instance.new("TextLabel"),
+	TextButton_18 = Instance.new("TextButton"),
 	UIPadding_37 = Instance.new("UIPadding"),
-	Auto_18 = Instance.new("Frame"),
+	TextLabel_11 = Instance.new("TextLabel"),
+	EffectCrates = Instance.new("Folder"),
+	GreenCrate_2 = Instance.new("Frame"),
 	UICorner_38 = Instance.new("UICorner"),
-	TextButton_19 = Instance.new("TextButton"),
+	Auto_16 = Instance.new("TextLabel"),
 	UIPadding_38 = Instance.new("UIPadding"),
-	TextLabel_12 = Instance.new("TextLabel"),
-	EffectCrates_2 = Instance.new("Frame"),
+	Auto_17 = Instance.new("Frame"),
 	UICorner_39 = Instance.new("UICorner"),
-	Auto_19 = Instance.new("TextLabel"),
+	TextButton_19 = Instance.new("TextButton"),
 	UIPadding_39 = Instance.new("UIPadding"),
-	YellowCrate_2 = Instance.new("Frame"),
+	TextLabel_12 = Instance.new("TextLabel"),
+	PurpleCrate_2 = Instance.new("Frame"),
 	UICorner_40 = Instance.new("UICorner"),
-	Auto_20 = Instance.new("TextLabel"),
+	Auto_18 = Instance.new("TextLabel"),
 	UIPadding_40 = Instance.new("UIPadding"),
-	Auto_21 = Instance.new("Frame"),
+	Auto_19 = Instance.new("Frame"),
 	UICorner_41 = Instance.new("UICorner"),
 	TextButton_20 = Instance.new("TextButton"),
 	UIPadding_41 = Instance.new("UIPadding"),
 	TextLabel_13 = Instance.new("TextLabel"),
-	EmoteCrates = Instance.new("Folder"),
-	GreenCrate_3 = Instance.new("Frame"),
+	RedCrate_2 = Instance.new("Frame"),
 	UICorner_42 = Instance.new("UICorner"),
-	Auto_22 = Instance.new("TextLabel"),
+	Auto_20 = Instance.new("TextLabel"),
 	UIPadding_42 = Instance.new("UIPadding"),
-	Auto_23 = Instance.new("Frame"),
+	Auto_21 = Instance.new("Frame"),
 	UICorner_43 = Instance.new("UICorner"),
 	TextButton_21 = Instance.new("TextButton"),
 	UIPadding_43 = Instance.new("UIPadding"),
 	TextLabel_14 = Instance.new("TextLabel"),
-	PurpleCrate_3 = Instance.new("Frame"),
+	EffectCrates_2 = Instance.new("Frame"),
 	UICorner_44 = Instance.new("UICorner"),
-	Auto_24 = Instance.new("TextLabel"),
+	Auto_22 = Instance.new("TextLabel"),
 	UIPadding_44 = Instance.new("UIPadding"),
-	Auto_25 = Instance.new("Frame"),
+	YellowCrate_2 = Instance.new("Frame"),
 	UICorner_45 = Instance.new("UICorner"),
-	TextButton_22 = Instance.new("TextButton"),
+	Auto_23 = Instance.new("TextLabel"),
 	UIPadding_45 = Instance.new("UIPadding"),
-	TextLabel_15 = Instance.new("TextLabel"),
-	RedCrate_3 = Instance.new("Frame"),
+	Auto_24 = Instance.new("Frame"),
 	UICorner_46 = Instance.new("UICorner"),
-	Auto_26 = Instance.new("TextLabel"),
+	TextButton_22 = Instance.new("TextButton"),
 	UIPadding_46 = Instance.new("UIPadding"),
-	Auto_27 = Instance.new("Frame"),
+	TextLabel_15 = Instance.new("TextLabel"),
+	EmoteCrates = Instance.new("Folder"),
+	GreenCrate_3 = Instance.new("Frame"),
 	UICorner_47 = Instance.new("UICorner"),
-	TextButton_23 = Instance.new("TextButton"),
+	Auto_25 = Instance.new("TextLabel"),
 	UIPadding_47 = Instance.new("UIPadding"),
-	TextLabel_16 = Instance.new("TextLabel"),
-	EmoteCrates_2 = Instance.new("Frame"),
+	Auto_26 = Instance.new("Frame"),
 	UICorner_48 = Instance.new("UICorner"),
-	Auto_28 = Instance.new("TextLabel"),
+	TextButton_23 = Instance.new("TextButton"),
 	UIPadding_48 = Instance.new("UIPadding"),
-	YellowCrate_3 = Instance.new("Frame"),
+	TextLabel_16 = Instance.new("TextLabel"),
+	PurpleCrate_3 = Instance.new("Frame"),
 	UICorner_49 = Instance.new("UICorner"),
-	Auto_29 = Instance.new("TextLabel"),
+	Auto_27 = Instance.new("TextLabel"),
 	UIPadding_49 = Instance.new("UIPadding"),
-	Auto_30 = Instance.new("Frame"),
+	Auto_28 = Instance.new("Frame"),
 	UICorner_50 = Instance.new("UICorner"),
 	TextButton_24 = Instance.new("TextButton"),
 	UIPadding_50 = Instance.new("UIPadding"),
 	TextLabel_17 = Instance.new("TextLabel"),
-	existing = Instance.new("Frame"),
+	RedCrate_3 = Instance.new("Frame"),
 	UICorner_51 = Instance.new("UICorner"),
+	Auto_29 = Instance.new("TextLabel"),
+	UIPadding_51 = Instance.new("UIPadding"),
+	Auto_30 = Instance.new("Frame"),
+	UICorner_52 = Instance.new("UICorner"),
+	TextButton_25 = Instance.new("TextButton"),
+	UIPadding_52 = Instance.new("UIPadding"),
+	TextLabel_18 = Instance.new("TextLabel"),
+	EmoteCrates_2 = Instance.new("Frame"),
+	UICorner_53 = Instance.new("UICorner"),
+	Auto_31 = Instance.new("TextLabel"),
+	UIPadding_53 = Instance.new("UIPadding"),
+	YellowCrate_3 = Instance.new("Frame"),
+	UICorner_54 = Instance.new("UICorner"),
+	Auto_32 = Instance.new("TextLabel"),
+	UIPadding_54 = Instance.new("UIPadding"),
+	Auto_33 = Instance.new("Frame"),
+	UICorner_55 = Instance.new("UICorner"),
+	TextButton_26 = Instance.new("TextButton"),
+	UIPadding_55 = Instance.new("UIPadding"),
+	TextLabel_19 = Instance.new("TextLabel"),
+	existing = Instance.new("Frame"),
+	UICorner_56 = Instance.new("UICorner"),
 	Frame_4 = Instance.new("Frame"),
 	UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint"),
 	choose = Instance.new("Frame"),
 	script_2 = Instance.new("TextButton"),
-	UIPadding_51 = Instance.new("UIPadding"),
+	UIPadding_56 = Instance.new("UIPadding"),
 	ImageLabel_14 = Instance.new("ImageLabel"),
 	house_2 = Instance.new("TextButton"),
-	UIPadding_52 = Instance.new("UIPadding"),
+	UIPadding_57 = Instance.new("UIPadding"),
 	ImageLabel_15 = Instance.new("ImageLabel"),
-	TextButton_25 = Instance.new("TextButton"),
+	TextButton_27 = Instance.new("TextButton"),
 	ImageLabel_16 = Instance.new("ImageLabel"),
 	UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint"),
 	open = Instance.new("TextButton"),
@@ -1016,6 +1039,171 @@ yd7GuiTowerofMisery.TextLabel_5.Text = "off"
 yd7GuiTowerofMisery.TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_5.TextSize = 14.000
 
+yd7GuiTowerofMisery.game.Name = "game"
+yd7GuiTowerofMisery.game.Parent = yd7GuiTowerofMisery.scriptTab
+
+yd7GuiTowerofMisery.gametext.Name = "game text"
+yd7GuiTowerofMisery.gametext.Parent = yd7GuiTowerofMisery.game
+yd7GuiTowerofMisery.gametext.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.gametext.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.gametext.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.gametext.BorderSizePixel = 0
+yd7GuiTowerofMisery.gametext.Position = UDim2.new(0.00929262582, 0, 0.151411369, 0)
+yd7GuiTowerofMisery.gametext.Size = UDim2.new(0, 623, 0, 34)
+
+yd7GuiTowerofMisery.UICorner_23.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_23.Parent = yd7GuiTowerofMisery.gametext
+
+yd7GuiTowerofMisery.Auto_4.Name = "Auto"
+yd7GuiTowerofMisery.Auto_4.Parent = yd7GuiTowerofMisery.gametext
+yd7GuiTowerofMisery.Auto_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_4.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_4.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_4.Position = UDim2.new(0.347625494, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_4.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_4.Font = Enum.Font.FredokaOne
+yd7GuiTowerofMisery.Auto_4.Text = "Game"
+yd7GuiTowerofMisery.Auto_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_4.TextSize = 36.000
+
+yd7GuiTowerofMisery.UIPadding_17.Parent = yd7GuiTowerofMisery.Auto_4
+yd7GuiTowerofMisery.UIPadding_17.PaddingLeft = UDim.new(0, 3)
+
+yd7GuiTowerofMisery.Brick_Dropper.Name = "Brick_Dropper"
+yd7GuiTowerofMisery.Brick_Dropper.Parent = yd7GuiTowerofMisery.game
+yd7GuiTowerofMisery.Brick_Dropper.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.Brick_Dropper.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.Brick_Dropper.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Brick_Dropper.BorderSizePixel = 0
+yd7GuiTowerofMisery.Brick_Dropper.Position = UDim2.new(0.0155135607, 0, 0.211509719, 0)
+yd7GuiTowerofMisery.Brick_Dropper.Size = UDim2.new(0, 191, 0, 34)
+
+yd7GuiTowerofMisery.UICorner_24.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_24.Parent = yd7GuiTowerofMisery.Brick_Dropper
+
+yd7GuiTowerofMisery.Auto_5.Name = "Auto"
+yd7GuiTowerofMisery.Auto_5.Parent = yd7GuiTowerofMisery.Brick_Dropper
+yd7GuiTowerofMisery.Auto_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_5.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_5.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_5.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_5.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_5.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_5.Text = "Brick Dropper"
+yd7GuiTowerofMisery.Auto_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_5.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_5.TextXAlignment = Enum.TextXAlignment.Left
+
+yd7GuiTowerofMisery.UIPadding_18.Parent = yd7GuiTowerofMisery.Auto_5
+yd7GuiTowerofMisery.UIPadding_18.PaddingLeft = UDim.new(0, 3)
+
+yd7GuiTowerofMisery.Brick_Dropper_2.Name = "Brick_Dropper"
+yd7GuiTowerofMisery.Brick_Dropper_2.Parent = yd7GuiTowerofMisery.Brick_Dropper
+yd7GuiTowerofMisery.Brick_Dropper_2.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Brick_Dropper_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Brick_Dropper_2.BorderSizePixel = 0
+yd7GuiTowerofMisery.Brick_Dropper_2.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Brick_Dropper_2.Size = UDim2.new(0, 47, 0, 19)
+
+yd7GuiTowerofMisery.UICorner_25.CornerRadius = UDim.new(0, 5)
+yd7GuiTowerofMisery.UICorner_25.Parent = yd7GuiTowerofMisery.Brick_Dropper_2
+
+yd7GuiTowerofMisery.TextButton_12.Parent = yd7GuiTowerofMisery.Brick_Dropper_2
+yd7GuiTowerofMisery.TextButton_12.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.TextButton_12.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_12.BorderSizePixel = 0
+yd7GuiTowerofMisery.TextButton_12.Position = UDim2.new(-0.0156327914, 0, -0.00452623889, 0)
+yd7GuiTowerofMisery.TextButton_12.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.TextButton_12.ZIndex = 100
+yd7GuiTowerofMisery.TextButton_12.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.TextButton_12.Text = ""
+yd7GuiTowerofMisery.TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_12.TextSize = 14.000
+
+yd7GuiTowerofMisery.UIPadding_19.Parent = yd7GuiTowerofMisery.TextButton_12
+
+yd7GuiTowerofMisery.TextLabel_6.Parent = yd7GuiTowerofMisery.Brick_Dropper_2
+yd7GuiTowerofMisery.TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.TextLabel_6.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextLabel_6.BorderSizePixel = 0
+yd7GuiTowerofMisery.TextLabel_6.Position = UDim2.new(-0.0160041973, 0, -0.00500006415, 0)
+yd7GuiTowerofMisery.TextLabel_6.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.TextLabel_6.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.TextLabel_6.Text = "off"
+yd7GuiTowerofMisery.TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextLabel_6.TextSize = 14.000
+
+yd7GuiTowerofMisery.GodeModeTrack.Name = "Gode Mode Track"
+yd7GuiTowerofMisery.GodeModeTrack.Parent = yd7GuiTowerofMisery.game
+yd7GuiTowerofMisery.GodeModeTrack.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.GodeModeTrack.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.GodeModeTrack.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.GodeModeTrack.BorderSizePixel = 0
+yd7GuiTowerofMisery.GodeModeTrack.Position = UDim2.new(0.335886806, 0, 0.211376116, 0)
+yd7GuiTowerofMisery.GodeModeTrack.Size = UDim2.new(0, 191, 0, 34)
+
+yd7GuiTowerofMisery.UICorner_26.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_26.Parent = yd7GuiTowerofMisery.GodeModeTrack
+
+yd7GuiTowerofMisery.Auto_6.Name = "Auto"
+yd7GuiTowerofMisery.Auto_6.Parent = yd7GuiTowerofMisery.GodeModeTrack
+yd7GuiTowerofMisery.Auto_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_6.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_6.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_6.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_6.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_6.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_6.Text = "Gode Track"
+yd7GuiTowerofMisery.Auto_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_6.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_6.TextXAlignment = Enum.TextXAlignment.Left
+
+yd7GuiTowerofMisery.UIPadding_20.Parent = yd7GuiTowerofMisery.Auto_6
+yd7GuiTowerofMisery.UIPadding_20.PaddingLeft = UDim.new(0, 3)
+
+yd7GuiTowerofMisery.GodeModeTrack_2.Name = "Gode Mode Track"
+yd7GuiTowerofMisery.GodeModeTrack_2.Parent = yd7GuiTowerofMisery.GodeModeTrack
+yd7GuiTowerofMisery.GodeModeTrack_2.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.GodeModeTrack_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.GodeModeTrack_2.BorderSizePixel = 0
+yd7GuiTowerofMisery.GodeModeTrack_2.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.GodeModeTrack_2.Size = UDim2.new(0, 47, 0, 19)
+
+yd7GuiTowerofMisery.UICorner_27.CornerRadius = UDim.new(0, 5)
+yd7GuiTowerofMisery.UICorner_27.Parent = yd7GuiTowerofMisery.GodeModeTrack_2
+
+yd7GuiTowerofMisery.TextButton_13.Parent = yd7GuiTowerofMisery.GodeModeTrack_2
+yd7GuiTowerofMisery.TextButton_13.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.TextButton_13.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_13.BorderSizePixel = 0
+yd7GuiTowerofMisery.TextButton_13.Position = UDim2.new(-0.0156327914, 0, -0.00452623889, 0)
+yd7GuiTowerofMisery.TextButton_13.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.TextButton_13.ZIndex = 100
+yd7GuiTowerofMisery.TextButton_13.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.TextButton_13.Text = ""
+yd7GuiTowerofMisery.TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_13.TextSize = 14.000
+
+yd7GuiTowerofMisery.UIPadding_21.Parent = yd7GuiTowerofMisery.TextButton_13
+
+yd7GuiTowerofMisery.TextLabel_7.Parent = yd7GuiTowerofMisery.GodeModeTrack_2
+yd7GuiTowerofMisery.TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.TextLabel_7.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextLabel_7.BorderSizePixel = 0
+yd7GuiTowerofMisery.TextLabel_7.Position = UDim2.new(-0.0160041973, 0, -0.00500006415, 0)
+yd7GuiTowerofMisery.TextLabel_7.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.TextLabel_7.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.TextLabel_7.Text = "off"
+yd7GuiTowerofMisery.TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextLabel_7.TextSize = 14.000
+
 yd7GuiTowerofMisery.house.Name = "house"
 yd7GuiTowerofMisery.house.Parent = yd7GuiTowerofMisery.scripts
 yd7GuiTowerofMisery.house.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
@@ -1032,10 +1220,10 @@ yd7GuiTowerofMisery.house.TextSize = 18.000
 yd7GuiTowerofMisery.house.TextXAlignment = Enum.TextXAlignment.Right
 yd7GuiTowerofMisery.house.TextYAlignment = Enum.TextYAlignment.Bottom
 
-yd7GuiTowerofMisery.UIPadding_17.Parent = yd7GuiTowerofMisery.house
-yd7GuiTowerofMisery.UIPadding_17.PaddingBottom = UDim.new(0, 1)
-yd7GuiTowerofMisery.UIPadding_17.PaddingLeft = UDim.new(0, 36)
-yd7GuiTowerofMisery.UIPadding_17.PaddingRight = UDim.new(0, 3)
+yd7GuiTowerofMisery.UIPadding_22.Parent = yd7GuiTowerofMisery.house
+yd7GuiTowerofMisery.UIPadding_22.PaddingBottom = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_22.PaddingLeft = UDim.new(0, 36)
+yd7GuiTowerofMisery.UIPadding_22.PaddingRight = UDim.new(0, 3)
 
 yd7GuiTowerofMisery.ImageLabel_9.Parent = yd7GuiTowerofMisery.house
 yd7GuiTowerofMisery.ImageLabel_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1062,10 +1250,10 @@ yd7GuiTowerofMisery.script.TextSize = 18.000
 yd7GuiTowerofMisery.script.TextXAlignment = Enum.TextXAlignment.Right
 yd7GuiTowerofMisery.script.TextYAlignment = Enum.TextYAlignment.Bottom
 
-yd7GuiTowerofMisery.UIPadding_18.Parent = yd7GuiTowerofMisery.script
-yd7GuiTowerofMisery.UIPadding_18.PaddingBottom = UDim.new(0, 1)
-yd7GuiTowerofMisery.UIPadding_18.PaddingLeft = UDim.new(0, 36)
-yd7GuiTowerofMisery.UIPadding_18.PaddingRight = UDim.new(0, 3)
+yd7GuiTowerofMisery.UIPadding_23.Parent = yd7GuiTowerofMisery.script
+yd7GuiTowerofMisery.UIPadding_23.PaddingBottom = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_23.PaddingLeft = UDim.new(0, 36)
+yd7GuiTowerofMisery.UIPadding_23.PaddingRight = UDim.new(0, 3)
 
 yd7GuiTowerofMisery.ImageLabel_10.Parent = yd7GuiTowerofMisery.script
 yd7GuiTowerofMisery.ImageLabel_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1096,8 +1284,8 @@ yd7GuiTowerofMisery.killscript.BorderSizePixel = 0
 yd7GuiTowerofMisery.killscript.Position = UDim2.new(0.0109999999, 0, 0.0209999997, 0)
 yd7GuiTowerofMisery.killscript.Size = UDim2.new(0, 191, 0, 34)
 
-yd7GuiTowerofMisery.UICorner_23.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_23.Parent = yd7GuiTowerofMisery.killscript
+yd7GuiTowerofMisery.UICorner_28.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_28.Parent = yd7GuiTowerofMisery.killscript
 
 yd7GuiTowerofMisery.ImageLabel_11.Parent = yd7GuiTowerofMisery.killscript
 yd7GuiTowerofMisery.ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1108,27 +1296,27 @@ yd7GuiTowerofMisery.ImageLabel_11.Position = UDim2.new(0.821989655, 0, 0.0882352
 yd7GuiTowerofMisery.ImageLabel_11.Size = UDim2.new(0, 27, 0, 26)
 yd7GuiTowerofMisery.ImageLabel_11.Image = "rbxassetid://14216908564"
 
-yd7GuiTowerofMisery.TextButton_12.Parent = yd7GuiTowerofMisery.killscript
-yd7GuiTowerofMisery.TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.TextButton_12.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextButton_12.BorderSizePixel = 0
-yd7GuiTowerofMisery.TextButton_12.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
-yd7GuiTowerofMisery.TextButton_12.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.TextButton_12.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.TextButton_12.Text = "kill script"
-yd7GuiTowerofMisery.TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.TextButton_12.TextSize = 18.000
-yd7GuiTowerofMisery.TextButton_12.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.TextButton_14.Parent = yd7GuiTowerofMisery.killscript
+yd7GuiTowerofMisery.TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.TextButton_14.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_14.BorderSizePixel = 0
+yd7GuiTowerofMisery.TextButton_14.Position = UDim2.new(0.0309999995, 0, 0.206, 0)
+yd7GuiTowerofMisery.TextButton_14.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.TextButton_14.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.TextButton_14.Text = "kill script"
+yd7GuiTowerofMisery.TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.TextButton_14.TextSize = 18.000
+yd7GuiTowerofMisery.TextButton_14.TextXAlignment = Enum.TextXAlignment.Left
 
-yd7GuiTowerofMisery.UIPadding_19.Parent = yd7GuiTowerofMisery.TextButton_12
-yd7GuiTowerofMisery.UIPadding_19.PaddingLeft = UDim.new(0, 3)
+yd7GuiTowerofMisery.UIPadding_24.Parent = yd7GuiTowerofMisery.TextButton_14
+yd7GuiTowerofMisery.UIPadding_24.PaddingLeft = UDim.new(0, 3)
 
-yd7GuiTowerofMisery.UIPadding_20.Parent = yd7GuiTowerofMisery.settingsTab
-yd7GuiTowerofMisery.UIPadding_20.PaddingBottom = UDim.new(0, 1)
-yd7GuiTowerofMisery.UIPadding_20.PaddingLeft = UDim.new(0, 1)
-yd7GuiTowerofMisery.UIPadding_20.PaddingRight = UDim.new(0, 1)
-yd7GuiTowerofMisery.UIPadding_20.PaddingTop = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_25.Parent = yd7GuiTowerofMisery.settingsTab
+yd7GuiTowerofMisery.UIPadding_25.PaddingBottom = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_25.PaddingLeft = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_25.PaddingRight = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_25.PaddingTop = UDim.new(0, 1)
 
 yd7GuiTowerofMisery.Crates.Name = "Crates"
 yd7GuiTowerofMisery.Crates.Parent = yd7GuiTowerofMisery.scripts
@@ -1146,9 +1334,9 @@ yd7GuiTowerofMisery.Crates.TextSize = 18.000
 yd7GuiTowerofMisery.Crates.TextXAlignment = Enum.TextXAlignment.Left
 yd7GuiTowerofMisery.Crates.TextYAlignment = Enum.TextYAlignment.Bottom
 
-yd7GuiTowerofMisery.UIPadding_21.Parent = yd7GuiTowerofMisery.Crates
-yd7GuiTowerofMisery.UIPadding_21.PaddingLeft = UDim.new(0, 36)
-yd7GuiTowerofMisery.UIPadding_21.PaddingTop = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_26.Parent = yd7GuiTowerofMisery.Crates
+yd7GuiTowerofMisery.UIPadding_26.PaddingLeft = UDim.new(0, 36)
+yd7GuiTowerofMisery.UIPadding_26.PaddingTop = UDim.new(0, 1)
 
 yd7GuiTowerofMisery.ImageLabel_12.Parent = yd7GuiTowerofMisery.Crates
 yd7GuiTowerofMisery.ImageLabel_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1175,9 +1363,9 @@ yd7GuiTowerofMisery.settings.TextSize = 18.000
 yd7GuiTowerofMisery.settings.TextXAlignment = Enum.TextXAlignment.Left
 yd7GuiTowerofMisery.settings.TextYAlignment = Enum.TextYAlignment.Bottom
 
-yd7GuiTowerofMisery.UIPadding_22.Parent = yd7GuiTowerofMisery.settings
-yd7GuiTowerofMisery.UIPadding_22.PaddingLeft = UDim.new(0, 36)
-yd7GuiTowerofMisery.UIPadding_22.PaddingTop = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_27.Parent = yd7GuiTowerofMisery.settings
+yd7GuiTowerofMisery.UIPadding_27.PaddingLeft = UDim.new(0, 36)
+yd7GuiTowerofMisery.UIPadding_27.PaddingTop = UDim.new(0, 1)
 
 yd7GuiTowerofMisery.ImageLabel_13.Parent = yd7GuiTowerofMisery.settings
 yd7GuiTowerofMisery.ImageLabel_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1199,11 +1387,11 @@ yd7GuiTowerofMisery.CratesTab.Size = UDim2.new(0, 645, 0, 375)
 yd7GuiTowerofMisery.CratesTab.Visible = false
 yd7GuiTowerofMisery.CratesTab.ScrollBarThickness = 8
 
-yd7GuiTowerofMisery.UIPadding_23.Parent = yd7GuiTowerofMisery.CratesTab
-yd7GuiTowerofMisery.UIPadding_23.PaddingBottom = UDim.new(0, 1)
-yd7GuiTowerofMisery.UIPadding_23.PaddingLeft = UDim.new(0, 1)
-yd7GuiTowerofMisery.UIPadding_23.PaddingRight = UDim.new(0, 1)
-yd7GuiTowerofMisery.UIPadding_23.PaddingTop = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_28.Parent = yd7GuiTowerofMisery.CratesTab
+yd7GuiTowerofMisery.UIPadding_28.PaddingBottom = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_28.PaddingLeft = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_28.PaddingRight = UDim.new(0, 1)
+yd7GuiTowerofMisery.UIPadding_28.PaddingTop = UDim.new(0, 1)
 
 yd7GuiTowerofMisery.TrailCrates.Name = "Trail Crates"
 yd7GuiTowerofMisery.TrailCrates.Parent = yd7GuiTowerofMisery.CratesTab
@@ -1217,172 +1405,38 @@ yd7GuiTowerofMisery.GreenCrate.BorderSizePixel = 0
 yd7GuiTowerofMisery.GreenCrate.Position = UDim2.new(0.316068411, 0, 0.152343184, 0)
 yd7GuiTowerofMisery.GreenCrate.Size = UDim2.new(0, 191, 0, 34)
 
-yd7GuiTowerofMisery.UICorner_24.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_24.Parent = yd7GuiTowerofMisery.GreenCrate
-
-yd7GuiTowerofMisery.Auto_4.Name = "Auto"
-yd7GuiTowerofMisery.Auto_4.Parent = yd7GuiTowerofMisery.GreenCrate
-yd7GuiTowerofMisery.Auto_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_4.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_4.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_4.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_4.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_4.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_4.Text = "Green Crate"
-yd7GuiTowerofMisery.Auto_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_4.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_4.TextXAlignment = Enum.TextXAlignment.Left
-
-yd7GuiTowerofMisery.UIPadding_24.Parent = yd7GuiTowerofMisery.Auto_4
-yd7GuiTowerofMisery.UIPadding_24.PaddingLeft = UDim.new(0, 3)
-
-yd7GuiTowerofMisery.Auto_5.Name = "Auto"
-yd7GuiTowerofMisery.Auto_5.Parent = yd7GuiTowerofMisery.GreenCrate
-yd7GuiTowerofMisery.Auto_5.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_5.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_5.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_5.Size = UDim2.new(0, 47, 0, 19)
-
-yd7GuiTowerofMisery.UICorner_25.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_25.Parent = yd7GuiTowerofMisery.Auto_5
-
-yd7GuiTowerofMisery.TextButton_13.Parent = yd7GuiTowerofMisery.Auto_5
-yd7GuiTowerofMisery.TextButton_13.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.TextButton_13.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextButton_13.BorderSizePixel = 0
-yd7GuiTowerofMisery.TextButton_13.Position = UDim2.new(-0.0156327914, 0, -0.00452623889, 0)
-yd7GuiTowerofMisery.TextButton_13.Size = UDim2.new(0, 47, 0, 19)
-yd7GuiTowerofMisery.TextButton_13.ZIndex = 100
-yd7GuiTowerofMisery.TextButton_13.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.TextButton_13.Text = ""
-yd7GuiTowerofMisery.TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextButton_13.TextSize = 14.000
-
-yd7GuiTowerofMisery.UIPadding_25.Parent = yd7GuiTowerofMisery.TextButton_13
-
-yd7GuiTowerofMisery.TextLabel_6.Parent = yd7GuiTowerofMisery.Auto_5
-yd7GuiTowerofMisery.TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.TextLabel_6.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextLabel_6.BorderSizePixel = 0
-yd7GuiTowerofMisery.TextLabel_6.Position = UDim2.new(-0.0160041973, 0, -0.00500006415, 0)
-yd7GuiTowerofMisery.TextLabel_6.Size = UDim2.new(0, 47, 0, 19)
-yd7GuiTowerofMisery.TextLabel_6.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.TextLabel_6.Text = "off"
-yd7GuiTowerofMisery.TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextLabel_6.TextSize = 14.000
-
-yd7GuiTowerofMisery.PurpleCrate.Name = "Purple Crate"
-yd7GuiTowerofMisery.PurpleCrate.Parent = yd7GuiTowerofMisery.TrailCrates
-yd7GuiTowerofMisery.PurpleCrate.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.PurpleCrate.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.PurpleCrate.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.PurpleCrate.BorderSizePixel = 0
-yd7GuiTowerofMisery.PurpleCrate.Position = UDim2.new(0.317000002, 0, 0.0879999995, 0)
-yd7GuiTowerofMisery.PurpleCrate.Size = UDim2.new(0, 191, 0, 34)
-
-yd7GuiTowerofMisery.UICorner_26.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_26.Parent = yd7GuiTowerofMisery.PurpleCrate
-
-yd7GuiTowerofMisery.Auto_6.Name = "Auto"
-yd7GuiTowerofMisery.Auto_6.Parent = yd7GuiTowerofMisery.PurpleCrate
-yd7GuiTowerofMisery.Auto_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_6.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_6.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_6.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_6.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_6.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_6.Text = "Purple Crate"
-yd7GuiTowerofMisery.Auto_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_6.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_6.TextXAlignment = Enum.TextXAlignment.Left
-
-yd7GuiTowerofMisery.UIPadding_26.Parent = yd7GuiTowerofMisery.Auto_6
-yd7GuiTowerofMisery.UIPadding_26.PaddingLeft = UDim.new(0, 3)
+yd7GuiTowerofMisery.UICorner_29.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_29.Parent = yd7GuiTowerofMisery.GreenCrate
 
 yd7GuiTowerofMisery.Auto_7.Name = "Auto"
-yd7GuiTowerofMisery.Auto_7.Parent = yd7GuiTowerofMisery.PurpleCrate
-yd7GuiTowerofMisery.Auto_7.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Auto_7.Parent = yd7GuiTowerofMisery.GreenCrate
+yd7GuiTowerofMisery.Auto_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_7.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.Auto_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.Auto_7.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_7.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_7.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.Auto_7.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_7.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_7.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_7.Text = "Green Crate"
+yd7GuiTowerofMisery.Auto_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_7.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_7.TextXAlignment = Enum.TextXAlignment.Left
 
-yd7GuiTowerofMisery.UICorner_27.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_27.Parent = yd7GuiTowerofMisery.Auto_7
-
-yd7GuiTowerofMisery.TextButton_14.Parent = yd7GuiTowerofMisery.Auto_7
-yd7GuiTowerofMisery.TextButton_14.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.TextButton_14.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextButton_14.BorderSizePixel = 0
-yd7GuiTowerofMisery.TextButton_14.Position = UDim2.new(-0.0156327914, 0, -0.00452623889, 0)
-yd7GuiTowerofMisery.TextButton_14.Size = UDim2.new(0, 47, 0, 19)
-yd7GuiTowerofMisery.TextButton_14.ZIndex = 100
-yd7GuiTowerofMisery.TextButton_14.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.TextButton_14.Text = ""
-yd7GuiTowerofMisery.TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextButton_14.TextSize = 14.000
-
-yd7GuiTowerofMisery.UIPadding_27.Parent = yd7GuiTowerofMisery.TextButton_14
-
-yd7GuiTowerofMisery.TextLabel_7.Parent = yd7GuiTowerofMisery.Auto_7
-yd7GuiTowerofMisery.TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.TextLabel_7.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextLabel_7.BorderSizePixel = 0
-yd7GuiTowerofMisery.TextLabel_7.Position = UDim2.new(-0.0160041973, 0, -0.00500006415, 0)
-yd7GuiTowerofMisery.TextLabel_7.Size = UDim2.new(0, 47, 0, 19)
-yd7GuiTowerofMisery.TextLabel_7.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.TextLabel_7.Text = "off"
-yd7GuiTowerofMisery.TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextLabel_7.TextSize = 14.000
-
-yd7GuiTowerofMisery.RedCrate.Name = "Red Crate"
-yd7GuiTowerofMisery.RedCrate.Parent = yd7GuiTowerofMisery.TrailCrates
-yd7GuiTowerofMisery.RedCrate.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.RedCrate.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.RedCrate.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.RedCrate.BorderSizePixel = 0
-yd7GuiTowerofMisery.RedCrate.Position = UDim2.new(0.00929272082, 0, 0.0882853866, 0)
-yd7GuiTowerofMisery.RedCrate.Size = UDim2.new(0, 191, 0, 34)
-
-yd7GuiTowerofMisery.UICorner_28.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_28.Parent = yd7GuiTowerofMisery.RedCrate
+yd7GuiTowerofMisery.UIPadding_29.Parent = yd7GuiTowerofMisery.Auto_7
+yd7GuiTowerofMisery.UIPadding_29.PaddingLeft = UDim.new(0, 3)
 
 yd7GuiTowerofMisery.Auto_8.Name = "Auto"
-yd7GuiTowerofMisery.Auto_8.Parent = yd7GuiTowerofMisery.RedCrate
-yd7GuiTowerofMisery.Auto_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_8.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_8.Parent = yd7GuiTowerofMisery.GreenCrate
+yd7GuiTowerofMisery.Auto_8.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.Auto_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.Auto_8.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_8.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_8.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_8.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_8.Text = "Red Crate"
-yd7GuiTowerofMisery.Auto_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_8.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_8.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.Auto_8.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_8.Size = UDim2.new(0, 47, 0, 19)
 
-yd7GuiTowerofMisery.UIPadding_28.Parent = yd7GuiTowerofMisery.Auto_8
-yd7GuiTowerofMisery.UIPadding_28.PaddingLeft = UDim.new(0, 3)
+yd7GuiTowerofMisery.UICorner_30.CornerRadius = UDim.new(0, 5)
+yd7GuiTowerofMisery.UICorner_30.Parent = yd7GuiTowerofMisery.Auto_8
 
-yd7GuiTowerofMisery.Auto_9.Name = "Auto"
-yd7GuiTowerofMisery.Auto_9.Parent = yd7GuiTowerofMisery.RedCrate
-yd7GuiTowerofMisery.Auto_9.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_9.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_9.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_9.Size = UDim2.new(0, 47, 0, 19)
-
-yd7GuiTowerofMisery.UICorner_29.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_29.Parent = yd7GuiTowerofMisery.Auto_9
-
-yd7GuiTowerofMisery.TextButton_15.Parent = yd7GuiTowerofMisery.Auto_9
+yd7GuiTowerofMisery.TextButton_15.Parent = yd7GuiTowerofMisery.Auto_8
 yd7GuiTowerofMisery.TextButton_15.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.TextButton_15.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1395,9 +1449,9 @@ yd7GuiTowerofMisery.TextButton_15.Text = ""
 yd7GuiTowerofMisery.TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextButton_15.TextSize = 14.000
 
-yd7GuiTowerofMisery.UIPadding_29.Parent = yd7GuiTowerofMisery.TextButton_15
+yd7GuiTowerofMisery.UIPadding_30.Parent = yd7GuiTowerofMisery.TextButton_15
 
-yd7GuiTowerofMisery.TextLabel_8.Parent = yd7GuiTowerofMisery.Auto_9
+yd7GuiTowerofMisery.TextLabel_8.Parent = yd7GuiTowerofMisery.Auto_8
 yd7GuiTowerofMisery.TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yd7GuiTowerofMisery.TextLabel_8.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1409,76 +1463,47 @@ yd7GuiTowerofMisery.TextLabel_8.Text = "off"
 yd7GuiTowerofMisery.TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_8.TextSize = 14.000
 
-yd7GuiTowerofMisery.TrailCrates_2.Name = "Trail Crates"
-yd7GuiTowerofMisery.TrailCrates_2.Parent = yd7GuiTowerofMisery.TrailCrates
-yd7GuiTowerofMisery.TrailCrates_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.TrailCrates_2.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.TrailCrates_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TrailCrates_2.BorderSizePixel = 0
-yd7GuiTowerofMisery.TrailCrates_2.Position = UDim2.new(0.00929262582, 0, 0.0207517892, 0)
-yd7GuiTowerofMisery.TrailCrates_2.Size = UDim2.new(0, 623, 0, 34)
-
-yd7GuiTowerofMisery.UICorner_30.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_30.Parent = yd7GuiTowerofMisery.TrailCrates_2
-
-yd7GuiTowerofMisery.Auto_10.Name = "Auto"
-yd7GuiTowerofMisery.Auto_10.Parent = yd7GuiTowerofMisery.TrailCrates_2
-yd7GuiTowerofMisery.Auto_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_10.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_10.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_10.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_10.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_10.Font = Enum.Font.FredokaOne
-yd7GuiTowerofMisery.Auto_10.Text = "Trail Crates"
-yd7GuiTowerofMisery.Auto_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_10.TextSize = 36.000
-yd7GuiTowerofMisery.Auto_10.TextXAlignment = Enum.TextXAlignment.Left
-
-yd7GuiTowerofMisery.UIPadding_30.Parent = yd7GuiTowerofMisery.Auto_10
-yd7GuiTowerofMisery.UIPadding_30.PaddingLeft = UDim.new(0, 3)
-
-yd7GuiTowerofMisery.YellowCrate.Name = "Yellow Crate"
-yd7GuiTowerofMisery.YellowCrate.Parent = yd7GuiTowerofMisery.TrailCrates
-yd7GuiTowerofMisery.YellowCrate.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.YellowCrate.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.YellowCrate.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.YellowCrate.BorderSizePixel = 0
-yd7GuiTowerofMisery.YellowCrate.Position = UDim2.new(0.624000013, 0, 0.0879999995, 0)
-yd7GuiTowerofMisery.YellowCrate.Size = UDim2.new(0, 191, 0, 34)
+yd7GuiTowerofMisery.PurpleCrate.Name = "Purple Crate"
+yd7GuiTowerofMisery.PurpleCrate.Parent = yd7GuiTowerofMisery.TrailCrates
+yd7GuiTowerofMisery.PurpleCrate.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.PurpleCrate.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.PurpleCrate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.PurpleCrate.BorderSizePixel = 0
+yd7GuiTowerofMisery.PurpleCrate.Position = UDim2.new(0.317000002, 0, 0.0879999995, 0)
+yd7GuiTowerofMisery.PurpleCrate.Size = UDim2.new(0, 191, 0, 34)
 
 yd7GuiTowerofMisery.UICorner_31.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_31.Parent = yd7GuiTowerofMisery.YellowCrate
+yd7GuiTowerofMisery.UICorner_31.Parent = yd7GuiTowerofMisery.PurpleCrate
 
-yd7GuiTowerofMisery.Auto_11.Name = "Auto"
-yd7GuiTowerofMisery.Auto_11.Parent = yd7GuiTowerofMisery.YellowCrate
-yd7GuiTowerofMisery.Auto_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_11.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_11.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_11.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_11.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_11.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_11.Text = "Yellow Crate"
-yd7GuiTowerofMisery.Auto_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_11.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_11.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.Auto_9.Name = "Auto"
+yd7GuiTowerofMisery.Auto_9.Parent = yd7GuiTowerofMisery.PurpleCrate
+yd7GuiTowerofMisery.Auto_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_9.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_9.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_9.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_9.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_9.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_9.Text = "Purple Crate"
+yd7GuiTowerofMisery.Auto_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_9.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_9.TextXAlignment = Enum.TextXAlignment.Left
 
-yd7GuiTowerofMisery.UIPadding_31.Parent = yd7GuiTowerofMisery.Auto_11
+yd7GuiTowerofMisery.UIPadding_31.Parent = yd7GuiTowerofMisery.Auto_9
 yd7GuiTowerofMisery.UIPadding_31.PaddingLeft = UDim.new(0, 3)
 
-yd7GuiTowerofMisery.Auto_12.Name = "Auto"
-yd7GuiTowerofMisery.Auto_12.Parent = yd7GuiTowerofMisery.YellowCrate
-yd7GuiTowerofMisery.Auto_12.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_12.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_12.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_12.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.Auto_10.Name = "Auto"
+yd7GuiTowerofMisery.Auto_10.Parent = yd7GuiTowerofMisery.PurpleCrate
+yd7GuiTowerofMisery.Auto_10.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Auto_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_10.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_10.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_10.Size = UDim2.new(0, 47, 0, 19)
 
 yd7GuiTowerofMisery.UICorner_32.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_32.Parent = yd7GuiTowerofMisery.Auto_12
+yd7GuiTowerofMisery.UICorner_32.Parent = yd7GuiTowerofMisery.Auto_10
 
-yd7GuiTowerofMisery.TextButton_16.Parent = yd7GuiTowerofMisery.Auto_12
+yd7GuiTowerofMisery.TextButton_16.Parent = yd7GuiTowerofMisery.Auto_10
 yd7GuiTowerofMisery.TextButton_16.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.TextButton_16.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1493,7 +1518,7 @@ yd7GuiTowerofMisery.TextButton_16.TextSize = 14.000
 
 yd7GuiTowerofMisery.UIPadding_32.Parent = yd7GuiTowerofMisery.TextButton_16
 
-yd7GuiTowerofMisery.TextLabel_9.Parent = yd7GuiTowerofMisery.Auto_12
+yd7GuiTowerofMisery.TextLabel_9.Parent = yd7GuiTowerofMisery.Auto_10
 yd7GuiTowerofMisery.TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yd7GuiTowerofMisery.TextLabel_9.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1505,50 +1530,47 @@ yd7GuiTowerofMisery.TextLabel_9.Text = "off"
 yd7GuiTowerofMisery.TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_9.TextSize = 14.000
 
-yd7GuiTowerofMisery.EffectCrates.Name = "Effect Crates"
-yd7GuiTowerofMisery.EffectCrates.Parent = yd7GuiTowerofMisery.CratesTab
-
-yd7GuiTowerofMisery.GreenCrate_2.Name = "Green Crate"
-yd7GuiTowerofMisery.GreenCrate_2.Parent = yd7GuiTowerofMisery.EffectCrates
-yd7GuiTowerofMisery.GreenCrate_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.GreenCrate_2.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.GreenCrate_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.GreenCrate_2.BorderSizePixel = 0
-yd7GuiTowerofMisery.GreenCrate_2.Position = UDim2.new(0.317999989, 0, 0.352999985, 0)
-yd7GuiTowerofMisery.GreenCrate_2.Size = UDim2.new(0, 191, 0, 34)
+yd7GuiTowerofMisery.RedCrate.Name = "Red Crate"
+yd7GuiTowerofMisery.RedCrate.Parent = yd7GuiTowerofMisery.TrailCrates
+yd7GuiTowerofMisery.RedCrate.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.RedCrate.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.RedCrate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.RedCrate.BorderSizePixel = 0
+yd7GuiTowerofMisery.RedCrate.Position = UDim2.new(0.00929272082, 0, 0.0882853866, 0)
+yd7GuiTowerofMisery.RedCrate.Size = UDim2.new(0, 191, 0, 34)
 
 yd7GuiTowerofMisery.UICorner_33.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_33.Parent = yd7GuiTowerofMisery.GreenCrate_2
+yd7GuiTowerofMisery.UICorner_33.Parent = yd7GuiTowerofMisery.RedCrate
 
-yd7GuiTowerofMisery.Auto_13.Name = "Auto"
-yd7GuiTowerofMisery.Auto_13.Parent = yd7GuiTowerofMisery.GreenCrate_2
-yd7GuiTowerofMisery.Auto_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_13.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_13.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_13.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_13.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_13.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_13.Text = "Green Crate"
-yd7GuiTowerofMisery.Auto_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_13.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_13.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.Auto_11.Name = "Auto"
+yd7GuiTowerofMisery.Auto_11.Parent = yd7GuiTowerofMisery.RedCrate
+yd7GuiTowerofMisery.Auto_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_11.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_11.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_11.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_11.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_11.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_11.Text = "Red Crate"
+yd7GuiTowerofMisery.Auto_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_11.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_11.TextXAlignment = Enum.TextXAlignment.Left
 
-yd7GuiTowerofMisery.UIPadding_33.Parent = yd7GuiTowerofMisery.Auto_13
+yd7GuiTowerofMisery.UIPadding_33.Parent = yd7GuiTowerofMisery.Auto_11
 yd7GuiTowerofMisery.UIPadding_33.PaddingLeft = UDim.new(0, 3)
 
-yd7GuiTowerofMisery.Auto_14.Name = "Auto"
-yd7GuiTowerofMisery.Auto_14.Parent = yd7GuiTowerofMisery.GreenCrate_2
-yd7GuiTowerofMisery.Auto_14.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_14.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_14.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_14.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.Auto_12.Name = "Auto"
+yd7GuiTowerofMisery.Auto_12.Parent = yd7GuiTowerofMisery.RedCrate
+yd7GuiTowerofMisery.Auto_12.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Auto_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_12.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_12.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_12.Size = UDim2.new(0, 47, 0, 19)
 
 yd7GuiTowerofMisery.UICorner_34.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_34.Parent = yd7GuiTowerofMisery.Auto_14
+yd7GuiTowerofMisery.UICorner_34.Parent = yd7GuiTowerofMisery.Auto_12
 
-yd7GuiTowerofMisery.TextButton_17.Parent = yd7GuiTowerofMisery.Auto_14
+yd7GuiTowerofMisery.TextButton_17.Parent = yd7GuiTowerofMisery.Auto_12
 yd7GuiTowerofMisery.TextButton_17.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.TextButton_17.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1563,7 +1585,7 @@ yd7GuiTowerofMisery.TextButton_17.TextSize = 14.000
 
 yd7GuiTowerofMisery.UIPadding_34.Parent = yd7GuiTowerofMisery.TextButton_17
 
-yd7GuiTowerofMisery.TextLabel_10.Parent = yd7GuiTowerofMisery.Auto_14
+yd7GuiTowerofMisery.TextLabel_10.Parent = yd7GuiTowerofMisery.Auto_12
 yd7GuiTowerofMisery.TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yd7GuiTowerofMisery.TextLabel_10.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1575,47 +1597,76 @@ yd7GuiTowerofMisery.TextLabel_10.Text = "off"
 yd7GuiTowerofMisery.TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_10.TextSize = 14.000
 
-yd7GuiTowerofMisery.PurpleCrate_2.Name = "Purple Crate"
-yd7GuiTowerofMisery.PurpleCrate_2.Parent = yd7GuiTowerofMisery.EffectCrates
-yd7GuiTowerofMisery.PurpleCrate_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.PurpleCrate_2.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.PurpleCrate_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.PurpleCrate_2.BorderSizePixel = 0
-yd7GuiTowerofMisery.PurpleCrate_2.Position = UDim2.new(0.318555206, 0, 0.282208741, 0)
-yd7GuiTowerofMisery.PurpleCrate_2.Size = UDim2.new(0, 191, 0, 34)
+yd7GuiTowerofMisery.TrailCrates_2.Name = "Trail Crates"
+yd7GuiTowerofMisery.TrailCrates_2.Parent = yd7GuiTowerofMisery.TrailCrates
+yd7GuiTowerofMisery.TrailCrates_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.TrailCrates_2.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.TrailCrates_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TrailCrates_2.BorderSizePixel = 0
+yd7GuiTowerofMisery.TrailCrates_2.Position = UDim2.new(0.00929262582, 0, 0.0207517892, 0)
+yd7GuiTowerofMisery.TrailCrates_2.Size = UDim2.new(0, 623, 0, 34)
 
 yd7GuiTowerofMisery.UICorner_35.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_35.Parent = yd7GuiTowerofMisery.PurpleCrate_2
+yd7GuiTowerofMisery.UICorner_35.Parent = yd7GuiTowerofMisery.TrailCrates_2
 
-yd7GuiTowerofMisery.Auto_15.Name = "Auto"
-yd7GuiTowerofMisery.Auto_15.Parent = yd7GuiTowerofMisery.PurpleCrate_2
-yd7GuiTowerofMisery.Auto_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_15.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_15.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_15.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_15.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_15.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_15.Text = "Purple Crate"
-yd7GuiTowerofMisery.Auto_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_15.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_15.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.Auto_13.Name = "Auto"
+yd7GuiTowerofMisery.Auto_13.Parent = yd7GuiTowerofMisery.TrailCrates_2
+yd7GuiTowerofMisery.Auto_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_13.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_13.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_13.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_13.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_13.Font = Enum.Font.FredokaOne
+yd7GuiTowerofMisery.Auto_13.Text = "Trail Crates"
+yd7GuiTowerofMisery.Auto_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_13.TextSize = 36.000
+yd7GuiTowerofMisery.Auto_13.TextXAlignment = Enum.TextXAlignment.Left
 
-yd7GuiTowerofMisery.UIPadding_35.Parent = yd7GuiTowerofMisery.Auto_15
+yd7GuiTowerofMisery.UIPadding_35.Parent = yd7GuiTowerofMisery.Auto_13
 yd7GuiTowerofMisery.UIPadding_35.PaddingLeft = UDim.new(0, 3)
 
-yd7GuiTowerofMisery.Auto_16.Name = "Auto"
-yd7GuiTowerofMisery.Auto_16.Parent = yd7GuiTowerofMisery.PurpleCrate_2
-yd7GuiTowerofMisery.Auto_16.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_16.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_16.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_16.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.YellowCrate.Name = "Yellow Crate"
+yd7GuiTowerofMisery.YellowCrate.Parent = yd7GuiTowerofMisery.TrailCrates
+yd7GuiTowerofMisery.YellowCrate.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.YellowCrate.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.YellowCrate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.YellowCrate.BorderSizePixel = 0
+yd7GuiTowerofMisery.YellowCrate.Position = UDim2.new(0.624000013, 0, 0.0879999995, 0)
+yd7GuiTowerofMisery.YellowCrate.Size = UDim2.new(0, 191, 0, 34)
 
-yd7GuiTowerofMisery.UICorner_36.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_36.Parent = yd7GuiTowerofMisery.Auto_16
+yd7GuiTowerofMisery.UICorner_36.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_36.Parent = yd7GuiTowerofMisery.YellowCrate
 
-yd7GuiTowerofMisery.TextButton_18.Parent = yd7GuiTowerofMisery.Auto_16
+yd7GuiTowerofMisery.Auto_14.Name = "Auto"
+yd7GuiTowerofMisery.Auto_14.Parent = yd7GuiTowerofMisery.YellowCrate
+yd7GuiTowerofMisery.Auto_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_14.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_14.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_14.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_14.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_14.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_14.Text = "Yellow Crate"
+yd7GuiTowerofMisery.Auto_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_14.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_14.TextXAlignment = Enum.TextXAlignment.Left
+
+yd7GuiTowerofMisery.UIPadding_36.Parent = yd7GuiTowerofMisery.Auto_14
+yd7GuiTowerofMisery.UIPadding_36.PaddingLeft = UDim.new(0, 3)
+
+yd7GuiTowerofMisery.Auto_15.Name = "Auto"
+yd7GuiTowerofMisery.Auto_15.Parent = yd7GuiTowerofMisery.YellowCrate
+yd7GuiTowerofMisery.Auto_15.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Auto_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_15.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_15.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_15.Size = UDim2.new(0, 47, 0, 19)
+
+yd7GuiTowerofMisery.UICorner_37.CornerRadius = UDim.new(0, 5)
+yd7GuiTowerofMisery.UICorner_37.Parent = yd7GuiTowerofMisery.Auto_15
+
+yd7GuiTowerofMisery.TextButton_18.Parent = yd7GuiTowerofMisery.Auto_15
 yd7GuiTowerofMisery.TextButton_18.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.TextButton_18.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1628,9 +1679,9 @@ yd7GuiTowerofMisery.TextButton_18.Text = ""
 yd7GuiTowerofMisery.TextButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextButton_18.TextSize = 14.000
 
-yd7GuiTowerofMisery.UIPadding_36.Parent = yd7GuiTowerofMisery.TextButton_18
+yd7GuiTowerofMisery.UIPadding_37.Parent = yd7GuiTowerofMisery.TextButton_18
 
-yd7GuiTowerofMisery.TextLabel_11.Parent = yd7GuiTowerofMisery.Auto_16
+yd7GuiTowerofMisery.TextLabel_11.Parent = yd7GuiTowerofMisery.Auto_15
 yd7GuiTowerofMisery.TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yd7GuiTowerofMisery.TextLabel_11.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1642,47 +1693,50 @@ yd7GuiTowerofMisery.TextLabel_11.Text = "off"
 yd7GuiTowerofMisery.TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_11.TextSize = 14.000
 
-yd7GuiTowerofMisery.RedCrate_2.Name = "Red Crate"
-yd7GuiTowerofMisery.RedCrate_2.Parent = yd7GuiTowerofMisery.EffectCrates
-yd7GuiTowerofMisery.RedCrate_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.RedCrate_2.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.RedCrate_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.RedCrate_2.BorderSizePixel = 0
-yd7GuiTowerofMisery.RedCrate_2.Position = UDim2.new(0.0155135607, 0, 0.281829357, 0)
-yd7GuiTowerofMisery.RedCrate_2.Size = UDim2.new(0, 191, 0, 34)
+yd7GuiTowerofMisery.EffectCrates.Name = "Effect Crates"
+yd7GuiTowerofMisery.EffectCrates.Parent = yd7GuiTowerofMisery.CratesTab
 
-yd7GuiTowerofMisery.UICorner_37.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_37.Parent = yd7GuiTowerofMisery.RedCrate_2
+yd7GuiTowerofMisery.GreenCrate_2.Name = "Green Crate"
+yd7GuiTowerofMisery.GreenCrate_2.Parent = yd7GuiTowerofMisery.EffectCrates
+yd7GuiTowerofMisery.GreenCrate_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.GreenCrate_2.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.GreenCrate_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.GreenCrate_2.BorderSizePixel = 0
+yd7GuiTowerofMisery.GreenCrate_2.Position = UDim2.new(0.317999989, 0, 0.352999985, 0)
+yd7GuiTowerofMisery.GreenCrate_2.Size = UDim2.new(0, 191, 0, 34)
+
+yd7GuiTowerofMisery.UICorner_38.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_38.Parent = yd7GuiTowerofMisery.GreenCrate_2
+
+yd7GuiTowerofMisery.Auto_16.Name = "Auto"
+yd7GuiTowerofMisery.Auto_16.Parent = yd7GuiTowerofMisery.GreenCrate_2
+yd7GuiTowerofMisery.Auto_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_16.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_16.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_16.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_16.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_16.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_16.Text = "Green Crate"
+yd7GuiTowerofMisery.Auto_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_16.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_16.TextXAlignment = Enum.TextXAlignment.Left
+
+yd7GuiTowerofMisery.UIPadding_38.Parent = yd7GuiTowerofMisery.Auto_16
+yd7GuiTowerofMisery.UIPadding_38.PaddingLeft = UDim.new(0, 3)
 
 yd7GuiTowerofMisery.Auto_17.Name = "Auto"
-yd7GuiTowerofMisery.Auto_17.Parent = yd7GuiTowerofMisery.RedCrate_2
-yd7GuiTowerofMisery.Auto_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_17.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_17.Parent = yd7GuiTowerofMisery.GreenCrate_2
+yd7GuiTowerofMisery.Auto_17.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.Auto_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.Auto_17.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_17.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_17.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_17.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_17.Text = "Red Crate"
-yd7GuiTowerofMisery.Auto_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_17.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_17.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.Auto_17.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_17.Size = UDim2.new(0, 47, 0, 19)
 
-yd7GuiTowerofMisery.UIPadding_37.Parent = yd7GuiTowerofMisery.Auto_17
-yd7GuiTowerofMisery.UIPadding_37.PaddingLeft = UDim.new(0, 3)
+yd7GuiTowerofMisery.UICorner_39.CornerRadius = UDim.new(0, 5)
+yd7GuiTowerofMisery.UICorner_39.Parent = yd7GuiTowerofMisery.Auto_17
 
-yd7GuiTowerofMisery.Auto_18.Name = "Auto"
-yd7GuiTowerofMisery.Auto_18.Parent = yd7GuiTowerofMisery.RedCrate_2
-yd7GuiTowerofMisery.Auto_18.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_18.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_18.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_18.Size = UDim2.new(0, 47, 0, 19)
-
-yd7GuiTowerofMisery.UICorner_38.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_38.Parent = yd7GuiTowerofMisery.Auto_18
-
-yd7GuiTowerofMisery.TextButton_19.Parent = yd7GuiTowerofMisery.Auto_18
+yd7GuiTowerofMisery.TextButton_19.Parent = yd7GuiTowerofMisery.Auto_17
 yd7GuiTowerofMisery.TextButton_19.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.TextButton_19.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1695,9 +1749,9 @@ yd7GuiTowerofMisery.TextButton_19.Text = ""
 yd7GuiTowerofMisery.TextButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextButton_19.TextSize = 14.000
 
-yd7GuiTowerofMisery.UIPadding_38.Parent = yd7GuiTowerofMisery.TextButton_19
+yd7GuiTowerofMisery.UIPadding_39.Parent = yd7GuiTowerofMisery.TextButton_19
 
-yd7GuiTowerofMisery.TextLabel_12.Parent = yd7GuiTowerofMisery.Auto_18
+yd7GuiTowerofMisery.TextLabel_12.Parent = yd7GuiTowerofMisery.Auto_17
 yd7GuiTowerofMisery.TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yd7GuiTowerofMisery.TextLabel_12.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1709,76 +1763,47 @@ yd7GuiTowerofMisery.TextLabel_12.Text = "off"
 yd7GuiTowerofMisery.TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_12.TextSize = 14.000
 
-yd7GuiTowerofMisery.EffectCrates_2.Name = "Effect Crates"
-yd7GuiTowerofMisery.EffectCrates_2.Parent = yd7GuiTowerofMisery.EffectCrates
-yd7GuiTowerofMisery.EffectCrates_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.EffectCrates_2.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.EffectCrates_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.EffectCrates_2.BorderSizePixel = 0
-yd7GuiTowerofMisery.EffectCrates_2.Position = UDim2.new(0.00929262582, 0, 0.215877578, 0)
-yd7GuiTowerofMisery.EffectCrates_2.Size = UDim2.new(0, 623, 0, 34)
-
-yd7GuiTowerofMisery.UICorner_39.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_39.Parent = yd7GuiTowerofMisery.EffectCrates_2
-
-yd7GuiTowerofMisery.Auto_19.Name = "Auto"
-yd7GuiTowerofMisery.Auto_19.Parent = yd7GuiTowerofMisery.EffectCrates_2
-yd7GuiTowerofMisery.Auto_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_19.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_19.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_19.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_19.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_19.Font = Enum.Font.FredokaOne
-yd7GuiTowerofMisery.Auto_19.Text = "Effect Crates"
-yd7GuiTowerofMisery.Auto_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_19.TextSize = 36.000
-yd7GuiTowerofMisery.Auto_19.TextXAlignment = Enum.TextXAlignment.Left
-
-yd7GuiTowerofMisery.UIPadding_39.Parent = yd7GuiTowerofMisery.Auto_19
-yd7GuiTowerofMisery.UIPadding_39.PaddingLeft = UDim.new(0, 3)
-
-yd7GuiTowerofMisery.YellowCrate_2.Name = "Yellow Crate"
-yd7GuiTowerofMisery.YellowCrate_2.Parent = yd7GuiTowerofMisery.EffectCrates
-yd7GuiTowerofMisery.YellowCrate_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.YellowCrate_2.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.YellowCrate_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.YellowCrate_2.BorderSizePixel = 0
-yd7GuiTowerofMisery.YellowCrate_2.Position = UDim2.new(0.624000013, 0, 0.282208741, 0)
-yd7GuiTowerofMisery.YellowCrate_2.Size = UDim2.new(0, 191, 0, 34)
+yd7GuiTowerofMisery.PurpleCrate_2.Name = "Purple Crate"
+yd7GuiTowerofMisery.PurpleCrate_2.Parent = yd7GuiTowerofMisery.EffectCrates
+yd7GuiTowerofMisery.PurpleCrate_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.PurpleCrate_2.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.PurpleCrate_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.PurpleCrate_2.BorderSizePixel = 0
+yd7GuiTowerofMisery.PurpleCrate_2.Position = UDim2.new(0.318555206, 0, 0.282208741, 0)
+yd7GuiTowerofMisery.PurpleCrate_2.Size = UDim2.new(0, 191, 0, 34)
 
 yd7GuiTowerofMisery.UICorner_40.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_40.Parent = yd7GuiTowerofMisery.YellowCrate_2
+yd7GuiTowerofMisery.UICorner_40.Parent = yd7GuiTowerofMisery.PurpleCrate_2
 
-yd7GuiTowerofMisery.Auto_20.Name = "Auto"
-yd7GuiTowerofMisery.Auto_20.Parent = yd7GuiTowerofMisery.YellowCrate_2
-yd7GuiTowerofMisery.Auto_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_20.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_20.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_20.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_20.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_20.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_20.Text = "Yellow Crate"
-yd7GuiTowerofMisery.Auto_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_20.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_20.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.Auto_18.Name = "Auto"
+yd7GuiTowerofMisery.Auto_18.Parent = yd7GuiTowerofMisery.PurpleCrate_2
+yd7GuiTowerofMisery.Auto_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_18.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_18.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_18.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_18.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_18.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_18.Text = "Purple Crate"
+yd7GuiTowerofMisery.Auto_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_18.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_18.TextXAlignment = Enum.TextXAlignment.Left
 
-yd7GuiTowerofMisery.UIPadding_40.Parent = yd7GuiTowerofMisery.Auto_20
+yd7GuiTowerofMisery.UIPadding_40.Parent = yd7GuiTowerofMisery.Auto_18
 yd7GuiTowerofMisery.UIPadding_40.PaddingLeft = UDim.new(0, 3)
 
-yd7GuiTowerofMisery.Auto_21.Name = "Auto"
-yd7GuiTowerofMisery.Auto_21.Parent = yd7GuiTowerofMisery.YellowCrate_2
-yd7GuiTowerofMisery.Auto_21.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_21.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_21.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_21.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.Auto_19.Name = "Auto"
+yd7GuiTowerofMisery.Auto_19.Parent = yd7GuiTowerofMisery.PurpleCrate_2
+yd7GuiTowerofMisery.Auto_19.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Auto_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_19.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_19.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_19.Size = UDim2.new(0, 47, 0, 19)
 
 yd7GuiTowerofMisery.UICorner_41.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_41.Parent = yd7GuiTowerofMisery.Auto_21
+yd7GuiTowerofMisery.UICorner_41.Parent = yd7GuiTowerofMisery.Auto_19
 
-yd7GuiTowerofMisery.TextButton_20.Parent = yd7GuiTowerofMisery.Auto_21
+yd7GuiTowerofMisery.TextButton_20.Parent = yd7GuiTowerofMisery.Auto_19
 yd7GuiTowerofMisery.TextButton_20.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.TextButton_20.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1793,7 +1818,7 @@ yd7GuiTowerofMisery.TextButton_20.TextSize = 14.000
 
 yd7GuiTowerofMisery.UIPadding_41.Parent = yd7GuiTowerofMisery.TextButton_20
 
-yd7GuiTowerofMisery.TextLabel_13.Parent = yd7GuiTowerofMisery.Auto_21
+yd7GuiTowerofMisery.TextLabel_13.Parent = yd7GuiTowerofMisery.Auto_19
 yd7GuiTowerofMisery.TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yd7GuiTowerofMisery.TextLabel_13.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1805,50 +1830,47 @@ yd7GuiTowerofMisery.TextLabel_13.Text = "off"
 yd7GuiTowerofMisery.TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_13.TextSize = 14.000
 
-yd7GuiTowerofMisery.EmoteCrates.Name = "Emote Crates"
-yd7GuiTowerofMisery.EmoteCrates.Parent = yd7GuiTowerofMisery.CratesTab
-
-yd7GuiTowerofMisery.GreenCrate_3.Name = "Green Crate"
-yd7GuiTowerofMisery.GreenCrate_3.Parent = yd7GuiTowerofMisery.EmoteCrates
-yd7GuiTowerofMisery.GreenCrate_3.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.GreenCrate_3.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.GreenCrate_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.GreenCrate_3.BorderSizePixel = 0
-yd7GuiTowerofMisery.GreenCrate_3.Position = UDim2.new(0.327331245, 0, 0.561585784, 0)
-yd7GuiTowerofMisery.GreenCrate_3.Size = UDim2.new(0, 191, 0, 34)
+yd7GuiTowerofMisery.RedCrate_2.Name = "Red Crate"
+yd7GuiTowerofMisery.RedCrate_2.Parent = yd7GuiTowerofMisery.EffectCrates
+yd7GuiTowerofMisery.RedCrate_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.RedCrate_2.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.RedCrate_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.RedCrate_2.BorderSizePixel = 0
+yd7GuiTowerofMisery.RedCrate_2.Position = UDim2.new(0.0155135607, 0, 0.281829357, 0)
+yd7GuiTowerofMisery.RedCrate_2.Size = UDim2.new(0, 191, 0, 34)
 
 yd7GuiTowerofMisery.UICorner_42.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_42.Parent = yd7GuiTowerofMisery.GreenCrate_3
+yd7GuiTowerofMisery.UICorner_42.Parent = yd7GuiTowerofMisery.RedCrate_2
 
-yd7GuiTowerofMisery.Auto_22.Name = "Auto"
-yd7GuiTowerofMisery.Auto_22.Parent = yd7GuiTowerofMisery.GreenCrate_3
-yd7GuiTowerofMisery.Auto_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_22.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_22.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_22.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_22.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_22.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_22.Text = "Green Crate"
-yd7GuiTowerofMisery.Auto_22.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_22.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_22.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.Auto_20.Name = "Auto"
+yd7GuiTowerofMisery.Auto_20.Parent = yd7GuiTowerofMisery.RedCrate_2
+yd7GuiTowerofMisery.Auto_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_20.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_20.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_20.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_20.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_20.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_20.Text = "Red Crate"
+yd7GuiTowerofMisery.Auto_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_20.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_20.TextXAlignment = Enum.TextXAlignment.Left
 
-yd7GuiTowerofMisery.UIPadding_42.Parent = yd7GuiTowerofMisery.Auto_22
+yd7GuiTowerofMisery.UIPadding_42.Parent = yd7GuiTowerofMisery.Auto_20
 yd7GuiTowerofMisery.UIPadding_42.PaddingLeft = UDim.new(0, 3)
 
-yd7GuiTowerofMisery.Auto_23.Name = "Auto"
-yd7GuiTowerofMisery.Auto_23.Parent = yd7GuiTowerofMisery.GreenCrate_3
-yd7GuiTowerofMisery.Auto_23.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_23.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_23.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_23.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.Auto_21.Name = "Auto"
+yd7GuiTowerofMisery.Auto_21.Parent = yd7GuiTowerofMisery.RedCrate_2
+yd7GuiTowerofMisery.Auto_21.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Auto_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_21.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_21.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_21.Size = UDim2.new(0, 47, 0, 19)
 
 yd7GuiTowerofMisery.UICorner_43.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_43.Parent = yd7GuiTowerofMisery.Auto_23
+yd7GuiTowerofMisery.UICorner_43.Parent = yd7GuiTowerofMisery.Auto_21
 
-yd7GuiTowerofMisery.TextButton_21.Parent = yd7GuiTowerofMisery.Auto_23
+yd7GuiTowerofMisery.TextButton_21.Parent = yd7GuiTowerofMisery.Auto_21
 yd7GuiTowerofMisery.TextButton_21.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.TextButton_21.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1863,7 +1885,7 @@ yd7GuiTowerofMisery.TextButton_21.TextSize = 14.000
 
 yd7GuiTowerofMisery.UIPadding_43.Parent = yd7GuiTowerofMisery.TextButton_21
 
-yd7GuiTowerofMisery.TextLabel_14.Parent = yd7GuiTowerofMisery.Auto_23
+yd7GuiTowerofMisery.TextLabel_14.Parent = yd7GuiTowerofMisery.Auto_21
 yd7GuiTowerofMisery.TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yd7GuiTowerofMisery.TextLabel_14.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1875,47 +1897,76 @@ yd7GuiTowerofMisery.TextLabel_14.Text = "off"
 yd7GuiTowerofMisery.TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_14.TextSize = 14.000
 
-yd7GuiTowerofMisery.PurpleCrate_3.Name = "Purple Crate"
-yd7GuiTowerofMisery.PurpleCrate_3.Parent = yd7GuiTowerofMisery.EmoteCrates
-yd7GuiTowerofMisery.PurpleCrate_3.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.PurpleCrate_3.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.PurpleCrate_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.PurpleCrate_3.BorderSizePixel = 0
-yd7GuiTowerofMisery.PurpleCrate_3.Position = UDim2.new(0.327886462, 0, 0.488696873, 0)
-yd7GuiTowerofMisery.PurpleCrate_3.Size = UDim2.new(0, 191, 0, 34)
+yd7GuiTowerofMisery.EffectCrates_2.Name = "Effect Crates"
+yd7GuiTowerofMisery.EffectCrates_2.Parent = yd7GuiTowerofMisery.EffectCrates
+yd7GuiTowerofMisery.EffectCrates_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.EffectCrates_2.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.EffectCrates_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.EffectCrates_2.BorderSizePixel = 0
+yd7GuiTowerofMisery.EffectCrates_2.Position = UDim2.new(0.00929262582, 0, 0.215877578, 0)
+yd7GuiTowerofMisery.EffectCrates_2.Size = UDim2.new(0, 623, 0, 34)
 
 yd7GuiTowerofMisery.UICorner_44.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_44.Parent = yd7GuiTowerofMisery.PurpleCrate_3
+yd7GuiTowerofMisery.UICorner_44.Parent = yd7GuiTowerofMisery.EffectCrates_2
 
-yd7GuiTowerofMisery.Auto_24.Name = "Auto"
-yd7GuiTowerofMisery.Auto_24.Parent = yd7GuiTowerofMisery.PurpleCrate_3
-yd7GuiTowerofMisery.Auto_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_24.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_24.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_24.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_24.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_24.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_24.Text = "Purple Crate"
-yd7GuiTowerofMisery.Auto_24.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_24.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_24.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.Auto_22.Name = "Auto"
+yd7GuiTowerofMisery.Auto_22.Parent = yd7GuiTowerofMisery.EffectCrates_2
+yd7GuiTowerofMisery.Auto_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_22.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_22.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_22.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_22.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_22.Font = Enum.Font.FredokaOne
+yd7GuiTowerofMisery.Auto_22.Text = "Effect Crates"
+yd7GuiTowerofMisery.Auto_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_22.TextSize = 36.000
+yd7GuiTowerofMisery.Auto_22.TextXAlignment = Enum.TextXAlignment.Left
 
-yd7GuiTowerofMisery.UIPadding_44.Parent = yd7GuiTowerofMisery.Auto_24
+yd7GuiTowerofMisery.UIPadding_44.Parent = yd7GuiTowerofMisery.Auto_22
 yd7GuiTowerofMisery.UIPadding_44.PaddingLeft = UDim.new(0, 3)
 
-yd7GuiTowerofMisery.Auto_25.Name = "Auto"
-yd7GuiTowerofMisery.Auto_25.Parent = yd7GuiTowerofMisery.PurpleCrate_3
-yd7GuiTowerofMisery.Auto_25.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_25.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_25.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_25.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.YellowCrate_2.Name = "Yellow Crate"
+yd7GuiTowerofMisery.YellowCrate_2.Parent = yd7GuiTowerofMisery.EffectCrates
+yd7GuiTowerofMisery.YellowCrate_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.YellowCrate_2.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.YellowCrate_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.YellowCrate_2.BorderSizePixel = 0
+yd7GuiTowerofMisery.YellowCrate_2.Position = UDim2.new(0.624000013, 0, 0.282208741, 0)
+yd7GuiTowerofMisery.YellowCrate_2.Size = UDim2.new(0, 191, 0, 34)
 
-yd7GuiTowerofMisery.UICorner_45.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_45.Parent = yd7GuiTowerofMisery.Auto_25
+yd7GuiTowerofMisery.UICorner_45.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_45.Parent = yd7GuiTowerofMisery.YellowCrate_2
 
-yd7GuiTowerofMisery.TextButton_22.Parent = yd7GuiTowerofMisery.Auto_25
+yd7GuiTowerofMisery.Auto_23.Name = "Auto"
+yd7GuiTowerofMisery.Auto_23.Parent = yd7GuiTowerofMisery.YellowCrate_2
+yd7GuiTowerofMisery.Auto_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_23.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_23.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_23.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_23.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_23.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_23.Text = "Yellow Crate"
+yd7GuiTowerofMisery.Auto_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_23.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_23.TextXAlignment = Enum.TextXAlignment.Left
+
+yd7GuiTowerofMisery.UIPadding_45.Parent = yd7GuiTowerofMisery.Auto_23
+yd7GuiTowerofMisery.UIPadding_45.PaddingLeft = UDim.new(0, 3)
+
+yd7GuiTowerofMisery.Auto_24.Name = "Auto"
+yd7GuiTowerofMisery.Auto_24.Parent = yd7GuiTowerofMisery.YellowCrate_2
+yd7GuiTowerofMisery.Auto_24.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Auto_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_24.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_24.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_24.Size = UDim2.new(0, 47, 0, 19)
+
+yd7GuiTowerofMisery.UICorner_46.CornerRadius = UDim.new(0, 5)
+yd7GuiTowerofMisery.UICorner_46.Parent = yd7GuiTowerofMisery.Auto_24
+
+yd7GuiTowerofMisery.TextButton_22.Parent = yd7GuiTowerofMisery.Auto_24
 yd7GuiTowerofMisery.TextButton_22.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.TextButton_22.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1928,9 +1979,9 @@ yd7GuiTowerofMisery.TextButton_22.Text = ""
 yd7GuiTowerofMisery.TextButton_22.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextButton_22.TextSize = 14.000
 
-yd7GuiTowerofMisery.UIPadding_45.Parent = yd7GuiTowerofMisery.TextButton_22
+yd7GuiTowerofMisery.UIPadding_46.Parent = yd7GuiTowerofMisery.TextButton_22
 
-yd7GuiTowerofMisery.TextLabel_15.Parent = yd7GuiTowerofMisery.Auto_25
+yd7GuiTowerofMisery.TextLabel_15.Parent = yd7GuiTowerofMisery.Auto_24
 yd7GuiTowerofMisery.TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yd7GuiTowerofMisery.TextLabel_15.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextLabel_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1942,47 +1993,50 @@ yd7GuiTowerofMisery.TextLabel_15.Text = "off"
 yd7GuiTowerofMisery.TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_15.TextSize = 14.000
 
-yd7GuiTowerofMisery.RedCrate_3.Name = "Red Crate"
-yd7GuiTowerofMisery.RedCrate_3.Parent = yd7GuiTowerofMisery.EmoteCrates
-yd7GuiTowerofMisery.RedCrate_3.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.RedCrate_3.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.RedCrate_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.RedCrate_3.BorderSizePixel = 0
-yd7GuiTowerofMisery.RedCrate_3.Position = UDim2.new(0.0248448215, 0, 0.487171173, 0)
-yd7GuiTowerofMisery.RedCrate_3.Size = UDim2.new(0, 191, 0, 34)
+yd7GuiTowerofMisery.EmoteCrates.Name = "Emote Crates"
+yd7GuiTowerofMisery.EmoteCrates.Parent = yd7GuiTowerofMisery.CratesTab
 
-yd7GuiTowerofMisery.UICorner_46.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_46.Parent = yd7GuiTowerofMisery.RedCrate_3
+yd7GuiTowerofMisery.GreenCrate_3.Name = "Green Crate"
+yd7GuiTowerofMisery.GreenCrate_3.Parent = yd7GuiTowerofMisery.EmoteCrates
+yd7GuiTowerofMisery.GreenCrate_3.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.GreenCrate_3.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.GreenCrate_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.GreenCrate_3.BorderSizePixel = 0
+yd7GuiTowerofMisery.GreenCrate_3.Position = UDim2.new(0.327331245, 0, 0.561585784, 0)
+yd7GuiTowerofMisery.GreenCrate_3.Size = UDim2.new(0, 191, 0, 34)
+
+yd7GuiTowerofMisery.UICorner_47.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_47.Parent = yd7GuiTowerofMisery.GreenCrate_3
+
+yd7GuiTowerofMisery.Auto_25.Name = "Auto"
+yd7GuiTowerofMisery.Auto_25.Parent = yd7GuiTowerofMisery.GreenCrate_3
+yd7GuiTowerofMisery.Auto_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_25.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_25.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_25.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_25.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_25.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_25.Text = "Green Crate"
+yd7GuiTowerofMisery.Auto_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_25.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_25.TextXAlignment = Enum.TextXAlignment.Left
+
+yd7GuiTowerofMisery.UIPadding_47.Parent = yd7GuiTowerofMisery.Auto_25
+yd7GuiTowerofMisery.UIPadding_47.PaddingLeft = UDim.new(0, 3)
 
 yd7GuiTowerofMisery.Auto_26.Name = "Auto"
-yd7GuiTowerofMisery.Auto_26.Parent = yd7GuiTowerofMisery.RedCrate_3
-yd7GuiTowerofMisery.Auto_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_26.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_26.Parent = yd7GuiTowerofMisery.GreenCrate_3
+yd7GuiTowerofMisery.Auto_26.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.Auto_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.Auto_26.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_26.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_26.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_26.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_26.Text = "Red Crate"
-yd7GuiTowerofMisery.Auto_26.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_26.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_26.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.Auto_26.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_26.Size = UDim2.new(0, 47, 0, 19)
 
-yd7GuiTowerofMisery.UIPadding_46.Parent = yd7GuiTowerofMisery.Auto_26
-yd7GuiTowerofMisery.UIPadding_46.PaddingLeft = UDim.new(0, 3)
+yd7GuiTowerofMisery.UICorner_48.CornerRadius = UDim.new(0, 5)
+yd7GuiTowerofMisery.UICorner_48.Parent = yd7GuiTowerofMisery.Auto_26
 
-yd7GuiTowerofMisery.Auto_27.Name = "Auto"
-yd7GuiTowerofMisery.Auto_27.Parent = yd7GuiTowerofMisery.RedCrate_3
-yd7GuiTowerofMisery.Auto_27.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_27.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_27.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_27.Size = UDim2.new(0, 47, 0, 19)
-
-yd7GuiTowerofMisery.UICorner_47.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_47.Parent = yd7GuiTowerofMisery.Auto_27
-
-yd7GuiTowerofMisery.TextButton_23.Parent = yd7GuiTowerofMisery.Auto_27
+yd7GuiTowerofMisery.TextButton_23.Parent = yd7GuiTowerofMisery.Auto_26
 yd7GuiTowerofMisery.TextButton_23.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.TextButton_23.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1995,9 +2049,9 @@ yd7GuiTowerofMisery.TextButton_23.Text = ""
 yd7GuiTowerofMisery.TextButton_23.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextButton_23.TextSize = 14.000
 
-yd7GuiTowerofMisery.UIPadding_47.Parent = yd7GuiTowerofMisery.TextButton_23
+yd7GuiTowerofMisery.UIPadding_48.Parent = yd7GuiTowerofMisery.TextButton_23
 
-yd7GuiTowerofMisery.TextLabel_16.Parent = yd7GuiTowerofMisery.Auto_27
+yd7GuiTowerofMisery.TextLabel_16.Parent = yd7GuiTowerofMisery.Auto_26
 yd7GuiTowerofMisery.TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yd7GuiTowerofMisery.TextLabel_16.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextLabel_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -2009,76 +2063,47 @@ yd7GuiTowerofMisery.TextLabel_16.Text = "off"
 yd7GuiTowerofMisery.TextLabel_16.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_16.TextSize = 14.000
 
-yd7GuiTowerofMisery.EmoteCrates_2.Name = "Emote Crates"
-yd7GuiTowerofMisery.EmoteCrates_2.Parent = yd7GuiTowerofMisery.EmoteCrates
-yd7GuiTowerofMisery.EmoteCrates_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.EmoteCrates_2.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.EmoteCrates_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.EmoteCrates_2.BorderSizePixel = 0
-yd7GuiTowerofMisery.EmoteCrates_2.Position = UDim2.new(0.00929262582, 0, 0.416826904, 0)
-yd7GuiTowerofMisery.EmoteCrates_2.Size = UDim2.new(0, 623, 0, 34)
-
-yd7GuiTowerofMisery.UICorner_48.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_48.Parent = yd7GuiTowerofMisery.EmoteCrates_2
-
-yd7GuiTowerofMisery.Auto_28.Name = "Auto"
-yd7GuiTowerofMisery.Auto_28.Parent = yd7GuiTowerofMisery.EmoteCrates_2
-yd7GuiTowerofMisery.Auto_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_28.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_28.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_28.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_28.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_28.Font = Enum.Font.FredokaOne
-yd7GuiTowerofMisery.Auto_28.Text = "Emote Crates"
-yd7GuiTowerofMisery.Auto_28.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_28.TextSize = 36.000
-yd7GuiTowerofMisery.Auto_28.TextXAlignment = Enum.TextXAlignment.Left
-
-yd7GuiTowerofMisery.UIPadding_48.Parent = yd7GuiTowerofMisery.Auto_28
-yd7GuiTowerofMisery.UIPadding_48.PaddingLeft = UDim.new(0, 3)
-
-yd7GuiTowerofMisery.YellowCrate_3.Name = "Yellow Crate"
-yd7GuiTowerofMisery.YellowCrate_3.Parent = yd7GuiTowerofMisery.EmoteCrates
-yd7GuiTowerofMisery.YellowCrate_3.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-yd7GuiTowerofMisery.YellowCrate_3.BackgroundTransparency = 0.150
-yd7GuiTowerofMisery.YellowCrate_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.YellowCrate_3.BorderSizePixel = 0
-yd7GuiTowerofMisery.YellowCrate_3.Position = UDim2.new(0.633331239, 0, 0.488696873, 0)
-yd7GuiTowerofMisery.YellowCrate_3.Size = UDim2.new(0, 191, 0, 34)
+yd7GuiTowerofMisery.PurpleCrate_3.Name = "Purple Crate"
+yd7GuiTowerofMisery.PurpleCrate_3.Parent = yd7GuiTowerofMisery.EmoteCrates
+yd7GuiTowerofMisery.PurpleCrate_3.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.PurpleCrate_3.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.PurpleCrate_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.PurpleCrate_3.BorderSizePixel = 0
+yd7GuiTowerofMisery.PurpleCrate_3.Position = UDim2.new(0.327886462, 0, 0.488696873, 0)
+yd7GuiTowerofMisery.PurpleCrate_3.Size = UDim2.new(0, 191, 0, 34)
 
 yd7GuiTowerofMisery.UICorner_49.CornerRadius = UDim.new(0, 9)
-yd7GuiTowerofMisery.UICorner_49.Parent = yd7GuiTowerofMisery.YellowCrate_3
+yd7GuiTowerofMisery.UICorner_49.Parent = yd7GuiTowerofMisery.PurpleCrate_3
 
-yd7GuiTowerofMisery.Auto_29.Name = "Auto"
-yd7GuiTowerofMisery.Auto_29.Parent = yd7GuiTowerofMisery.YellowCrate_3
-yd7GuiTowerofMisery.Auto_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_29.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.Auto_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_29.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_29.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
-yd7GuiTowerofMisery.Auto_29.Size = UDim2.new(0, 178, 0, 19)
-yd7GuiTowerofMisery.Auto_29.Font = Enum.Font.Ubuntu
-yd7GuiTowerofMisery.Auto_29.Text = "Yellow Crate"
-yd7GuiTowerofMisery.Auto_29.TextColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.Auto_29.TextSize = 18.000
-yd7GuiTowerofMisery.Auto_29.TextXAlignment = Enum.TextXAlignment.Left
+yd7GuiTowerofMisery.Auto_27.Name = "Auto"
+yd7GuiTowerofMisery.Auto_27.Parent = yd7GuiTowerofMisery.PurpleCrate_3
+yd7GuiTowerofMisery.Auto_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_27.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_27.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_27.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_27.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_27.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_27.Text = "Purple Crate"
+yd7GuiTowerofMisery.Auto_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_27.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_27.TextXAlignment = Enum.TextXAlignment.Left
 
-yd7GuiTowerofMisery.UIPadding_49.Parent = yd7GuiTowerofMisery.Auto_29
+yd7GuiTowerofMisery.UIPadding_49.Parent = yd7GuiTowerofMisery.Auto_27
 yd7GuiTowerofMisery.UIPadding_49.PaddingLeft = UDim.new(0, 3)
 
-yd7GuiTowerofMisery.Auto_30.Name = "Auto"
-yd7GuiTowerofMisery.Auto_30.Parent = yd7GuiTowerofMisery.YellowCrate_3
-yd7GuiTowerofMisery.Auto_30.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-yd7GuiTowerofMisery.Auto_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.Auto_30.BorderSizePixel = 0
-yd7GuiTowerofMisery.Auto_30.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
-yd7GuiTowerofMisery.Auto_30.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.Auto_28.Name = "Auto"
+yd7GuiTowerofMisery.Auto_28.Parent = yd7GuiTowerofMisery.PurpleCrate_3
+yd7GuiTowerofMisery.Auto_28.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Auto_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_28.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_28.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_28.Size = UDim2.new(0, 47, 0, 19)
 
 yd7GuiTowerofMisery.UICorner_50.CornerRadius = UDim.new(0, 5)
-yd7GuiTowerofMisery.UICorner_50.Parent = yd7GuiTowerofMisery.Auto_30
+yd7GuiTowerofMisery.UICorner_50.Parent = yd7GuiTowerofMisery.Auto_28
 
-yd7GuiTowerofMisery.TextButton_24.Parent = yd7GuiTowerofMisery.Auto_30
+yd7GuiTowerofMisery.TextButton_24.Parent = yd7GuiTowerofMisery.Auto_28
 yd7GuiTowerofMisery.TextButton_24.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
 yd7GuiTowerofMisery.TextButton_24.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -2093,7 +2118,7 @@ yd7GuiTowerofMisery.TextButton_24.TextSize = 14.000
 
 yd7GuiTowerofMisery.UIPadding_50.Parent = yd7GuiTowerofMisery.TextButton_24
 
-yd7GuiTowerofMisery.TextLabel_17.Parent = yd7GuiTowerofMisery.Auto_30
+yd7GuiTowerofMisery.TextLabel_17.Parent = yd7GuiTowerofMisery.Auto_28
 yd7GuiTowerofMisery.TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yd7GuiTowerofMisery.TextLabel_17.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.TextLabel_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -2105,6 +2130,169 @@ yd7GuiTowerofMisery.TextLabel_17.Text = "off"
 yd7GuiTowerofMisery.TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.TextLabel_17.TextSize = 14.000
 
+yd7GuiTowerofMisery.RedCrate_3.Name = "Red Crate"
+yd7GuiTowerofMisery.RedCrate_3.Parent = yd7GuiTowerofMisery.EmoteCrates
+yd7GuiTowerofMisery.RedCrate_3.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.RedCrate_3.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.RedCrate_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.RedCrate_3.BorderSizePixel = 0
+yd7GuiTowerofMisery.RedCrate_3.Position = UDim2.new(0.0248448215, 0, 0.487171173, 0)
+yd7GuiTowerofMisery.RedCrate_3.Size = UDim2.new(0, 191, 0, 34)
+
+yd7GuiTowerofMisery.UICorner_51.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_51.Parent = yd7GuiTowerofMisery.RedCrate_3
+
+yd7GuiTowerofMisery.Auto_29.Name = "Auto"
+yd7GuiTowerofMisery.Auto_29.Parent = yd7GuiTowerofMisery.RedCrate_3
+yd7GuiTowerofMisery.Auto_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_29.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_29.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_29.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_29.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_29.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_29.Text = "Red Crate"
+yd7GuiTowerofMisery.Auto_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_29.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_29.TextXAlignment = Enum.TextXAlignment.Left
+
+yd7GuiTowerofMisery.UIPadding_51.Parent = yd7GuiTowerofMisery.Auto_29
+yd7GuiTowerofMisery.UIPadding_51.PaddingLeft = UDim.new(0, 3)
+
+yd7GuiTowerofMisery.Auto_30.Name = "Auto"
+yd7GuiTowerofMisery.Auto_30.Parent = yd7GuiTowerofMisery.RedCrate_3
+yd7GuiTowerofMisery.Auto_30.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Auto_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_30.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_30.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_30.Size = UDim2.new(0, 47, 0, 19)
+
+yd7GuiTowerofMisery.UICorner_52.CornerRadius = UDim.new(0, 5)
+yd7GuiTowerofMisery.UICorner_52.Parent = yd7GuiTowerofMisery.Auto_30
+
+yd7GuiTowerofMisery.TextButton_25.Parent = yd7GuiTowerofMisery.Auto_30
+yd7GuiTowerofMisery.TextButton_25.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.TextButton_25.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_25.BorderSizePixel = 0
+yd7GuiTowerofMisery.TextButton_25.Position = UDim2.new(-0.0156327914, 0, -0.00452623889, 0)
+yd7GuiTowerofMisery.TextButton_25.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.TextButton_25.ZIndex = 100
+yd7GuiTowerofMisery.TextButton_25.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.TextButton_25.Text = ""
+yd7GuiTowerofMisery.TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_25.TextSize = 14.000
+
+yd7GuiTowerofMisery.UIPadding_52.Parent = yd7GuiTowerofMisery.TextButton_25
+
+yd7GuiTowerofMisery.TextLabel_18.Parent = yd7GuiTowerofMisery.Auto_30
+yd7GuiTowerofMisery.TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.TextLabel_18.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.TextLabel_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextLabel_18.BorderSizePixel = 0
+yd7GuiTowerofMisery.TextLabel_18.Position = UDim2.new(-0.0160041973, 0, -0.00500006415, 0)
+yd7GuiTowerofMisery.TextLabel_18.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.TextLabel_18.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.TextLabel_18.Text = "off"
+yd7GuiTowerofMisery.TextLabel_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextLabel_18.TextSize = 14.000
+
+yd7GuiTowerofMisery.EmoteCrates_2.Name = "Emote Crates"
+yd7GuiTowerofMisery.EmoteCrates_2.Parent = yd7GuiTowerofMisery.EmoteCrates
+yd7GuiTowerofMisery.EmoteCrates_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.EmoteCrates_2.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.EmoteCrates_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.EmoteCrates_2.BorderSizePixel = 0
+yd7GuiTowerofMisery.EmoteCrates_2.Position = UDim2.new(0.00929262582, 0, 0.416826904, 0)
+yd7GuiTowerofMisery.EmoteCrates_2.Size = UDim2.new(0, 623, 0, 34)
+
+yd7GuiTowerofMisery.UICorner_53.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_53.Parent = yd7GuiTowerofMisery.EmoteCrates_2
+
+yd7GuiTowerofMisery.Auto_31.Name = "Auto"
+yd7GuiTowerofMisery.Auto_31.Parent = yd7GuiTowerofMisery.EmoteCrates_2
+yd7GuiTowerofMisery.Auto_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_31.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_31.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_31.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_31.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_31.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_31.Font = Enum.Font.FredokaOne
+yd7GuiTowerofMisery.Auto_31.Text = "Emote Crates"
+yd7GuiTowerofMisery.Auto_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_31.TextSize = 36.000
+yd7GuiTowerofMisery.Auto_31.TextXAlignment = Enum.TextXAlignment.Left
+
+yd7GuiTowerofMisery.UIPadding_53.Parent = yd7GuiTowerofMisery.Auto_31
+yd7GuiTowerofMisery.UIPadding_53.PaddingLeft = UDim.new(0, 3)
+
+yd7GuiTowerofMisery.YellowCrate_3.Name = "Yellow Crate"
+yd7GuiTowerofMisery.YellowCrate_3.Parent = yd7GuiTowerofMisery.EmoteCrates
+yd7GuiTowerofMisery.YellowCrate_3.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+yd7GuiTowerofMisery.YellowCrate_3.BackgroundTransparency = 0.150
+yd7GuiTowerofMisery.YellowCrate_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.YellowCrate_3.BorderSizePixel = 0
+yd7GuiTowerofMisery.YellowCrate_3.Position = UDim2.new(0.633331239, 0, 0.488696873, 0)
+yd7GuiTowerofMisery.YellowCrate_3.Size = UDim2.new(0, 191, 0, 34)
+
+yd7GuiTowerofMisery.UICorner_54.CornerRadius = UDim.new(0, 9)
+yd7GuiTowerofMisery.UICorner_54.Parent = yd7GuiTowerofMisery.YellowCrate_3
+
+yd7GuiTowerofMisery.Auto_32.Name = "Auto"
+yd7GuiTowerofMisery.Auto_32.Parent = yd7GuiTowerofMisery.YellowCrate_3
+yd7GuiTowerofMisery.Auto_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_32.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.Auto_32.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_32.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_32.Position = UDim2.new(0.031413611, 0, 0.205882356, 0)
+yd7GuiTowerofMisery.Auto_32.Size = UDim2.new(0, 178, 0, 19)
+yd7GuiTowerofMisery.Auto_32.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.Auto_32.Text = "Yellow Crate"
+yd7GuiTowerofMisery.Auto_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.Auto_32.TextSize = 18.000
+yd7GuiTowerofMisery.Auto_32.TextXAlignment = Enum.TextXAlignment.Left
+
+yd7GuiTowerofMisery.UIPadding_54.Parent = yd7GuiTowerofMisery.Auto_32
+yd7GuiTowerofMisery.UIPadding_54.PaddingLeft = UDim.new(0, 3)
+
+yd7GuiTowerofMisery.Auto_33.Name = "Auto"
+yd7GuiTowerofMisery.Auto_33.Parent = yd7GuiTowerofMisery.YellowCrate_3
+yd7GuiTowerofMisery.Auto_33.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.Auto_33.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.Auto_33.BorderSizePixel = 0
+yd7GuiTowerofMisery.Auto_33.Position = UDim2.new(0.71217227, 0, 0.205881462, 0)
+yd7GuiTowerofMisery.Auto_33.Size = UDim2.new(0, 47, 0, 19)
+
+yd7GuiTowerofMisery.UICorner_55.CornerRadius = UDim.new(0, 5)
+yd7GuiTowerofMisery.UICorner_55.Parent = yd7GuiTowerofMisery.Auto_33
+
+yd7GuiTowerofMisery.TextButton_26.Parent = yd7GuiTowerofMisery.Auto_33
+yd7GuiTowerofMisery.TextButton_26.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+yd7GuiTowerofMisery.TextButton_26.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.TextButton_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_26.BorderSizePixel = 0
+yd7GuiTowerofMisery.TextButton_26.Position = UDim2.new(-0.0156327914, 0, -0.00452623889, 0)
+yd7GuiTowerofMisery.TextButton_26.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.TextButton_26.ZIndex = 100
+yd7GuiTowerofMisery.TextButton_26.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.TextButton_26.Text = ""
+yd7GuiTowerofMisery.TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_26.TextSize = 14.000
+
+yd7GuiTowerofMisery.UIPadding_55.Parent = yd7GuiTowerofMisery.TextButton_26
+
+yd7GuiTowerofMisery.TextLabel_19.Parent = yd7GuiTowerofMisery.Auto_33
+yd7GuiTowerofMisery.TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.TextLabel_19.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.TextLabel_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextLabel_19.BorderSizePixel = 0
+yd7GuiTowerofMisery.TextLabel_19.Position = UDim2.new(-0.0160041973, 0, -0.00500006415, 0)
+yd7GuiTowerofMisery.TextLabel_19.Size = UDim2.new(0, 47, 0, 19)
+yd7GuiTowerofMisery.TextLabel_19.Font = Enum.Font.Ubuntu
+yd7GuiTowerofMisery.TextLabel_19.Text = "off"
+yd7GuiTowerofMisery.TextLabel_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextLabel_19.TextSize = 14.000
+
 yd7GuiTowerofMisery.existing.Name = "existing"
 yd7GuiTowerofMisery.existing.Parent = yd7GuiTowerofMisery.hack
 yd7GuiTowerofMisery.existing.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -2114,8 +2302,8 @@ yd7GuiTowerofMisery.existing.BorderSizePixel = 0
 yd7GuiTowerofMisery.existing.Position = UDim2.new(-9.46281489e-08, 0, 0.0549199097, 0)
 yd7GuiTowerofMisery.existing.Size = UDim2.new(0, 645, 0, 38)
 
-yd7GuiTowerofMisery.UICorner_51.CornerRadius = UDim.new(0, 4)
-yd7GuiTowerofMisery.UICorner_51.Parent = yd7GuiTowerofMisery.existing
+yd7GuiTowerofMisery.UICorner_56.CornerRadius = UDim.new(0, 4)
+yd7GuiTowerofMisery.UICorner_56.Parent = yd7GuiTowerofMisery.existing
 
 yd7GuiTowerofMisery.Frame_4.Parent = yd7GuiTowerofMisery.existing
 yd7GuiTowerofMisery.Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -2152,10 +2340,10 @@ yd7GuiTowerofMisery.script_2.TextSize = 18.000
 yd7GuiTowerofMisery.script_2.TextXAlignment = Enum.TextXAlignment.Right
 yd7GuiTowerofMisery.script_2.TextYAlignment = Enum.TextYAlignment.Bottom
 
-yd7GuiTowerofMisery.UIPadding_51.Parent = yd7GuiTowerofMisery.script_2
-yd7GuiTowerofMisery.UIPadding_51.PaddingBottom = UDim.new(0, 3)
-yd7GuiTowerofMisery.UIPadding_51.PaddingLeft = UDim.new(0, 36)
-yd7GuiTowerofMisery.UIPadding_51.PaddingRight = UDim.new(0, 3)
+yd7GuiTowerofMisery.UIPadding_56.Parent = yd7GuiTowerofMisery.script_2
+yd7GuiTowerofMisery.UIPadding_56.PaddingBottom = UDim.new(0, 3)
+yd7GuiTowerofMisery.UIPadding_56.PaddingLeft = UDim.new(0, 36)
+yd7GuiTowerofMisery.UIPadding_56.PaddingRight = UDim.new(0, 3)
 
 yd7GuiTowerofMisery.ImageLabel_14.Parent = yd7GuiTowerofMisery.script_2
 yd7GuiTowerofMisery.ImageLabel_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -2183,10 +2371,10 @@ yd7GuiTowerofMisery.house_2.TextSize = 18.000
 yd7GuiTowerofMisery.house_2.TextXAlignment = Enum.TextXAlignment.Right
 yd7GuiTowerofMisery.house_2.TextYAlignment = Enum.TextYAlignment.Bottom
 
-yd7GuiTowerofMisery.UIPadding_52.Parent = yd7GuiTowerofMisery.house_2
-yd7GuiTowerofMisery.UIPadding_52.PaddingBottom = UDim.new(0, 2)
-yd7GuiTowerofMisery.UIPadding_52.PaddingLeft = UDim.new(0, 36)
-yd7GuiTowerofMisery.UIPadding_52.PaddingRight = UDim.new(0, 3)
+yd7GuiTowerofMisery.UIPadding_57.Parent = yd7GuiTowerofMisery.house_2
+yd7GuiTowerofMisery.UIPadding_57.PaddingBottom = UDim.new(0, 2)
+yd7GuiTowerofMisery.UIPadding_57.PaddingLeft = UDim.new(0, 36)
+yd7GuiTowerofMisery.UIPadding_57.PaddingRight = UDim.new(0, 3)
 
 yd7GuiTowerofMisery.ImageLabel_15.Parent = yd7GuiTowerofMisery.house_2
 yd7GuiTowerofMisery.ImageLabel_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -2197,19 +2385,19 @@ yd7GuiTowerofMisery.ImageLabel_15.Position = UDim2.new(-0.541940928, 0, 0.134942
 yd7GuiTowerofMisery.ImageLabel_15.Size = UDim2.new(0, 28, 0, 26)
 yd7GuiTowerofMisery.ImageLabel_15.Image = "rbxassetid://14216635999"
 
-yd7GuiTowerofMisery.TextButton_25.Parent = yd7GuiTowerofMisery.hack
-yd7GuiTowerofMisery.TextButton_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yd7GuiTowerofMisery.TextButton_25.BackgroundTransparency = 1.000
-yd7GuiTowerofMisery.TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextButton_25.BorderSizePixel = 0
-yd7GuiTowerofMisery.TextButton_25.Position = UDim2.new(0.477519274, 0, 0, 0)
-yd7GuiTowerofMisery.TextButton_25.Size = UDim2.new(0, 24, 0, 20)
-yd7GuiTowerofMisery.TextButton_25.Font = Enum.Font.SourceSans
-yd7GuiTowerofMisery.TextButton_25.Text = ""
-yd7GuiTowerofMisery.TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
-yd7GuiTowerofMisery.TextButton_25.TextSize = 14.000
+yd7GuiTowerofMisery.TextButton_27.Parent = yd7GuiTowerofMisery.hack
+yd7GuiTowerofMisery.TextButton_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yd7GuiTowerofMisery.TextButton_27.BackgroundTransparency = 1.000
+yd7GuiTowerofMisery.TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_27.BorderSizePixel = 0
+yd7GuiTowerofMisery.TextButton_27.Position = UDim2.new(0.477519274, 0, 0, 0)
+yd7GuiTowerofMisery.TextButton_27.Size = UDim2.new(0, 24, 0, 20)
+yd7GuiTowerofMisery.TextButton_27.Font = Enum.Font.SourceSans
+yd7GuiTowerofMisery.TextButton_27.Text = ""
+yd7GuiTowerofMisery.TextButton_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+yd7GuiTowerofMisery.TextButton_27.TextSize = 14.000
 
-yd7GuiTowerofMisery.ImageLabel_16.Parent = yd7GuiTowerofMisery.TextButton_25
+yd7GuiTowerofMisery.ImageLabel_16.Parent = yd7GuiTowerofMisery.TextButton_27
 yd7GuiTowerofMisery.ImageLabel_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 yd7GuiTowerofMisery.ImageLabel_16.BackgroundTransparency = 1.000
 yd7GuiTowerofMisery.ImageLabel_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -2246,7 +2434,7 @@ yd7GuiTowerofMisery.ImageLabel_17.Image = "rbxassetid://14223000905"
 
 -- Scripts:
 
-local function FUIUGL_fake_script() -- yd7GuiTowerofMisery.TextButton.LocalScript 
+local function ZQKDH_fake_script() -- yd7GuiTowerofMisery.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2332,8 +2520,8 @@ local function FUIUGL_fake_script() -- yd7GuiTowerofMisery.TextButton.LocalScrip
 		Fly()
 	end)
 end
-coroutine.wrap(FUIUGL_fake_script)()
-local function RJYJQ_fake_script() -- yd7GuiTowerofMisery.TextButton_2.LocalScript 
+coroutine.wrap(ZQKDH_fake_script)()
+local function KBOYO_fake_script() -- yd7GuiTowerofMisery.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2357,8 +2545,8 @@ local function RJYJQ_fake_script() -- yd7GuiTowerofMisery.TextButton_2.LocalScri
 		end)
 	end)
 end
-coroutine.wrap(RJYJQ_fake_script)()
-local function WANL_fake_script() -- yd7GuiTowerofMisery.noclip_2.LocalScript 
+coroutine.wrap(KBOYO_fake_script)()
+local function ANMBZCF_fake_script() -- yd7GuiTowerofMisery.noclip_2.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.noclip_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2386,8 +2574,8 @@ local function WANL_fake_script() -- yd7GuiTowerofMisery.noclip_2.LocalScript
 	
 	end)
 end
-coroutine.wrap(WANL_fake_script)()
-local function VAMPBDX_fake_script() -- yd7GuiTowerofMisery.TextBox.LocalScript 
+coroutine.wrap(ANMBZCF_fake_script)()
+local function MXCPLV_fake_script() -- yd7GuiTowerofMisery.TextBox.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextBox)
 
 	local part = script.Parent
@@ -2402,8 +2590,8 @@ local function VAMPBDX_fake_script() -- yd7GuiTowerofMisery.TextBox.LocalScript
 	end)
 	
 end
-coroutine.wrap(VAMPBDX_fake_script)()
-local function DZCUMNO_fake_script() -- yd7GuiTowerofMisery.TextBox_2.LocalScript 
+coroutine.wrap(MXCPLV_fake_script)()
+local function HFKLOCK_fake_script() -- yd7GuiTowerofMisery.TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextBox_2)
 
 	local part = script.Parent
@@ -2418,8 +2606,8 @@ local function DZCUMNO_fake_script() -- yd7GuiTowerofMisery.TextBox_2.LocalScrip
 	end)
 	
 end
-coroutine.wrap(DZCUMNO_fake_script)()
-local function ZIRM_fake_script() -- yd7GuiTowerofMisery.infiniteyield_2.LocalScript 
+coroutine.wrap(HFKLOCK_fake_script)()
+local function AOCUYH_fake_script() -- yd7GuiTowerofMisery.infiniteyield_2.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.infiniteyield_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2427,8 +2615,8 @@ local function ZIRM_fake_script() -- yd7GuiTowerofMisery.infiniteyield_2.LocalSc
 	
 	end)
 end
-coroutine.wrap(ZIRM_fake_script)()
-local function GYMGSBY_fake_script() -- yd7GuiTowerofMisery.TextButton_5.LocalScript 
+coroutine.wrap(AOCUYH_fake_script)()
+local function XPUWUFV_fake_script() -- yd7GuiTowerofMisery.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2443,16 +2631,16 @@ local function GYMGSBY_fake_script() -- yd7GuiTowerofMisery.TextButton_5.LocalSc
 		webImport("ui/main")
 	end)
 end
-coroutine.wrap(GYMGSBY_fake_script)()
-local function PGSFAS_fake_script() -- yd7GuiTowerofMisery.TextButton_6.LocalScript 
+coroutine.wrap(XPUWUFV_fake_script)()
+local function EKRYTCZ_fake_script() -- yd7GuiTowerofMisery.TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/sDXcYFhR", true))()
 	end)
 end
-coroutine.wrap(PGSFAS_fake_script)()
-local function RCCB_fake_script() -- yd7GuiTowerofMisery.TextButton_7.LocalScript 
+coroutine.wrap(EKRYTCZ_fake_script)()
+local function RSAASQ_fake_script() -- yd7GuiTowerofMisery.TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_7)
 
 	local off = false 
@@ -2472,8 +2660,8 @@ local function RCCB_fake_script() -- yd7GuiTowerofMisery.TextButton_7.LocalScrip
 	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/l11004/7yd7/main/normal", true))()
 end
-coroutine.wrap(RCCB_fake_script)()
-local function JSPAZ_fake_script() -- yd7GuiTowerofMisery.TextButton_8.LocalScript 
+coroutine.wrap(RSAASQ_fake_script)()
+local function KCJVN_fake_script() -- yd7GuiTowerofMisery.TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2483,8 +2671,8 @@ local function JSPAZ_fake_script() -- yd7GuiTowerofMisery.TextButton_8.LocalScri
 	
 	
 end
-coroutine.wrap(JSPAZ_fake_script)()
-local function EQTKHH_fake_script() -- yd7GuiTowerofMisery.TextButton_9.LocalScript 
+coroutine.wrap(KCJVN_fake_script)()
+local function WRMHMBU_fake_script() -- yd7GuiTowerofMisery.TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_9)
 
 	local off = false 
@@ -2514,8 +2702,8 @@ local function EQTKHH_fake_script() -- yd7GuiTowerofMisery.TextButton_9.LocalScr
 	
 	
 end
-coroutine.wrap(EQTKHH_fake_script)()
-local function RFFQ_fake_script() -- yd7GuiTowerofMisery.TextButton_10.LocalScript 
+coroutine.wrap(WRMHMBU_fake_script)()
+local function UKVZN_fake_script() -- yd7GuiTowerofMisery.TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2528,8 +2716,8 @@ local function RFFQ_fake_script() -- yd7GuiTowerofMisery.TextButton_10.LocalScri
 	
 	
 end
-coroutine.wrap(RFFQ_fake_script)()
-local function HTOUNU_fake_script() -- yd7GuiTowerofMisery.TextButton_11.LocalScript 
+coroutine.wrap(UKVZN_fake_script)()
+local function HGGZH_fake_script() -- yd7GuiTowerofMisery.TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_11)
 
 	local off = false 
@@ -2560,8 +2748,78 @@ local function HTOUNU_fake_script() -- yd7GuiTowerofMisery.TextButton_11.LocalSc
 	
 	
 end
-coroutine.wrap(HTOUNU_fake_script)()
-local function SUJB_fake_script() -- yd7GuiTowerofMisery.house.LocalScript 
+coroutine.wrap(HGGZH_fake_script)()
+local function JDEY_fake_script() -- yd7GuiTowerofMisery.TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_12)
+
+	local off = false 
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if off == false then 
+			off = true
+			script.Parent.Parent.TextLabel.Text = "on" 
+			workspace.Top_Section.Brick_Dropper.Furnace.CFrame = workspace.Top_Section.Brick_Dropper.Dropper:GetChildren()[10].CFrame
+			_G.GemeBrickDropper = true;
+		else
+			off = false
+			script.Parent.Parent.TextLabel.Text = "off" 
+			_G.GemeBrickDropper = false;
+			workspace.Top_Section.Brick_Dropper.Furnace.CFrame = workspace.Top_Section.Brick_Dropper.Model:GetChildren()[13].CFrame
+		end
+	end)
+	
+	
+	while wait() do
+		if _G.GemeBrickDropper == true then
+			fireclickdetector(workspace.Top_Section.Brick_Dropper.Dropper.Clicker.ClickDetector)
+	
+			
+			
+		end
+		
+	end
+	
+	
+end
+coroutine.wrap(JDEY_fake_script)()
+local function WWPYF_fake_script() -- yd7GuiTowerofMisery.TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_13)
+
+	local off = false 
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if off == false then 
+			off = true
+			script.Parent.Parent.TextLabel.Text = "on" 
+			_G.GemeBrickDropper = true;
+		else
+			off = false
+			script.Parent.Parent.TextLabel.Text = "off" 
+			_G.GemeBrickDropper = false;
+			for i, v in pairs(workspace:GetDescendants()) do
+				if v.Name == "Lolez" then
+					v.Name = "Lolez"
+				end
+			end
+		end
+	end)
+	
+	
+	while wait() do
+		if _G.GodeModeTrack == true then
+			for i, v in pairs(workspace:GetDescendants()) do
+				if v.Name == "Laser" then
+					v.Name = "Lolez"
+				end
+			end
+		end
+	end
+	
+	
+	
+end
+coroutine.wrap(WWPYF_fake_script)()
+local function PWQM_fake_script() -- yd7GuiTowerofMisery.house.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.house)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2580,8 +2838,8 @@ local function SUJB_fake_script() -- yd7GuiTowerofMisery.house.LocalScript
 		script.Parent.Parent.CratesTab.Visible = false
 	end)
 end
-coroutine.wrap(SUJB_fake_script)()
-local function OEBUR_fake_script() -- yd7GuiTowerofMisery.script.LocalScript 
+coroutine.wrap(PWQM_fake_script)()
+local function SGFUMUA_fake_script() -- yd7GuiTowerofMisery.script.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.script)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2599,16 +2857,16 @@ local function OEBUR_fake_script() -- yd7GuiTowerofMisery.script.LocalScript
 		script.Parent.Parent.CratesTab.Visible = false
 	end)
 end
-coroutine.wrap(OEBUR_fake_script)()
-local function IMEEM_fake_script() -- yd7GuiTowerofMisery.TextButton_12.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_12)
+coroutine.wrap(SGFUMUA_fake_script)()
+local function TOVCW_fake_script() -- yd7GuiTowerofMisery.TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game:GetService("CoreGui")["yd7Gui Tower of Misery"].Parent = lol
 	end)
 end
-coroutine.wrap(IMEEM_fake_script)()
-local function ISZSPZS_fake_script() -- yd7GuiTowerofMisery.Crates.LocalScript 
+coroutine.wrap(TOVCW_fake_script)()
+local function TZIBLF_fake_script() -- yd7GuiTowerofMisery.Crates.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.Crates)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2626,8 +2884,8 @@ local function ISZSPZS_fake_script() -- yd7GuiTowerofMisery.Crates.LocalScript
 		script.Parent.Parent.settingsTab.Visible = false
 	end)
 end
-coroutine.wrap(ISZSPZS_fake_script)()
-local function FHFTIA_fake_script() -- yd7GuiTowerofMisery.settings.LocalScript 
+coroutine.wrap(TZIBLF_fake_script)()
+local function ZFDYG_fake_script() -- yd7GuiTowerofMisery.settings.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.settings)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2645,9 +2903,9 @@ local function FHFTIA_fake_script() -- yd7GuiTowerofMisery.settings.LocalScript
 		script.Parent.Parent.CratesTab.Visible = false
 	end)
 end
-coroutine.wrap(FHFTIA_fake_script)()
-local function ZHKJP_fake_script() -- yd7GuiTowerofMisery.TextButton_13.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_13)
+coroutine.wrap(ZFDYG_fake_script)()
+local function UMOVU_fake_script() -- yd7GuiTowerofMisery.TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_15)
 
 	local off = false 
 	
@@ -2674,9 +2932,9 @@ local function ZHKJP_fake_script() -- yd7GuiTowerofMisery.TextButton_13.LocalScr
 			end
 		end
 end
-coroutine.wrap(ZHKJP_fake_script)()
-local function EBMXPHQ_fake_script() -- yd7GuiTowerofMisery.TextButton_14.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_14)
+coroutine.wrap(UMOVU_fake_script)()
+local function ETRSTCT_fake_script() -- yd7GuiTowerofMisery.TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_16)
 
 	local off = false 
 	
@@ -2703,9 +2961,9 @@ local function EBMXPHQ_fake_script() -- yd7GuiTowerofMisery.TextButton_14.LocalS
 			end
 		end
 end
-coroutine.wrap(EBMXPHQ_fake_script)()
-local function LSHW_fake_script() -- yd7GuiTowerofMisery.TextButton_15.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_15)
+coroutine.wrap(ETRSTCT_fake_script)()
+local function BBBV_fake_script() -- yd7GuiTowerofMisery.TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_17)
 
 	local off = false 
 	
@@ -2732,9 +2990,9 @@ local function LSHW_fake_script() -- yd7GuiTowerofMisery.TextButton_15.LocalScri
 			end
 		end
 end
-coroutine.wrap(LSHW_fake_script)()
-local function ASYMU_fake_script() -- yd7GuiTowerofMisery.TextButton_16.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_16)
+coroutine.wrap(BBBV_fake_script)()
+local function MELVET_fake_script() -- yd7GuiTowerofMisery.TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_18)
 
 	local off = false 
 	
@@ -2761,9 +3019,9 @@ local function ASYMU_fake_script() -- yd7GuiTowerofMisery.TextButton_16.LocalScr
 			end
 		end
 end
-coroutine.wrap(ASYMU_fake_script)()
-local function ZBQW_fake_script() -- yd7GuiTowerofMisery.TextButton_17.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_17)
+coroutine.wrap(MELVET_fake_script)()
+local function RZRNBL_fake_script() -- yd7GuiTowerofMisery.TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_19)
 
 	local off = false 
 	
@@ -2790,9 +3048,9 @@ local function ZBQW_fake_script() -- yd7GuiTowerofMisery.TextButton_17.LocalScri
 			end
 		end
 end
-coroutine.wrap(ZBQW_fake_script)()
-local function DOPU_fake_script() -- yd7GuiTowerofMisery.TextButton_18.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_18)
+coroutine.wrap(RZRNBL_fake_script)()
+local function HZRD_fake_script() -- yd7GuiTowerofMisery.TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_20)
 
 	local off = false 
 	
@@ -2819,9 +3077,9 @@ local function DOPU_fake_script() -- yd7GuiTowerofMisery.TextButton_18.LocalScri
 			end
 		end
 end
-coroutine.wrap(DOPU_fake_script)()
-local function ZHEXAQU_fake_script() -- yd7GuiTowerofMisery.TextButton_19.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_19)
+coroutine.wrap(HZRD_fake_script)()
+local function UOPJXT_fake_script() -- yd7GuiTowerofMisery.TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_21)
 
 	local off = false 
 	
@@ -2850,9 +3108,9 @@ local function ZHEXAQU_fake_script() -- yd7GuiTowerofMisery.TextButton_19.LocalS
 			end
 		end
 end
-coroutine.wrap(ZHEXAQU_fake_script)()
-local function CCQMA_fake_script() -- yd7GuiTowerofMisery.TextButton_20.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_20)
+coroutine.wrap(UOPJXT_fake_script)()
+local function STSOCT_fake_script() -- yd7GuiTowerofMisery.TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_22)
 
 	local off = false 
 	
@@ -2879,9 +3137,9 @@ local function CCQMA_fake_script() -- yd7GuiTowerofMisery.TextButton_20.LocalScr
 			end
 		end
 end
-coroutine.wrap(CCQMA_fake_script)()
-local function TAMLJX_fake_script() -- yd7GuiTowerofMisery.TextButton_21.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_21)
+coroutine.wrap(STSOCT_fake_script)()
+local function EPXGKQB_fake_script() -- yd7GuiTowerofMisery.TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_23)
 
 	local off = false 
 	
@@ -2908,9 +3166,9 @@ local function TAMLJX_fake_script() -- yd7GuiTowerofMisery.TextButton_21.LocalSc
 			end
 		end
 end
-coroutine.wrap(TAMLJX_fake_script)()
-local function LJWGEWJ_fake_script() -- yd7GuiTowerofMisery.TextButton_22.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_22)
+coroutine.wrap(EPXGKQB_fake_script)()
+local function AFBZNTS_fake_script() -- yd7GuiTowerofMisery.TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_24)
 
 	local off = false 
 	
@@ -2937,9 +3195,9 @@ local function LJWGEWJ_fake_script() -- yd7GuiTowerofMisery.TextButton_22.LocalS
 			end
 		end
 end
-coroutine.wrap(LJWGEWJ_fake_script)()
-local function RMFYRO_fake_script() -- yd7GuiTowerofMisery.TextButton_23.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_23)
+coroutine.wrap(AFBZNTS_fake_script)()
+local function VWPY_fake_script() -- yd7GuiTowerofMisery.TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_25)
 
 	local off = false 
 	
@@ -2968,9 +3226,9 @@ local function RMFYRO_fake_script() -- yd7GuiTowerofMisery.TextButton_23.LocalSc
 			end
 		end
 end
-coroutine.wrap(RMFYRO_fake_script)()
-local function PHUE_fake_script() -- yd7GuiTowerofMisery.TextButton_24.LocalScript 
-	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_24)
+coroutine.wrap(VWPY_fake_script)()
+local function MFEU_fake_script() -- yd7GuiTowerofMisery.TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.TextButton_26)
 
 	local off = false 
 	
@@ -2997,17 +3255,17 @@ local function PHUE_fake_script() -- yd7GuiTowerofMisery.TextButton_24.LocalScri
 			end
 		end
 end
-coroutine.wrap(PHUE_fake_script)()
-local function GAVQCK_fake_script() -- yd7GuiTowerofMisery.TextButton_25.Script 
-	local script = Instance.new('Script', yd7GuiTowerofMisery.TextButton_25)
+coroutine.wrap(MFEU_fake_script)()
+local function QESWSTF_fake_script() -- yd7GuiTowerofMisery.TextButton_27.Script 
+	local script = Instance.new('Script', yd7GuiTowerofMisery.TextButton_27)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 	
 end
-coroutine.wrap(GAVQCK_fake_script)()
-local function KCSFJRN_fake_script() -- yd7GuiTowerofMisery.open.Script 
+coroutine.wrap(QESWSTF_fake_script)()
+local function GQVVB_fake_script() -- yd7GuiTowerofMisery.open.Script 
 	local script = Instance.new('Script', yd7GuiTowerofMisery.open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3015,8 +3273,8 @@ local function KCSFJRN_fake_script() -- yd7GuiTowerofMisery.open.Script
 	end)
 	
 end
-coroutine.wrap(KCSFJRN_fake_script)()
-local function TWRLHX_fake_script() -- yd7GuiTowerofMisery.open.LocalScript 
+coroutine.wrap(GQVVB_fake_script)()
+local function CJUWKS_fake_script() -- yd7GuiTowerofMisery.open.LocalScript 
 	local script = Instance.new('LocalScript', yd7GuiTowerofMisery.open)
 
 	
@@ -3045,4 +3303,4 @@ local function TWRLHX_fake_script() -- yd7GuiTowerofMisery.open.LocalScript
 	end)
 	
 end
-coroutine.wrap(TWRLHX_fake_script)()
+coroutine.wrap(CJUWKS_fake_script)()
