@@ -141,7 +141,7 @@ local ImageLabel_16 = Instance.new("ImageLabel")
 --Properties:
 
 yd7GuiTowerofMisery.Name = "yd7Gui Tower of Misery"
-yd7GuiTowerofMisery.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+yd7GuiTowerofMisery.Parent = game.CoreGui
 yd7GuiTowerofMisery.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 hack.Name = "hack"
