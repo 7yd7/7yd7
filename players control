@@ -1,0 +1,51 @@
+local kill = "/e kill "
+local tp = "/e tp "
+local hide = "/e hide "
+
+local player = game.Players.FM_305s
+local player = game.Players.Sosonono1300
+local player = game.Players.rjycjjou_19
+local player = game.Players.rjycjjou_6
+
+
+
+local chattedConnection = player.Chatted:Connect(function(message)
+if string.sub(message, 1, #kill) == kill then
+local Name = string.sub(message, #kill + 1)
+
+local playerObject = workspace:FindFirstChild(Name)
+
+workspace[Name].Humanoid.Health = 0
+
+
+
+  end
+end)
+
+local chattedConnection = player.Chatted:Connect(function(message)
+if string.sub(message, 1, #tp) == tp then
+local Name = string.sub(message, #tp + 1)
+
+local playerObject = workspace:FindFirstChild(Name)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace[Name].HumanoidRootPart.CFrame
+
+
+
+  end
+end)
+
+local chattedConnection = player.Chatted:Connect(function(message)
+if string.sub(message, 1, #hide) == hide then
+local Name = string.sub(message, #hide + 1)
+
+local playerObject = workspace:FindFirstChild(Name)
+
+workspace[Name].Parent = lol
+game:GetService("Players")[Name].Parent = lol
+
+
+
+  end
+end)
+
