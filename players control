@@ -3,9 +3,6 @@ local tp = "/e tp "
 local hide = "/e hide "
 
 local player = game.Players.FM_305s
-local player = game.Players.Sosonono1300
-local player = game.Players.rjycjjou_19
-local player = game.Players.rjycjjou_6
 
 
 
