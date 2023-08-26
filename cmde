@@ -1,6 +1,7 @@
 local Cmde = "[Cmde]: F9 اذا لم يشتغل معاك كويس اضغط "
 local kick = "/e kick طرد لاعب ( لازم يكون ماسك سيف )"
 local eCmde = "/e Cmde يشغل لك امر سكربت"
+local x25x = "/e 25x يشغل لك سكربت دبل x25"
 local del = "/e del يشيل اشياء يعيق ضغط بل لاعب"
 local Ty = "(: شكرا استعمالك ل سكربت" 
 
@@ -26,6 +27,17 @@ end
 
 sendSystemMessage()
 
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = x25x;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+
+sendSystemMessage()
+
 local message1 = string.format("%s\n%s", del, Ty)
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -39,5 +51,6 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
 print("[Cmde]: F9 اذا لم يشتغل معاك كويس اضغط")
 print("/e kick طرد لاعب ( لازم يكون ماسك سيف )")
 print("/e Cmde يشغل لك امر سكربت")
+print("/e 25x يشغل لك سكربت دبل x25")
 print("/e del يشيل اشياء يعيق ضغط بل لاعب")
 print("(: شكرا استعمالك ل سكربت")
