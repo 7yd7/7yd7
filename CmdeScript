@@ -54,6 +54,35 @@ end
   end
 end)
 
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e kickrdm"
+if string.sub(message, 1, #keyword) == keyword then
+local function equipTool(tool)
+    if tool then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = tool.Handle.CFrame
+    end
+end
+
+for _, player in ipairs(game.Players:GetPlayers()) do
+    if player ~= game.Players.LocalPlayer then
+        player.CharacterAdded:Connect(function(character)
+            local tool = character:FindFirstChildOfClass("Tool")
+            equipTool(tool)
+        end)
+        if player.Character and player.Character:FindFirstChildOfClass("Tool") then
+            equipTool(player.Character:FindFirstChildOfClass("Tool"))
+		 wait(0.3)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.031303, 11.909981, 77.7965469, -0.969540477, -3111111111111.10773807e-08, -0.244931206, -1.97727861e-08, 1, -4.86130993e-08, 0.244931206, -4.22893969e-08, -0.969540477)
+        wait(0.2)
+        game.Players.LocalPlayer.Character.Humanoid.Health = 0
+        end
+    end
+end
+end
+end)
+
 local player = game.Players.LocalPlayer
 local chattedConnection = player.Chatted:Connect(function(message)
 local keyword = "/e 25x"
