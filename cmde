@@ -35,3 +35,9 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
     FontSize = Enum.FontSize.Size96 --size
     
 })
+-- F9
+print("[Cmde]: F9 اذا لم يشتغل معاك كويس اضغط")
+print("/e kick طرد لاعب ( لازم يكون ماسك سيف )")
+print("/e Cmde يشغل لك امر سكربت")
+print("/e del يشيل اشياء يعيق ضغط بل لاعب")
+print("(: شكرا استعمالك ل سكربت")
