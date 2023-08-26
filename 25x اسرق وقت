@@ -1,0 +1,90 @@
+game:GetService("Workspace").TpLocation.CFrame = CFrame.new(156.263, 101.411003, -3028.69727, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+game:GetService("Workspace").TpLocation.Size = Vector3.new(31.065000534057617, 1.000999450683594, 32.1349983215332)
+game:GetService("Workspace").TpLocation.CanCollide = "True"
+game:GetService("Workspace").TpLocation.Transparency = 0
+-- Gui to Lua
+-- Version: 3.2
+ 
+-- Instances:
+ 
+local re = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Frame_2 = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+ 
+--Properties:
+ 
+re.Name = "re"
+re.Parent = game.CoreGui
+re.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+ImageLabel.Parent = re
+ImageLabel.Active = true
+ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.0733639896, 0, 0.972013354, 0)
+ImageLabel.Size = UDim2.new(0.136486262, 0, 0.0384354703, 0)
+ 
+Frame.Parent = ImageLabel
+Frame.BackgroundColor3 = Color3.fromRGB(210, 224, 255)
+Frame.Position = UDim2.new(-0.00701889955, 0, 0.0187716149, 0)
+Frame.Size = UDim2.new(1.00688887, 0, 0.96688813, 0)
+ 
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.0614060536, 0, -0.166102648, 0)
+TextButton.Size = UDim2.new(0.884247124, 0, 1.39526224, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.LineHeight = 1.300
+TextButton.Text = "رجوع"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 37.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Spawnzone.SafezoneHq.Spawn.CFrame
+end)
+ 
+UITextSizeConstraint.Parent = TextButton
+ 
+UICorner.Parent = Frame
+ 
+UICorner_2.Parent = ImageLabel
+ 
+ImageLabel_2.Parent = re
+ImageLabel_2.Active = true
+ImageLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.Position = UDim2.new(0.927048564, 0, 0.972013354, 0)
+ImageLabel_2.Size = UDim2.new(0.136486262, 0, 0.0384354703, 0)
+ 
+Frame_2.Parent = ImageLabel_2
+Frame_2.BackgroundColor3 = Color3.fromRGB(210, 224, 255)
+Frame_2.Position = UDim2.new(-0.00260253763, 0, 0.0187716149, 0)
+Frame_2.Size = UDim2.new(1.00688887, 0, 0.96688813, 0)
+ 
+TextButton_2.Parent = Frame_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.0570199043, 0, -0.132882118, 0)
+TextButton_2.Size = UDim2.new(0.884000003, 0, 1.39499998, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.LineHeight = 1.300
+TextButton_2.Text = "عوده"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 37.000
+TextButton_2.TextWrapped = true
+TextButton_2.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").LegendaryMesh.CFrame
+end)
