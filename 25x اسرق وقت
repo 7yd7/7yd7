@@ -1,12 +1,3 @@
-game:GetService("Workspace").TpLocation.CFrame = CFrame.new(156.263, 101.411003, -3028.69727, -1, 0, 0, 0, 1, 0, 0, 0, -1)
-game:GetService("Workspace").TpLocation.Size = Vector3.new(31.065000534057617, 1.000999450683594, 32.1349983215332)
-game:GetService("Workspace").TpLocation.CanCollide = "True"
-game:GetService("Workspace").TpLocation.Transparency = 0
--- Gui to Lua
--- Version: 3.2
- 
--- Instances:
- 
 local re = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
 local Frame = Instance.new("Frame")
@@ -88,3 +79,10 @@ TextButton_2.TextWrapped = true
 TextButton_2.MouseButton1Down:connect(function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").LegendaryMesh.CFrame
 end)
+ 
+UITextSizeConstraint_2.Parent = TextButton_2
+UITextSizeConstraint_2.MaxTextSize = 37
+ 
+UICorner_3.Parent = Frame_2
+ 
+UICorner_4.Parent = ImageLabel_2
