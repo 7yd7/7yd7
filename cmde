@@ -88,6 +88,7 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
 print("[Cmde]: F9 اذا لم يشتغل معاك كويس اضغط")
 print("/e kick طرد لاعب ( لازم يكون ماسك سيف )")
 print("/e kickrdm طرد لاعب عشوائي ( لازم يكون ماسك سيف )")
+print("/e loopkick طرد لاعب تلقائي عشوائي ( لازم يكون ماسك سيف )")
 print("/e Cmde يشغل لك امر سكربت")
 print("/e 25x يشغل لك سكربت دبل x25")
 print("/e autorj لما تبلع كيك يجي لك يسوي ريجوين")
