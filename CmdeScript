@@ -1,3 +1,16 @@
+local Cmdee = "/e Cmde يشغل لك امر سكربت"
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = Cmdee;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+
+sendSystemMessage()
+
 -- سكربتات
 
 local player = game.Players.LocalPlayer
