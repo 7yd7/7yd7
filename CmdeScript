@@ -143,7 +143,7 @@ getgenv().loopkick = false
   end
 end)
 
-while wait(1) do
+while wait(.1) do
  if getgenv().loopkick == true then
     for _, player in ipairs(game.Players:GetPlayers()) do
         if player ~= game.Players.LocalPlayer then
