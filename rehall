@@ -9,6 +9,15 @@ getgenv().rehall = true
 end)
 
 
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e unrehall"
+if string.sub(message, 1, #keyword) == keyword then
+getgenv().rehall = false
+
+  end
+end)
+
 while wait() do
 if getgenv().rehall == true then	
 
@@ -31,5 +40,6 @@ for _, player in ipairs(game.Players:GetPlayers()) do
             handle.Size = Vector3.new(30, 30, 30)
         end
     end
+end
 end
 end
