@@ -2,6 +2,7 @@ local Cmde = "[Cmde]: F9 اذا لم يشتغل معاك كويس اضغط "
 local kick = "/e kick طرد لاعب ( لازم يكون ماسك سيف )"
 local kickrdm = "/e kickrdm طرد لاعب عشوائي ( لازم يكون ماسك سيف )"
 local loopkick = "/e loopkick طرد لاعب تلقائي عشوائي ( لازم يكون ماسك سيف )"
+local loopkick = "/e rehall يكبر جميع سيوف لاعبين زياده فرصه طرد ( لا تستطيع ايقافه حاليا فقط اطلع ادخل)"
 local eCmde = "/e Cmde يشغل لك امر سكربت"
 local x25x = "/e 25x يشغل لك سكربت دبل x25"
 local autorj = "/e autorj لما تبلع كيك يجي لك يسوي ريجوين"
@@ -54,6 +55,17 @@ sendSystemMessage()
 
 local function sendSystemMessage()
 	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = rehall;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+
+sendSystemMessage()
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
 		Text = x25x;
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -89,6 +101,7 @@ print("[Cmde]: F9 اذا لم يشتغل معاك كويس اضغط")
 print("/e kick طرد لاعب ( لازم يكون ماسك سيف )")
 print("/e kickrdm طرد لاعب عشوائي ( لازم يكون ماسك سيف )")
 print("/e loopkick طرد لاعب تلقائي عشوائي ( لازم يكون ماسك سيف )")
+print("/e rehall يكبر جميع سيوف لاعبين زياده فرصه طرد ( لا تستطيع ايقافه حاليا فقط اطلع ادخل)")
 print("/e Cmde يشغل لك امر سكربت")
 print("/e 25x يشغل لك سكربت دبل x25")
 print("/e autorj لما تبلع كيك يجي لك يسوي ريجوين")
