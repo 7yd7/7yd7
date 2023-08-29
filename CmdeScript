@@ -127,6 +127,37 @@ end)
 
 local player = game.Players.LocalPlayer
 local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e rehall"
+if string.sub(message, 1, #keyword) == keyword then
+
+	while wait() do
+		
+local function isHoldingTool(player)
+    for _, child in ipairs(player.Character:GetChildren()) do
+        if child:IsA("Tool") then
+            return true
+        end
+    end
+
+    return false
+end
+
+for _, player in ipairs(game.Players:GetPlayers()) do
+    if player ~= game.Players.LocalPlayer then
+        if isHoldingTool(player) then
+            local tool = player.Character:WaitForChild("WoodSword")
+            local handle = tool.Handle
+
+            handle.Size = Vector3.new(30, 30, 30)
+        end
+    end
+end
+end
+end
+  end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
 local keyword = "/e loopkick"
 if string.sub(message, 1, #keyword) == keyword then
 getgenv().loopkick = true
