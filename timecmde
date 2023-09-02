@@ -19,6 +19,7 @@ if string.sub(message, 1, #keyword) == keyword then
 local time = "/e time اخذ جميع وقت/جواهر في ماب (لازم تكون خارج برا حمايه)"
 local looptime = "/e looptime اخذ تلقائي جميع وقت/جواهر في ماب (لازم تكون خارج برا حمايه)"
 local unlooptime = "/e unlooptime الغاء اخذ تلقائي"
+local invi = "/e invi يوديك مكان فوق جدا حدا حدا"
 
 
 local function sendSystemMessage()
@@ -54,7 +55,16 @@ end
 
 sendSystemMessage()
 
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = invi;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
 
+sendSystemMessage()
 
   end
 end)
@@ -112,6 +122,14 @@ end
 end)
 
 
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e invi"
+if string.sub(message, 1, #keyword) == keyword then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-803.850708, 6.6666666666666666666669e+12, -437.828552, -0.374814272, -6.52045458e-08, -0.927099943, 5.29386739e-08, 1, -9.17341438e-08, 0.927099943, -8.34627016e-08, -0.374814272)
+
+end
+end)
 
 
 
