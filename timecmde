@@ -101,7 +101,7 @@ if string.sub(message, 1, #keyword) == keyword then
 getgenv().Time = false
 
 game.StarterGui:SetCore("SendNotification",  {
- Title = "/e looptime";
+ Title = "/e unlooptime";
  Text = "تم ايقاف";
  Icon = "";
  Duration = 3;
