@@ -81,6 +81,15 @@ local chattedConnection = player.Chatted:Connect(function(message)
 local keyword = "/e looptime"
 if string.sub(message, 1, #keyword) == keyword then
 getgenv().Time = true
+
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "/e looptime";
+ Text = "تم تشغيل";
+ Icon = "";
+ Duration = 3;
+ Callback = NotificationBindable;
+})
+
 end
 end)
 
@@ -90,6 +99,15 @@ local chattedConnection = player.Chatted:Connect(function(message)
 local keyword = "/e unlooptime"
 if string.sub(message, 1, #keyword) == keyword then
 getgenv().Time = false
+
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "/e looptime";
+ Text = "تم ايقاف";
+ Icon = "";
+ Duration = 3;
+ Callback = NotificationBindable;
+})
+
 end
 end)
 
