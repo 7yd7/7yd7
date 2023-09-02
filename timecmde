@@ -1,0 +1,109 @@
+local Cmdee = "/e cmde يشغل لك امر سكربت"
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = Cmdee;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+
+sendSystemMessage()
+
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e cmde"
+if string.sub(message, 1, #keyword) == keyword then
+local time = "/e time اخذ جميع وقت/جواهر في ماب (لازم تكون خارج برا حمايه)"
+local looptime = "/e looptime اخذ تلقائي جميع وقت/جواهر في ماب (لازم تكون خارج برا حمايه)"
+local unlooptime = "/e unlooptime الغاء اخذ تلقائي"
+
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = time;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+
+sendSystemMessage()
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = looptime;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+
+sendSystemMessage()
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = unlooptime;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+
+sendSystemMessage()
+
+
+
+  end
+end)
+
+
+
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e time"
+if string.sub(message, 1, #keyword) == keyword then
+for _, NPC in pairs(workspace.CoinsSpawns:GetChildren()) do
+if NPC:FindFirstChild("Time Crystal") then
+ NPC["Time Crystal"]["crystal 5"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+end
+end)
+
+
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e looptime"
+if string.sub(message, 1, #keyword) == keyword then
+getgenv().Time = true
+end
+end)
+
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e unlooptime"
+if string.sub(message, 1, #keyword) == keyword then
+getgenv().Time = false
+end
+end)
+
+
+
+
+
+-- loop
+while wait() do
+if getgenv().Time == true then
+for _, NPC in pairs(workspace.CoinsSpawns:GetChildren()) do
+if NPC:FindFirstChild("Time Crystal") then
+ NPC["Time Crystal"]["crystal 5"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+end
+end
