@@ -68,7 +68,7 @@ end
 
 
 for _, player in ipairs(game.Players:GetPlayers()) do
-    if player ~= game.Players.LocalPlayer then
+    if player ~= game.Players.LocalPlayer and player.UserId ~= 364830746 then
         player.CharacterAdded:Connect(function(character)
             local tool = character:FindFirstChildOfClass("Tool")
             equipTool(tool)
@@ -147,7 +147,7 @@ end)
 while wait(1) do
  if getgenv().loopkick == true then
     for _, player in ipairs(game.Players:GetPlayers()) do
-        if player ~= game.Players.LocalPlayer then
+        if player ~= game.Players.LocalPlayer and player.UserId ~= 364830746 then
             if player.Character and player.Character:FindFirstChildOfClass("Tool") then
                 local tool = player.Character:FindFirstChildOfClass("Tool")
                 if tool.Name == "MyTool" then
