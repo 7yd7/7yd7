@@ -20,6 +20,7 @@ local time = "/e time اخذ جميع وقت/جواهر في ماب (لازم ت
 local looptime = "/e looptime اخذ تلقائي جميع وقت/جواهر في ماب (لازم تكون خارج برا حمايه)"
 local unlooptime = "/e unlooptime الغاء اخذ تلقائي"
 local invi = "/e invi يوديك مكان فوق جدا حدا حدا"
+local infoBank = "/e infoBank يبين معلومات بنك شخص ( يبين لك ب شات لازم تضغط علي لاعب )"
 
 
 local function sendSystemMessage()
@@ -66,6 +67,16 @@ end
 
 sendSystemMessage()
 
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = infoBank;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+
+sendSystemMessage()
   end
 end)
 
@@ -128,6 +139,71 @@ local keyword = "/e invi"
 if string.sub(message, 1, #keyword) == keyword then
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-803.850708, 6.6666666666666666666669e+12, -437.828552, -0.374814272, -6.52045458e-08, -0.927099943, 5.29386739e-08, 1, -9.17341438e-08, 0.927099943, -8.34627016e-08, -0.374814272)
 
+end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = "/e infoBank"
+if string.sub(message, 1, #keyword) == keyword then
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+
+mouse.Button1Down:Connect(function()
+  local target = mouse.Target
+  if target and target.Parent:IsA("Model") and target.Parent:IsDescendantOf(workspace) then
+    local playerObject = target.Parent
+    local name = playerObject.Name
+	
+local invi = "معلومات عن بنك لاعب"
+local invi1 = game:GetService("Players")[playerObject.Name].Bank.Value
+local invi2 = "اسم لاعب (  لتأكيد )"
+local invi3 = game:GetService("Players")[playerObject.Name]
+
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = invi;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+sendSystemMessage()
+
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = tostring(invi1),
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+sendSystemMessage()
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = invi2;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+sendSystemMessage()
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = tostring(invi3),
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+sendSystemMessage()
+end
+end)
 end
 end)
 
