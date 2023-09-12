@@ -20,7 +20,7 @@ local time = "/e time اخذ جميع وقت/جواهر في ماب (لازم ت
 local looptime = "/e looptime اخذ تلقائي جميع وقت/جواهر في ماب (لازم تكون خارج برا حمايه)"
 local unlooptime = "/e unlooptime الغاء اخذ تلقائي"
 local invi = "/e invi يوديك مكان فوق جدا حدا حدا"
-local infoBank = "/e infoBank يبين معلومات بنك شخص ( يبين لك ب شات لازم تضغط علي لاعب )"
+local infoBank = "/e infobank يبين معلومات بنك شخص ( يبين لك ب شات لازم تضغط علي لاعب )"
 
 
 local function sendSystemMessage()
@@ -144,7 +144,7 @@ end)
 
 local player = game.Players.LocalPlayer
 local chattedConnection = player.Chatted:Connect(function(message)
-local keyword = "/e infoBank"
+local keyword = "/e infobank"
 if string.sub(message, 1, #keyword) == keyword then
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
