@@ -149,6 +149,15 @@ if string.sub(message, 1, #keyword) == keyword then
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
 
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "/e infobank";
+ Text = "تم تشغيل";
+ Icon = "";
+ Duration = 3;
+ Callback = NotificationBindable;
+})
+
+end
 
 mouse.Button1Down:Connect(function()
   local target = mouse.Target
