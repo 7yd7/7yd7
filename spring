@@ -147,16 +147,11 @@ game:GetService("ReplicatedStorage").CarbonEvents.ToJail:FireServer(text)
 end
 end)
 
-Section:NewToggle("loop All ToJail", "ToggleInfo", function(state)
+
+Section:NewToggle("loop All ToJail", "", function(state)
     if state then
-        getgenv().ToJail = true
-    else
-        getgenv().ToJail = false
-    end
-
-while wait(2) do
-if getgenv().ToJail == true then	
-
+        getgenv().Autoclick = true 
+        repeat wait (2)
 for i,v in pairs(game.Players:GetPlayers()) do
     if v.Name ~= game.Players.LocalPlayer.Name then
 local text = v.Name
@@ -164,27 +159,16 @@ local text = v.Name
 game:GetService("ReplicatedStorage").CarbonEvents.ToJail:FireServer(text)
 	end
 end
-end
-end
-	
+
+        until getgenv().Autoclick == false
+    else
+        getgenv().Autoclick = false
+    end
 end)
+
 
 local Section = pTab:NewSection("Control players")
 
-Section:NewButton("Important", "", function()
-local player = game.Players.LocalPlayer
-local rootPart = player.Character.HumanoidRootPart
-
-local lastPosition = rootPart.CFrame.Position
-
-delay(1, function()
-	rootPart.CFrame = CFrame.lookAt(lastPosition, lastPosition + rootPart.CFrame.LookVector)
-end)
-wait(.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(218.591431, 8.00354004, 2138.70874, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-wait(.2)
-fireproximityprompt(workspace.RPJobs.Hakim.prompt)
-end)
 
 Section:NewButton("Follow", "", function()
 for i,v in pairs(game.Players:GetPlayers()) do
@@ -214,16 +198,11 @@ game:GetService("ReplicatedStorage").CarbonEvents.TieEvent:FireServer(ohNil1, oh
 end
 end)
 
-Section:NewToggle("loop Follow", "ToggleInfo", function(state)
+
+Section:NewToggle("loop Follow", "", function(state)
     if state then
-        getgenv().Follow = true
-    else
-        getgenv().Follow = false
-    end
-
-while wait(.5) do
-if getgenv().Follow == true then	
-
+        getgenv().Autoclick = true 
+        repeat wait ()
 for i,v in pairs(game.Players:GetPlayers()) do
     if v.Name ~= game.Players.LocalPlayer.Name then
 local ohNil1 = v
@@ -233,9 +212,11 @@ local ohInstance3 = game:GetService("Players").LocalPlayer
 game:GetService("ReplicatedStorage").CarbonEvents.TieEvent:FireServer(ohNil1, ohString2, ohInstance3)
 	end
 end
-end
-end
-	
+
+        until getgenv().Autoclick == false
+    else
+        getgenv().Autoclick = false
+    end
 end)
 
 
