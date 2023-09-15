@@ -216,13 +216,13 @@ end)
 
 Section:NewToggle("loop Follow", "ToggleInfo", function(state)
     if state then
-        getgenv().ToJail = true
+        getgenv().Follow = true
     else
-        getgenv().ToJail = false
+        getgenv().Follow = false
     end
 
 while wait(.5) do
-if getgenv().ToJail == true then	
+if getgenv().Follow == true then	
 
 for i,v in pairs(game.Players:GetPlayers()) do
     if v.Name ~= game.Players.LocalPlayer.Name then
