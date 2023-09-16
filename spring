@@ -170,6 +170,49 @@ end
     end
 end)
 
+local Section = pTab:NewSection("Kill")
+
+
+Section:NewButton("Important", "", function()
+local player = game.Players.LocalPlayer
+local rootPart = player.Character.HumanoidRootPart
+
+local lastPosition = rootPart.CFrame.Position
+local lastRotation = rootPart.CFrame.Rotation
+workspace.afwafwwgwe22.HumanoidRootPart.CFrame = CFrame.new(307.558105, 11.9368887, 2144.99341, 0.112623386, 6.94125717e-08, 0.993637741, -4.17714183e-08, 1, -6.51224639e-08, -0.993637741, -3.41713466e-08, 0.112623386)
+wait(.3)
+fireclickdetector(workspace.GunSHop:GetChildren()[14].Model.gun6.ClickDetector)
+wait(.5)
+rootPart.CFrame = CFrame.fromEulerAngles(lastRotation.X, lastRotation.Y, lastRotation.Z) * CFrame.new(lastPosition)
+end)
+
+
+Section:NewButton("Kill all", "", function()
+for i,v in pairs(game.Players:GetPlayers()) do
+    if v.Name ~= game.Players.LocalPlayer.Name then
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Bazooka,
+    [2] = {
+        ["p"] = v.Character.HumanoidRootPart.Position,
+        ["pid"] = 1,
+        ["part"] = workspace.Terrain,
+        ["d"] = 999999999999.13335418701172,
+        ["maxDist"] = 99999999.9370231628418,
+        ["h"] = workspace.Terrain,
+        ["m"] = Enum.Material.Sand,
+        ["sid"] = 3,
+        ["t"] = 0.2933224643672304,
+        ["n"] = Vector3.new(0, 1, 0)
+    }
+}
+
+game:GetService("ReplicatedStorage").WeaponsSystem.Network.WeaponHit:FireServer(unpack(args))
+    end
+end
+end)
+
+
 
 local Section = pTab:NewSection("Control players")
 
