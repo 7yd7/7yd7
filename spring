@@ -128,15 +128,27 @@ end)
 local Section = pTab:NewSection("ToJail")
 
 
-Plr = {}
+plr = {}
 for i,v in pairs(game:GetService("Players"):GetChildren()) do
-    table.insert(Plr,v.Name) 
+    table.insert(plr, v.Name)
 end
-local drop = Section:NewDropdown("ToJail", "Click To Select", Plr, function(t)
-local text = t
 
-game:GetService("ReplicatedStorage").CarbonEvents.ToJail:FireServer(text)
+local dropplayer = Section:NewDropdown("Sel Player", "DropdownInf", plr, function(t)
+
+    -- Refresh the dropdown list
+    dropplayer:Refresh(plr)
+
+    -- Get the selected player name
+    local text = t
+
+    -- Fire the server event to jail the selected player
+    game:GetService("ReplicatedStorage").CarbonEvents.ToJail:FireServer(text)
+
+
 end)
+
+
+
 
 Section:NewButton("All ToJail", "", function()
 for i,v in pairs(game.Players:GetPlayers()) do
@@ -199,6 +211,13 @@ game:GetService("ReplicatedStorage").CarbonEvents.TieEvent:FireServer(ohNil1, oh
 end
 end)
 
+Section:NewButton("Release", "", function()
+local ohInstance1 = game:GetService("Players").LocalPlayer
+local ohString2 = "Stop"
+local ohInstance3 = game:GetService("Players").LocalPlayer
+
+game:GetService("ReplicatedStorage").CarbonEvents.TieEvent:FireServer(ohInstance1, ohString2, ohInstance3)
+end)
 
 Section:NewToggle("loop Follow", "", function(state)
     if state then
