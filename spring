@@ -1,9 +1,10 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("yay", "BloodTheme")
+local Window = Library.CreateLib("7yd7 / الربيع كشته", "BloodTheme")
 
-local qTab = Window:NewTab("player")
-local gTab = Window:NewTab("money")
-local pTab = Window:NewTab("players")
+local qTab = Window:NewTab("Player")
+local gTab = Window:NewTab("Money")
+local pTab = Window:NewTab("Players")
+local mTab = Window:NewTab("Hack")
 local tTab = Window:NewTab("Teleport")
 local zTab = Window:NewTab("Settings")
 
@@ -150,7 +151,7 @@ end)
 
 Section:NewToggle("loop All ToJail", "", function(state)
     if state then
-        getgenv().Autoclick = true 
+        getgenv().ToJail = true 
         repeat wait (2)
 for i,v in pairs(game.Players:GetPlayers()) do
     if v.Name ~= game.Players.LocalPlayer.Name then
@@ -160,9 +161,9 @@ game:GetService("ReplicatedStorage").CarbonEvents.ToJail:FireServer(text)
 	end
 end
 
-        until getgenv().Autoclick == false
+        until getgenv().ToJail == false
     else
-        getgenv().Autoclick = false
+        getgenv().ToJail = false
     end
 end)
 
@@ -201,8 +202,8 @@ end)
 
 Section:NewToggle("loop Follow", "", function(state)
     if state then
-        getgenv().Autoclick = true 
-        repeat wait ()
+        getgenv().Follow = true 
+        repeat wait (.1)
 for i,v in pairs(game.Players:GetPlayers()) do
     if v.Name ~= game.Players.LocalPlayer.Name then
 local ohNil1 = v
@@ -213,11 +214,70 @@ game:GetService("ReplicatedStorage").CarbonEvents.TieEvent:FireServer(ohNil1, oh
 	end
 end
 
-        until getgenv().Autoclick == false
+        until getgenv().Follow == false
     else
-        getgenv().Autoclick = false
+        getgenv().Follow = false
     end
 end)
+
+
+local Section = mTab:NewSection("Car")
+
+Section:NewToggle("Car random", "", function(state)
+    if state then
+        getgenv().random = true 
+        repeat wait ()
+
+local ohColor31 = Color3.new(math.random(), math.random(), math.random()), Enum.EasingStyle.Linear
+
+
+game:GetService("ReplicatedStorage").Remotes.CarColor:FireServer(ohColor31)
+        until getgenv().random == false
+    else
+        getgenv().random = false
+    end
+end)
+
+Section:NewToggle("Stuck", "ToggleInfo", function(state)
+    if state then
+	
+local ohString1 = "Stuck"
+       local ohBoolean2 = true
+game:GetService("ReplicatedStorage").Remotes.Car:FireServer(ohString1, ohBoolean2)
+
+    else
+	
+local ohString1 = "Stuck"
+
+       local ohBoolean2 = false
+game:GetService("ReplicatedStorage").Remotes.Car:FireServer(ohString1, ohBoolean2)
+end
+
+end)
+
+
+
+local Section = mTab:NewSection("Mzad")
+
+Section:NewTextBox("Sale Mzad", "", function(txt2)
+  local player = game.Players.LocalPlayer
+  local sellAnimalUI = player.PlayerGui.SellAnimal
+  local animal = sellAnimalUI.animals.SF.frm.Template
+
+  for _, child in pairs(animal:GetChildren()) do
+    if child:IsA("Model") then
+      local ohString1 = (child.Name)
+      local ohNumber2 = txt2:gsub("\"", "")
+
+      -- Remove the quotation marks from the ohNumber2 variable.
+      ohNumber2 = tonumber(ohNumber2)
+
+      game:GetService("ReplicatedStorage").Remotes.AddMzad:FireServer(ohString1, ohNumber2)
+    end
+  end
+end)
+
+
 
 
 local Section = tTab:NewSection("Teleport")
