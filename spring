@@ -346,6 +346,13 @@ end)
 
 local Section = mTab:NewSection("Bank")
 
+
+Section:NewButton("Activate Alarms Bank", "", function()
+fireproximityprompt(workspace.Bank.VaultDoor.vault.ProximityPrompt)
+end)
+
+
+
 Section:NewButton("Unlock door Bank", "", function()
 fireproximityprompt(workspace.Bank.DrillCellDoor1.Drill.PromptPart.PromptAttachment.PromptDrill)
 fireproximityprompt(workspace.Bank.DrillCellDoor2.Drill.PromptPart.PromptAttachment.PromptDrill)
@@ -354,6 +361,17 @@ fireproximityprompt(workspace.Bank.DrillCellDoor4.Drill.PromptPart.PromptAttachm
 fireproximityprompt(workspace.Bank.DrillCellDoor5.Drill.PromptPart.PromptAttachment.PromptDrill)
 fireproximityprompt(workspace.Bank.DrillCellDoor6.Drill.PromptPart.PromptAttachment.PromptDrill)
 
+end)
+
+Section:NewToggle("loop Activate Alarms Bank", "", function(state)
+    if state then
+        getgenv().Bank = true 
+        repeat wait ()
+fireproximityprompt(workspace.Bank.VaultDoor.vault.ProximityPrompt)
+        until getgenv().Bank == false
+    else
+        getgenv().Bank = false
+    end
 end)
 
 Section:NewToggle("loop Unlock door Bank", "", function(state)
