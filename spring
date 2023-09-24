@@ -351,6 +351,10 @@ Section:NewButton("Store", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(70.4862137, 6.04591656, 2107.81665, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
+Section:NewButton("Bank", "", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-724.656982, 9.97349596, 2166.24194, -0.999852777, 2.50152041e-08, -0.017157428, 2.42165203e-08, 1, 4.67580961e-08, 0.017157428, 4.63357175e-08, -0.999852777)
+end)
+
 Section:NewButton("Camel Haraj", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6.82021332, 10.9343472, 1316.59961, -0.00560772419, 0, 0.999984264, 0, 1, 0, -0.999984264, 0, -0.00560772419)
 end)
