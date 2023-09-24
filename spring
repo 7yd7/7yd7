@@ -125,6 +125,12 @@ local ohNumber2 = game:GetService("Players").LocalPlayer.SavingData.Riyal.Value
 game:GetService("ReplicatedStorage").Remotes.BuyAnimal:FireServer(ohString1, ohNumber2)
 end)
 
+
+Section:NewButton("Drop Money", "", function()
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+
+
 local Section = pTab:NewSection("ToJail")
 
 
