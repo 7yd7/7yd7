@@ -130,6 +130,19 @@ Section:NewButton("Drop Money", "", function()
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
 end)
 
+Section:NewButton("leaderstats Riyal", "", function()
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+for _, player in ipairs(Players:GetPlayers()) do
+    if player ~= LocalPlayer then
+        if player:FindFirstChild("SavingData") and player.SavingData:FindFirstChild("Riyal") then
+            player.SavingData.Riyal.Parent = player.leaderstats
+        end
+    end
+end
+end)
+
 
 local Section = pTab:NewSection("ToJail")
 
