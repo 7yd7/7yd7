@@ -300,10 +300,16 @@ Section:NewToggle("Car random", "", function(state)
         getgenv().random = true 
         repeat wait ()
 
-local ohColor31 = Color3.new(math.random(), math.random(), math.random()), Enum.EasingStyle.Linear
+for i = 0, 1, 0.01 do
+    wait()
+    local r = math.sin(i * math.pi * 2 + 0) * 0.5 + 0.5
+    local g = math.sin(i * math.pi * 2 + 2) * 0.5 + 0.5
+    local b = math.sin(i * math.pi * 2 + 4) * 0.5 + 0.5
+    local color = Color3.new(r, g, b)
+game:GetService("ReplicatedStorage").Remotes.CarColor:FireServer(color)
+end
 
 
-game:GetService("ReplicatedStorage").Remotes.CarColor:FireServer(ohColor31)
         until getgenv().random == false
     else
         getgenv().random = false
