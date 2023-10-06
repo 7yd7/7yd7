@@ -328,6 +328,7 @@ for _, child in pairs(playerGui:GetChildren()) do
     foundCar = true
     local success, error = pcall(function()
       child.Driver.remote:Destroy()
+	  child.LocalVehicleGui.ActiveGui.CarFuel.fueltext.Text = "7yd7"
     end)
   end
 end
