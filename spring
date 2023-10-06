@@ -339,6 +339,8 @@ end
 end)
 
 
+
+
 Section:NewToggle("Stuck", "ToggleInfo", function(state)
     if state then
 	
@@ -355,6 +357,11 @@ game:GetService("ReplicatedStorage").Remotes.Car:FireServer(ohString1, ohBoolean
 end
 
 end)
+
+Section:NewButton("delete Stuck", "", function()
+workspace.CarStuck:Destroy()
+end)
+
 
 Section:NewTextBox("Music (Put ID Music)", "", function(txtMusic)
 	local ohString1 = "Music"
