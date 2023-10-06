@@ -316,6 +316,28 @@ end
     end
 end)
 
+Section:NewToggle("inf Fuel Car", "", function(state)
+    if state then
+        getgenv().infFuel = true 
+        repeat wait ()
+local playerGui = game:GetService("Players").LocalPlayer.PlayerGui
+local foundCar = false
+
+for _, child in pairs(playerGui:GetChildren()) do
+  if child.Name:match("Car") then
+    foundCar = true
+    local success, error = pcall(function()
+      child.Driver.remote:Destroy()
+    end)
+  end
+end
+        until getgenv().infFuel == false
+    else
+        getgenv().infFuel = false
+    end
+end)
+
+
 Section:NewToggle("Stuck", "ToggleInfo", function(state)
     if state then
 	
