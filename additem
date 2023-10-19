@@ -1,1 +1,2 @@
-
+local itemIds = {15056286139, 15056450737, 15056517509, 15056194392, 15069261738, 15069220562, 15069226737, 15069257345, 15068387117, 15083557973, 15083554920, 15092037100, 15092042015, 15099422363, 15099425557} -- Add more item IDs here
+local itemNames = {"Black hood", "Red hood", "Green hood", "Orange hood", "Black + purple hood", "Black + Red hood", "Black + Red Miswar", "Black + purple Miswar", "gold eyes", "red hat piece 1", "red hat piece 2", "purple hat piece 1", "purple hat piece 2", "gold hat piece 1", "gold hat piece 2"} -- Add more item names here
