@@ -1,0 +1,492 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("7yd7 / الربيع كشته", "BloodTheme")
+
+local qTab = Window:NewTab("Player")
+local gTab = Window:NewTab("Money")
+local pTab = Window:NewTab("Players")
+local mTab = Window:NewTab("Hack")
+local tTab = Window:NewTab("Teleport")
+local zTab = Window:NewTab("Settings")
+
+local Section = qTab:NewSection("player mod")
+
+Section:NewSlider("speed", "", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("Jump", "", 500, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+Section:NewButton("afk", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/sDXcYFhR", true))()
+    end)
+
+
+
+Section:NewButton("fly E", "", function()
+    repeat wait() 
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+local mouse = game.Players.LocalPlayer:GetMouse() 
+repeat wait() until mouse
+local plr = game.Players.LocalPlayer 
+local torso = plr.Character.Head 
+local flying = false
+local deb = true 
+local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+local maxspeed = 400 
+local speed = 5000 
+
+function Fly() 
+local bg = Instance.new("BodyGyro", torso) 
+bg.P = 9e4 
+bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+bg.cframe = torso.CFrame 
+local bv = Instance.new("BodyVelocity", torso) 
+bv.velocity = Vector3.new(0,0.1,0) 
+bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+repeat wait() 
+plr.Character.Humanoid.PlatformStand = true 
+if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+speed = speed+.5+(speed/maxspeed) 
+if speed > maxspeed then 
+speed = maxspeed 
+end 
+elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+speed = speed-1 
+if speed < 0 then 
+speed = 0 
+end 
+end 
+if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+else 
+bv.velocity = Vector3.new(0,0.1,0) 
+end 
+bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+until not flying 
+ctrl = {f = 0, b = 0, l = 0, r = 0} 
+lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+speed = 0 
+bg:Destroy() 
+bv:Destroy() 
+plr.Character.Humanoid.PlatformStand = false 
+end 
+mouse.KeyDown:connect(function(key) 
+if key:lower() == "e" then 
+if flying then flying = false 
+else 
+flying = true 
+Fly() 
+end 
+elseif key:lower() == "w" then 
+ctrl.f = 1 
+elseif key:lower() == "s" then 
+ctrl.b = -1 
+elseif key:lower() == "a" then 
+ctrl.l = -1 
+elseif key:lower() == "d" then 
+ctrl.r = 1 
+end 
+end) 
+mouse.KeyUp:connect(function(key) 
+if key:lower() == "w" then 
+ctrl.f = 0 
+elseif key:lower() == "s" then 
+ctrl.b = 0 
+elseif key:lower() == "a" then 
+ctrl.l = 0 
+elseif key:lower() == "d" then 
+ctrl.r = 0 
+end 
+end)
+Fly()
+end)
+
+local Section = gTab:NewSection("money")
+
+Section:NewTextBox("money", "", function(txt)
+	local ohString1 = "NewCamel4"
+local ohNumber2 = -txt
+
+game:GetService("ReplicatedStorage").Remotes.BuyAnimal:FireServer(ohString1, ohNumber2)
+
+
+end)
+
+Section:NewButton("Whistling", "", function()
+    	local ohString1 = "NewCamel4"
+local ohNumber2 = game:GetService("Players").LocalPlayer.SavingData.Riyal.Value
+
+game:GetService("ReplicatedStorage").Remotes.BuyAnimal:FireServer(ohString1, ohNumber2)
+end)
+
+Section:NewButton("Drop Money", "", function()
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+
+Section:NewButton("leaderstats Riyal", "", function()
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+for _, player in ipairs(Players:GetPlayers()) do
+    if player ~= LocalPlayer then
+        if player:FindFirstChild("SavingData") and player.SavingData:FindFirstChild("Riyal") then
+            player.SavingData.Riyal.Parent = player.leaderstats
+        end
+    end
+end
+end)
+
+Section:NewToggle("Take money", "", function(state)
+    if state then
+        getgenv().Takemoney = true 
+        repeat wait (.1)
+local playerGui = workspace
+local foundCar = false
+
+for _, child in pairs(playerGui:GetChildren()) do
+  if child.Name:match("Cash") then
+    foundCar = true
+    local success, error = pcall(function()
+      fireclickdetector(child.ClickDetector)
+    end)
+  end
+end
+        until getgenv().Takemoney == false
+    else
+        getgenv().Takemoney = false
+    end
+end)
+
+local Section = pTab:NewSection("ToJail")
+
+
+Plr = {}
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+    table.insert(Plr,v.Name) 
+end
+local drop = Section:NewDropdown("ToJail", "Click To Select", Plr, function(t)
+local text = t
+
+game:GetService("ReplicatedStorage").CarbonEvents.ToJail:FireServer(text)
+end)
+
+
+
+
+Section:NewButton("All ToJail", "", function()
+for i,v in pairs(game.Players:GetPlayers()) do
+    if v.Name ~= game.Players.LocalPlayer.Name then
+local text = v.Name
+
+game:GetService("ReplicatedStorage").CarbonEvents.ToJail:FireServer(text)
+	end
+end
+end)
+
+
+Section:NewToggle("loop All ToJail", "", function(state)
+    if state then
+        getgenv().ToJail = true 
+        repeat wait (2)
+for i,v in pairs(game.Players:GetPlayers()) do
+    if v.Name ~= game.Players.LocalPlayer.Name then
+local text = v.Name
+
+game:GetService("ReplicatedStorage").CarbonEvents.ToJail:FireServer(text)
+	end
+end
+
+        until getgenv().ToJail == false
+    else
+        getgenv().ToJail = false
+    end
+end)
+
+local Section = pTab:NewSection("Kill")
+
+
+Section:NewButton("Important", "", function()
+local player = game.Players.LocalPlayer
+local rootPart = player.Character.HumanoidRootPart
+
+local lastPosition = rootPart.CFrame.Position
+local lastRotation = rootPart.CFrame.Rotation
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(307.558105, 11.9368887, 2144.99341, 0.112623386, 6.94125717e-08, 0.993637741, -4.17714183e-08, 1, -6.51224639e-08, -0.993637741, -3.41713466e-08, 0.112623386)
+wait(.3)
+fireclickdetector(workspace.GunSHop:GetChildren()[14].Model.gun6.ClickDetector)
+wait(.5)
+rootPart.CFrame = CFrame.fromEulerAngles(lastRotation.X, lastRotation.Y, lastRotation.Z) * CFrame.new(lastPosition)
+end)
+
+
+Section:NewButton("Kill all", "", function()
+for i,v in pairs(game.Players:GetPlayers()) do
+    if v.Name ~= game.Players.LocalPlayer.Name then
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Bazooka,
+    [2] = {
+        ["p"] = v.Character.HumanoidRootPart.Position,
+        ["pid"] = 1,
+        ["part"] = workspace.Terrain,
+        ["d"] = 999999999999.13335418701172,
+        ["maxDist"] = 99999999.9370231628418,
+        ["h"] = workspace.Terrain,
+        ["m"] = Enum.Material.Sand,
+        ["sid"] = 3,
+        ["t"] = 0.2933224643672304,
+        ["n"] = Vector3.new(0, 1, 0)
+    }
+}
+
+game:GetService("ReplicatedStorage").WeaponsSystem.Network.WeaponHit:FireServer(unpack(args))
+    end
+end
+end)
+
+
+
+local Section = pTab:NewSection("Control players")
+
+
+Section:NewButton("Follow", "", function()
+for i,v in pairs(game.Players:GetPlayers()) do
+    if v.Name ~= game.Players.LocalPlayer.Name then
+-- This script was generated by Hydroxide's RemoteSpy: https://github.com/Upbolt/Hydroxide
+
+local ohNil1 = v
+local ohString2 = "Follow"
+local ohInstance3 = game:GetService("Players").LocalPlayer
+
+game:GetService("ReplicatedStorage").CarbonEvents.TieEvent:FireServer(ohNil1, ohString2, ohInstance3)
+	end
+end
+end)
+
+Section:NewButton("Stop", "", function()
+for i,v in pairs(game.Players:GetPlayers()) do
+    if v.Name ~= game.Players.LocalPlayer.Name then
+-- This script was generated by Hydroxide's RemoteSpy: https://github.com/Upbolt/Hydroxide
+
+local ohNil1 = v
+local ohString2 = "Stop"
+local ohInstance3 = game:GetService("Players").LocalPlayer
+
+game:GetService("ReplicatedStorage").CarbonEvents.TieEvent:FireServer(ohNil1, ohString2, ohInstance3)
+	end
+end
+end)
+
+Section:NewButton("Release", "", function()
+local ohInstance1 = game:GetService("Players").LocalPlayer
+local ohString2 = "Stop"
+local ohInstance3 = game:GetService("Players").LocalPlayer
+
+game:GetService("ReplicatedStorage").CarbonEvents.TieEvent:FireServer(ohInstance1, ohString2, ohInstance3)
+end)
+
+Section:NewToggle("loop Follow", "", function(state)
+    if state then
+        getgenv().Follow = true 
+        repeat wait (.1)
+for i,v in pairs(game.Players:GetPlayers()) do
+    if v.Name ~= game.Players.LocalPlayer.Name then
+local ohNil1 = v
+local ohString2 = "Follow"
+local ohInstance3 = game:GetService("Players").LocalPlayer
+
+game:GetService("ReplicatedStorage").CarbonEvents.TieEvent:FireServer(ohNil1, ohString2, ohInstance3)
+	end
+end
+
+        until getgenv().Follow == false
+    else
+        getgenv().Follow = false
+    end
+end)
+
+
+local Section = mTab:NewSection("Car")
+
+Section:NewToggle("Car random", "", function(state)
+    if state then
+        getgenv().random = true 
+        repeat wait ()
+
+for i = 0, 1, 0.01 do
+    wait()
+    local r = math.sin(i * math.pi * 2 + 0) * 0.5 + 0.5
+    local g = math.sin(i * math.pi * 2 + 2) * 0.5 + 0.5
+    local b = math.sin(i * math.pi * 2 + 4) * 0.5 + 0.5
+    local color = Color3.new(r, g, b)
+game:GetService("ReplicatedStorage").Remotes.CarColor:FireServer(color)
+end
+
+
+        until getgenv().random == false
+    else
+        getgenv().random = false
+    end
+end)
+
+Section:NewToggle("inf Fuel Car", "", function(state)
+    if state then
+        getgenv().infFuel = true 
+        repeat wait ()
+local playerGui = game:GetService("Players").LocalPlayer.PlayerGui
+local foundCar = false
+
+for _, child in pairs(playerGui:GetChildren()) do
+  if child.Name:match("Car") then
+    foundCar = true
+    local success, error = pcall(function()
+      child.Driver.remote:Destroy()
+	  child.LocalVehicleGui.ActiveGui.CarFuel.fueltext.Text = "7yd7"
+    end)
+  end
+end
+        until getgenv().infFuel == false
+    else
+        getgenv().infFuel = false
+    end
+end)
+
+
+
+
+Section:NewToggle("Stuck", "ToggleInfo", function(state)
+    if state then
+	
+local ohString1 = "Stuck"
+       local ohBoolean2 = true
+game:GetService("ReplicatedStorage").Remotes.Car:FireServer(ohString1, ohBoolean2)
+
+    else
+	
+local ohString1 = "Stuck"
+
+       local ohBoolean2 = false
+game:GetService("ReplicatedStorage").Remotes.Car:FireServer(ohString1, ohBoolean2)
+end
+
+end)
+
+Section:NewButton("delete Stuck", "", function()
+workspace.CarStuck:Destroy()
+end)
+
+
+Section:NewTextBox("Music (Put ID Music)", "", function(txtMusic)
+	local ohString1 = "Music"
+local ohNumber2 = txtMusic
+
+game:GetService("ReplicatedStorage").Remotes.Car:FireServer(ohString1, ohNumber2)
+end)
+
+
+
+local Section = mTab:NewSection("Mzad")
+
+Section:NewTextBox("Sale Mzad", "", function(txt2)
+  local player = game.Players.LocalPlayer
+  local sellAnimalUI = player.PlayerGui.SellAnimal
+  local animal = sellAnimalUI.animals.SF.frm.Template
+
+  for _, child in pairs(animal:GetChildren()) do
+    if child:IsA("Model") then
+      local ohString1 = (child.Name)
+      local ohNumber2 = txt2:gsub("\"", "")
+
+      -- Remove the quotation marks from the ohNumber2 variable.
+      ohNumber2 = tonumber(ohNumber2)
+
+      game:GetService("ReplicatedStorage").Remotes.AddMzad:FireServer(ohString1, ohNumber2)
+    end
+  end
+end)
+
+
+local Section = mTab:NewSection("Bank")
+
+
+Section:NewButton("Activate Alarms Bank", "", function()
+fireproximityprompt(workspace.Bank.VaultDoor.vault.ProximityPrompt)
+end)
+
+
+
+Section:NewButton("Unlock door Bank", "", function()
+fireproximityprompt(workspace.Bank.DrillCellDoor1.Drill.PromptPart.PromptAttachment.PromptDrill)
+fireproximityprompt(workspace.Bank.DrillCellDoor2.Drill.PromptPart.PromptAttachment.PromptDrill)
+fireproximityprompt(workspace.Bank.DrillCellDoor3.Drill.PromptPart.PromptAttachment.PromptDrill)
+fireproximityprompt(workspace.Bank.DrillCellDoor4.Drill.PromptPart.PromptAttachment.PromptDrill)
+fireproximityprompt(workspace.Bank.DrillCellDoor5.Drill.PromptPart.PromptAttachment.PromptDrill)
+fireproximityprompt(workspace.Bank.DrillCellDoor6.Drill.PromptPart.PromptAttachment.PromptDrill)
+
+end)
+
+Section:NewToggle("loop Activate Alarms Bank", "", function(state)
+    if state then
+        getgenv().Bank = true 
+        repeat wait ()
+fireproximityprompt(workspace.Bank.VaultDoor.vault.ProximityPrompt)
+        until getgenv().Bank == false
+    else
+        getgenv().Bank = false
+    end
+end)
+
+Section:NewToggle("loop Unlock door Bank", "", function(state)
+    if state then
+        getgenv().doorBank = true 
+        repeat wait ()
+
+fireproximityprompt(workspace.Bank.DrillCellDoor1.Drill.PromptPart.PromptAttachment.PromptDrill)
+fireproximityprompt(workspace.Bank.DrillCellDoor2.Drill.PromptPart.PromptAttachment.PromptDrill)
+fireproximityprompt(workspace.Bank.DrillCellDoor3.Drill.PromptPart.PromptAttachment.PromptDrill)
+fireproximityprompt(workspace.Bank.DrillCellDoor4.Drill.PromptPart.PromptAttachment.PromptDrill)
+fireproximityprompt(workspace.Bank.DrillCellDoor5.Drill.PromptPart.PromptAttachment.PromptDrill)
+fireproximityprompt(workspace.Bank.DrillCellDoor6.Drill.PromptPart.PromptAttachment.PromptDrill)
+        until getgenv().doorBank == false
+    else
+        getgenv().doorBank = false
+    end
+end)
+
+local Section = tTab:NewSection("Teleport")
+
+Section:NewButton("Spawn", "", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-23.2105598, 6.21836066, -87.1106873, 0.766415417, 0, 0.64234525, 0, 1, 0, -0.64234525, 0, 0.766415417)
+end)
+
+Section:NewButton("Jail", "", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1376.96667, 10.75135136, 1388.12231, 0.999848723, 1.19183161e-08, 0.0173928272, -1.32703519e-08, 1, 7.76198021e-08, -0.0173928272, -7.78388696e-08, 0.999848723)
+end)
+
+Section:NewButton("Mzad", "", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(217.659241, 9.03695774, 867.042542, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+
+Section:NewButton("Store", "", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(70.4862137, 6.04591656, 2107.81665, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+Section:NewButton("Bank", "", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-724.656982, 9.97349596, 2166.24194, -0.999852777, 2.50152041e-08, -0.017157428, 2.42165203e-08, 1, 4.67580961e-08, 0.017157428, 4.63357175e-08, -0.999852777)
+end)
+
+Section:NewButton("Camel Haraj", "", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6.82021332, 10.9343472, 1316.59961, -0.00560772419, 0, 0.999984264, 0, 1, 0, -0.999984264, 0, -0.00560772419)
+end)
+
+local Section = zTab:NewSection("Settings")
+
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.G, function()
+	Library:ToggleUI()
+end)
