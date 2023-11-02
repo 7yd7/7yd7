@@ -1,3 +1,4 @@
+local webhook = webhook7yd7
 
 -- Define the PlaceId variable
 local PlaceId = game.PlaceId
