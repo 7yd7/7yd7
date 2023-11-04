@@ -20,7 +20,6 @@ local hasPremium = player.MembershipType == Enum.MembershipType.Premium
 game.Players.PlayerRemoving:Connect(function(player)
 local data = {
     ["content"] = "",
-    ["username"] = "By : 7yd7",
     ["embeds"] = {
         {
             ["title"] = "",
