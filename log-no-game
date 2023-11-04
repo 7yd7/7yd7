@@ -16,6 +16,13 @@ local playerCount = #game:GetService("Players"):GetPlayers()
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local hasPremium = player.MembershipType == Enum.MembershipType.Premium
+-- وقت حاليا
+local time = os.time()
+local date = os.date("*t", time)
+
+local hour = math.floor(date.hour)
+local min = math.floor(date.min)
+local sec = math.floor(date.sec)
 
 -- Create a JSON object to send to the webhook
 local data = {
@@ -33,6 +40,7 @@ local data = {
             .. "**Server Number players online :** ```" .. playerCount .. "```\n"
             .. "**Account Age :** ```" .. game:GetService("Players").LocalPlayer.AccountAge .. "``` \n" 
 			.. "**Player Premium :** " .. if hasPremium then "```yes```" else "```no```"  .. "\n"
+            .. date.day .. "/" .. date.month .. "/" .. date.year .. " " .. hour .. ":" .. min .. ":" .. sec .. "" .. "\n"
         }
     }
 }
